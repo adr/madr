@@ -1,8 +1,9 @@
 # <Short Title of the Issue>
 
-**UserStory:** <TICKET/ISSUE-NUMBER>
+**UserStory:** <TICKET/ISSUE-NUMBER> <!-- optional -->
 
-<WRITE ONE SENTENCE DESCRIBING THE PROBLEM. (Optional)>
+<DESCRIBE THE CONTEXT AND THE PROBLEM SHORTLY.>
+<DECISION DRIVERS | FORCES> <!-- optional -->
 
 ## Considered Alternatives
 
@@ -10,27 +11,28 @@
 * <ALTERNATIVE 2>
 * <ALTERNATIVE 3>
 
-## Conclusion
+## Decision Outcome
 
 * *Chosen Alternative: <ALTERNATIVE 1>*
-* <FURTHER RATIONALE (Optional)>
+* <JUSTIFICATION. E.g., Only alternative, which meets K.O. criterion DECISION DRIVER | which resolves force FORCE | ... | Comes out best (see below)>
+* <CONSEQUENCES> <!-- optional -->
 
-## Comparison (Optional)
+## Pros and cons of the alternatives <!-- optional -->
 
 ### <ALTERNATIVE 1>
 
-* + <ARGUMENT 1 PRO>
-* + <ARGUMENT 2 PRO>
-* - <ARGUMENT 1 CONTRA>
+* `+` <ARGUMENT 1 PRO>
+* `+` <ARGUMENT 2 PRO>
+* `-` <ARGUMENT 1 CONTRA>
 
 ### <ALTERNATIVE 2>
 
-* + <ARGUMENT 1 PRO>
-* + <ARGUMENT 2 PRO>
-* - <ARGUMENT 1 CONTRA>
+* `+` <ARGUMENT 1 PRO>
+* `+` <ARGUMENT 2 PRO>
+* `-` <ARGUMENT 1 CONTRA>
 
 ### <ALTERNATIVE 3>
 
-* + <ARGUMENT 1 PRO>
-* + <ARGUMENT 2 PRO>
-* - <ARGUMENT 1 CONTRA>
+* `+` <ARGUMENT 1 PRO>
+* `+` <ARGUMENT 2 PRO>
+* `-` <ARGUMENT 1 CONTRA>
