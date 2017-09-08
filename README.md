@@ -1,6 +1,7 @@
 # Template for Architectural Decision Records
 
 This repository provides an initial directory structure and files to document Architectural Decisions using Architectural Decision Records.
+The template is based on [DecisionCapture](https://github.com/schubmat/DecisionCapture/) by [@schubmat](https://github.com/schubmat/).
 
 For more information on ADRs check <http://adr.github.io>.
 
