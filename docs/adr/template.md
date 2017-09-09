@@ -1,38 +1,38 @@
-# [Short Title of the Issue]
+# *[short title of the issue]*
 
-**UserStory:** [TICKET/ISSUE-NUMBER] <!-- optional -->
+**userstory:** *[ticket/issue-number]* <!-- optional -->
 
-[DESCRIBE THE CONTEXT AND THE PROBLEM SHORTLY.]
-[DECISION DRIVERS | FORCES] <!-- optional -->
+*[describe the context and the problem shortly.]*
+*[decision drivers | forces]* <!-- optional -->
 
 ## Considered Alternatives
 
-* [ALTERNATIVE 1]
-* [ALTERNATIVE 2]
-* [ALTERNATIVE 3]
+* *[alternative 1]*
+* *[alternative 2]*
+* *[alternative 3]*
 
 ## Decision Outcome
 
-* Chosen Alternative: [ALTERNATIVE 1]
-* [JUSTIFICATION. E.g., Only alternative, which meets K.O. criterion DECISION DRIVER | which resolves force FORCE | ... | Comes out best (see below)]
-* [CONSEQUENCES] <!-- optional -->
+* chosen alternative: *[alternative 1]*
+* *[justification. e.g., only alternative, which meets k.o. criterion decision driver | which resolves force force | ... | comes out best (see below)]*
+* *[consequences]* <!-- optional -->
 
-## Pros and cons of the alternatives <!-- optional -->
+## Pros and Cons of the Alternatives <!-- optional -->
 
-### [ALTERNATIVE 1]
+### *[alternative 1]*
 
-* `+` [ARGUMENT 1 PRO]
-* `+` [ARGUMENT 2 PRO]
-* `-` [ARGUMENT 1 CONTRA]
+* `+` *[argument 1 pro]*
+* `+` *[argument 2 pro]*
+* `-` *[argument 1 contra]*
 
-### [ALTERNATIVE 2]
+### *[alternative 2]*
 
-* `+` [ARGUMENT 1 PRO]
-* `+` [ARGUMENT 2 PRO]
-* `-` [ARGUMENT 1 CONTRA]
+* `+` *[argument 1 pro]*
+* `+` *[argument 2 pro]*
+* `-` *[argument 1 contra]*
 
-### [ALTERNATIVE 3]
+### *[alternative 3]*
 
-* `+` [ARGUMENT 1 PRO]
-* `+` [ARGUMENT 2 PRO]
-* `-` [ARGUMENT 1 CONTRA]
+* `+` *[argument 1 pro]*
+* `+` *[argument 2 pro]*
+* `-` *[argument 1 contra]*
