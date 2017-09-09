@@ -1,6 +1,6 @@
 # *[short title of the issue]*
 
-**userstory:** *[ticket/issue-number]* <!-- optional -->
+**User Story:** *[ticket/issue-number]* <!-- optional -->
 
 *[describe the context and the problem shortly.]*
 *[decision drivers | forces]* <!-- optional -->
