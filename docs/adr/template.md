@@ -10,6 +10,7 @@
 * *[alternative 1]*
 * *[alternative 2]*
 * *[alternative 3]*
+* *[...]* <!-- numbers of alternatives can vary -->
 
 ## Decision Outcome
 
