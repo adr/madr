@@ -2,7 +2,7 @@
 
 This log lists the architectural decisions for *[project name]*.
 
-- [0000-use-markdown-architectural-decision-records.md](0000-use-markdown-architectural-decision-record) - Use Markdown Architectural Decision Records ([madr](https://github.com/adr/madr/))
+- [0000-use-markdown-architectural-decision-records.md](0000-use-markdown-architectural-decision-record) - Use Markdown Architectural Decision Records ([MADR](https://github.com/adr/madr/))
 - [template.md](template/) - the template
 
 More information on architectural decision records is available at <http://adr.github.io>.

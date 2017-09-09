@@ -57,14 +57,14 @@ The template is available at [docs/adr/template.md](docs/adr/template.md).
 ## Example
 
 ```markdown
-# Use Markdown Architectural Decision Records (madr)
+# Use Markdown Architectural Decision Records (MADR)
 
 Should we record the architectural decisions made in this project?
 And if we do, wow to structure these recordings?
 
 ## Considered Alternatives
 
-* [madr](https://github.com/adr/madr) - Markdown Architectural Decision Records
+* [MADR](https://github.com/adr/madr) - Markdown Architectural Decision Records
 * [Michael Nygard's template](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions) - The first incarnation of the term "ADR". Maintainable by [adr-tools](https://github.com/npryce/adr-tools).
 * [Sustainable Architectural Decisions](https://www.infoq.com/articles/sustainable-architectural-design-decisions) - The Y-Statements
 * [DecisionRecord](https://github.com/schubmat/DecisionCapture) - Agile records by [@schubmat](https://github.com/schubmat/)
@@ -73,8 +73,8 @@ And if we do, wow to structure these recordings?
 
 ## Decision Outcome
 
-* Chosen Alternative: madr
-* The madr template is lean and fits our development style.
+* Chosen Alternative: MADR
+* The MADR template is lean and fits our development style.
 ```
 
 The example is rendered at [docs/adr/0000-use-markdown-architectural-decision-records.md](https://github.com/adr/madr/blob/master/docs/adr/0000-use-markdown-architectural-decision-records.md)
