@@ -93,4 +93,12 @@ When adding a new architectural decision:
 
 The template is based on [DecisionCapture](https://github.com/schubmat/DecisionCapture/) by [@schubmat](https://github.com/schubmat/). For more information on ADRs check <http://adr.github.io>.
 
+## Using this Template
+
+1. Copy the `docs/adr` folder into your project.
+2. For each new ADR: copy `template.md` to `NNNN-title-with-dashes.md`, where `NNNN` is the next number
+3. Update `index.md`
+
+## License
+
 License: [CC0](https://creativecommons.org/share-your-work/public-domain/cc0)
