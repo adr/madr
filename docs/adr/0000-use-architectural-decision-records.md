@@ -1,16 +1,17 @@
 # Use Architectural Decision Records
 
-We need to record the architectural decisions made on this project.
+We need to record the architectural decisions made in this project.
 
 ## Considered Alternatives
 
-* No record
-* [DecisionRecord](https://github.com/schubmat/DecisionCapture)
-* [Michael Nygard's template](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions), maintainable by [adr-tools](https://github.com/npryce/adr-tools)
-* [Sustainable Architectural Decisions](https://www.infoq.com/articles/sustainable-architectural-design-decisions)
+* No records
+* [madr](https://github.com/adr/madr) - Markdown Architectural Decision Records
+* [DecisionRecord](https://github.com/schubmat/DecisionCapture) - Agile records by [@schubmat](https://github.com/schubmat/)
+* [Michael Nygard's template](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions) - The first incarnation of the term "ADR". Maintainable by [adr-tools](https://github.com/npryce/adr-tools).
+* [Sustainable Architectural Decisions](https://www.infoq.com/articles/sustainable-architectural-design-decisions) - The Y-Statements
 * [Other templates](https://github.com/joelparkerhenderson/architecture_decision_record)
 
-## Conclusion
+## Decision Outcome
 
-* *Chosen Alternative: Decision Record*
-* That template is lean and fits most the development style
+* Chosen Alternative: madr
+* That template is lean and fits most our development style
