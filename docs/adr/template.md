@@ -13,7 +13,7 @@
 
 ## Decision Outcome
 
-* *Chosen Alternative: [ALTERNATIVE 1]*
+* Chosen Alternative: [ALTERNATIVE 1]
 * [JUSTIFICATION. E.g., Only alternative, which meets K.O. criterion DECISION DRIVER | which resolves force FORCE | ... | Comes out best (see below)]
 * [CONSEQUENCES] <!-- optional -->
 
