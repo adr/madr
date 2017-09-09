@@ -1,8 +1,8 @@
-# *[short title of the issue]*
+# *[short title of solved problem and solution]*
 
 **User Story:** *[ticket/issue-number]* <!-- optional -->
 
-*[describe the context and the problem shortly.]*
+*[context and problem statement]*
 *[decision drivers | forces]* <!-- optional -->
 
 ## Considered Alternatives
@@ -13,9 +13,9 @@
 
 ## Decision Outcome
 
-* chosen alternative: *[alternative 1]*
+* Chosen Alternative: *[alternative 1]*
 * *[justification. e.g., only alternative, which meets k.o. criterion decision driver | which resolves force force | ... | comes out best (see below)]*
-* *[consequences]* <!-- optional -->
+* *[consequences. e.g., negative impact on quality attribute, follow-up decisions required, ...]* <!-- optional -->
 
 ## Pros and Cons of the Alternatives <!-- optional -->
 
@@ -23,16 +23,19 @@
 
 * `+` *[argument 1 pro]*
 * `+` *[argument 2 pro]*
-* `-` *[argument 1 contra]*
+* `-` *[argument 1 con]*
+* *[...]* <!-- numbers of pros and cons can vary -->
 
 ### *[alternative 2]*
 
 * `+` *[argument 1 pro]*
 * `+` *[argument 2 pro]*
-* `-` *[argument 1 contra]*
+* `-` *[argument 1 con]*
+* *[...]* <!-- numbers of pros and cons can vary -->
 
 ### *[alternative 3]*
 
 * `+` *[argument 1 pro]*
 * `+` *[argument 2 pro]*
-* `-` *[argument 1 contra]*
+* `-` *[argument 1 con]*
+* *[...]* <!-- numbers of pros and cons can vary -->
