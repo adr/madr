@@ -2,6 +2,8 @@
 
 This repository provides an initial directory structure and files to document Architectural Decisions using Architectural Decision Records and Markdown.
 
+"Markdown Architectural Decision Records" (MADR) `[ˈmæɾɚ]` - architectural decisions that [matter `[ˈmæɾɚ]`](https://en.wiktionary.org/wiki/matter#Pronunciation).
+
 ## The Template
 
 The template reads as follows:
@@ -93,11 +95,28 @@ When adding a new architectural decision:
 
 The template is based on [DecisionCapture](https://github.com/schubmat/DecisionCapture/) by [@schubmat](https://github.com/schubmat/). For more information on ADRs check <http://adr.github.io>.
 
+The [Y-Statements](https://www.infoq.com/articles/sustainable-architectural-design-decisions) are the most prominent alternative of this template.
+They are even shorter as their minimal form is just one sentence:
+
+```
+In the context of <use case/user story u>,
+facing <concern c>
+we decided for <option o>
+and neglected <other options>,
+to achieve <system qualities/desired consequences>,
+accepting <downside d/undesired consequences>,
+because <additional rationale>.
+```
+
+Both MADR and the Y-Statements can embedded in Java code using the [e-adr library](https://github.com/adr/e-adr).
+
+
 ## Using this Template
 
 1. Copy the `docs/adr` folder into your project.
 2. For each new ADR: copy `template.md` to `NNNN-title-with-dashes.md`, where `NNNN` is the next number
 3. Update `index.md`
+
 
 ## License
 
