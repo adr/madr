@@ -115,7 +115,7 @@ Both MADR and the Y-Statements can embedded in Java code using the [e-adr librar
 
 1. Copy the `docs/adr` folder into your project.
 2. For each new ADR: copy `template.md` to `NNNN-title-with-dashes.md`, where `NNNN` is the next number
-3. Update `index.md`
+3. Update `index.md`, e.g., using [adr-log](https://adr.github.io/adr-log/).
 
 
 ## License
