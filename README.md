@@ -12,7 +12,7 @@ a) write down the decisions and
 b) to version the decisions.
 
 This repository offers a solution to record architectural decisions.
-It provides provides an initial directory structure and files to document *Architectural Decisions* using **M**arkdown and **A**rchitectural **D**ecision **R**ecords.
+It provides provides an initial directory structure and files to document Architectural Decisions using **M**arkdown and **A**rchitectural **D**ecision **R**ecords.
 
 ## Table of Contents
 
