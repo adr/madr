@@ -1,8 +1,18 @@
 # Markdown Architectural Decision Records
 
-This repository provides an initial directory structure and files to document Architectural Decisions using Architectural Decision Records and Markdown.
+> "Markdown Architectural Decision Records" (MADR) `[ˈmæɾɚ]` – architectural decisions that [matter `[ˈmæɾɚ]`](https://en.wiktionary.org/wiki/matter#Pronunciation).
 
-"Markdown Architectural Decision Records" (MADR) `[ˈmæɾɚ]` - architectural decisions that [matter `[ˈmæɾɚ]`](https://en.wiktionary.org/wiki/matter#Pronunciation).
+An [Architectural Decision (AD)](https://en.wikipedia.org/wiki/Architectural_decision) is a software design choice that addresses a functional or non-functional requirement that is architecturally significant. 
+This might, for instance, be a technology choice (e.g., Java vs. JavaScript), a choice of the IDE (e.g., IntelliJ vs. Eclipse IDE), a choice between a library (e.g., SLF4J vs java.util.logging), or a decision on features (e.g., infinite undo vs. limited undo).
+Do not take the term "architecture" too serious or interpret it too strong.
+As the examples illustrate, any decision might have impact on the architecture somewhow are architectural decisions.
+
+It should be as easy as possible to
+a) write down the decisions and
+b) to version the decisions.
+
+This repository offers a solution to record architectural decisions.
+It provides provides an initial directory structure and files to document *Architectural Decisions* using **M**arkdown and **A**rchitectural **D**ecision **R**ecords.
 
 ## The Template
 
@@ -84,16 +94,16 @@ The example is rendered at [docs/adr/0000-use-markdown-architectural-decision-re
 
 ## Apply It To Your Project
 
-You can apply it to your project by copying the whole `docs` folder in the root of your project.
+You can apply it to your project by copying the whole `docs/adr` folder in the root of your project.
 When adding a new architectural decision:
 
-1. Copy `template.md` to `ADRnnnn-t.md`, where `nnnn` indicates the next number in sequence and `t` the title with dashes.
-2. Edit `ADRnnnn-t.md`.
+1. Copy `template.md` to `NNNN-title-with-dashes.md`, where `NNNN` indicates the next number in sequence.
+2. Edit `NNNN-title-with-dashes.md`.
+3. Update `index.md`, e.g., by executing `adr-log -d .`
+   You can get adr-log from <https://github.com/adr/adr-log>.
 
 
 ## Background Information
-
-The template is based on [DecisionCapture](https://github.com/schubmat/DecisionCapture/) by [@schubmat](https://github.com/schubmat/). For more information on ADRs check <http://adr.github.io>.
 
 The [Y-Statements](https://www.infoq.com/articles/sustainable-architectural-design-decisions) are the most prominent alternative of this template.
 They are even shorter as their minimal form is just one sentence:
@@ -110,12 +120,7 @@ because <additional rationale>.
 
 Both MADR and the Y-Statements can embedded in Java code using the [e-adr library](https://github.com/adr/e-adr).
 
-
-## Using this Template
-
-1. Copy the `docs/adr` folder into your project.
-2. For each new ADR: copy `template.md` to `NNNN-title-with-dashes.md`, where `NNNN` is the next number
-3. Update `index.md`, e.g., using [adr-log](https://adr.github.io/adr-log/).
+For more information on ADRs check <http://adr.github.io>.
 
 
 ## License
