@@ -117,7 +117,7 @@ When adding a new architectural decision:
 
 ## Background Information
 
-The [Y-Statements](https://www.infoq.com/articles/sustainable-architectural-design-decisions) are the most prominent alternative of this template.
+The Y-Statements (presented as "[Sustainable Architectural Design Decisions](https://www.infoq.com/articles/sustainable-architectural-design-decisions)") are the most prominent alternative of this template.
 They are even shorter as their minimal form is just one sentence:
 
 ```
