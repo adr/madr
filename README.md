@@ -14,6 +14,18 @@ b) to version the decisions.
 This repository offers a solution to record architectural decisions.
 It provides provides an initial directory structure and files to document *Architectural Decisions* using **M**arkdown and **A**rchitectural **D**ecision **R**ecords.
 
+## Table of Contents
+
+<!-- toc -->
+
+- [The Template](#the-template)
+- [Example](#example)
+- [Apply It To Your Project](#apply-it-to-your-project)
+- [Background Information](#background-information)
+- [License](#license)
+
+<!-- tocstop -->
+
 ## The Template
 
 The template reads as follows:
