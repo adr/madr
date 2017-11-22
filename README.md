@@ -84,7 +84,7 @@ The template is available at [docs/adr/template.md](docs/adr/template.md).
 # Use Markdown Architectural Decision Records (MADR)
 
 Should we record the architectural decisions made in this project?
-And if we do, wow to structure these recordings?
+And if we do, how to structure these recordings?
 
 ## Considered Alternatives
 
