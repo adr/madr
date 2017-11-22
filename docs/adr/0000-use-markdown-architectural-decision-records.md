@@ -1,7 +1,7 @@
 # Use Markdown Architectural Decision Records
 
 Should we record the architectural decisions made in this project?
-And if we do, wow to structure these recordings?
+And if we do, how to structure these recordings?
 
 ## Considered Alternatives
 
