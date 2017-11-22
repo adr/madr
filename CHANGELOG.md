@@ -16,6 +16,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Fixed
 
 - Fixed internal links in `docs/adr/index.md`.
+- Fixed typo in `docs/adr/0000-use-markdown-architectural-decision-records.md`.
 
 ## [1.0.0] – 2017-09-09
 
