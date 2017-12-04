@@ -21,6 +21,8 @@ It provides provides an initial directory structure and files to document Archit
 - [The Template](#the-template)
 - [Example](#example)
 - [Apply It To Your Project](#apply-it-to-your-project)
+  * [Initialization](#initialization)
+  * [Create a new ADR](#create-a-new-adr)
 - [Background Information](#background-information)
 - [License](#license)
 
@@ -106,8 +108,12 @@ The example is rendered at [docs/adr/0000-use-markdown-architectural-decision-re
 
 ## Apply It To Your Project
 
-You can apply it to your project by copying the whole `docs/adr` folder in the root of your project.
-When adding a new architectural decision:
+### Initialization
+
+1. Create folder `docs/adr` in your project.
+2. Copy all files in `template` from the MADR project to the folder `docs/adr` in your project.
+
+### Create a new ADR
 
 1. Copy `template.md` to `NNNN-title-with-dashes.md`, where `NNNN` indicates the next number in sequence.
 2. Edit `NNNN-title-with-dashes.md`.
