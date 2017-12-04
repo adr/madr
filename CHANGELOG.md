@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - `template.md` is not part of the log, but a separate text block in `docs/adr/index.md`.
 - Link to new homepage of MADR: <https://adr.github.io/madr/>.
 - Refined justification of [ADR-0000](docs/adr/0000-use-markdown-architectural-decision-records.md).
+- Refined `README.md`.
 
 ### Fixed
 
