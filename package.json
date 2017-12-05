@@ -26,8 +26,6 @@
   },
   "license": "CC0-1.0",
   "files": [
-    "template/0000-use-markdown-architectural-decision-records.md",
-    "template/index.md",
-    "template/template.md"
+    "template/"
   ]
 }
