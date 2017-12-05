@@ -1,0 +1,33 @@
+{
+  "name": "MADR",
+  "description": "Markdown Architectural Decision Records",
+  "keywords": [
+    "adr",
+    "architectural decision",
+    "architectural decision record",
+    "architecture decision",
+    "architecture decision record",
+    "software quality",
+    "documentation",
+    "markdown"
+  ],
+  "version": "1.1.0",
+  "homepage": "https://adr.github.io/madr/",
+  "author": "Oliver Kopp (http://github.com/koppor/)",
+  "contributors": [
+    "Olaf Zimmermann (http://www.ifs.hsr.ch/Olaf-Zimmermann.11623.0.html)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adr/madr.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adr/madr/issues"
+  },
+  "license": "CC0-1.0",
+  "files": [
+    "template/0000-use-markdown-architectural-decision-records.md",
+    "template/index.md",
+    "template/template.md"
+  ]
+}
