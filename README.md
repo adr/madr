@@ -111,16 +111,29 @@ For the MADR project itself, all ADRs are exist at [docs/adr/](docs/adr/).
 
 ### Initialization
 
-1. Create folder `docs/adr` in your project.
-2. Copy all files in `template` from the MADR project to the folder `docs/adr` in your project.
+Create folder `docs/adr` in your project.
+Copy all files in `template` from the MADR project to the folder `docs/adr` in your project.
+
+For instance, using `npm`, this can be done using the following command:
+
+```sh
+$ npm install madr && mkdir -p docs/adr && cp node_modules/madr/template/* docs/adr/
+```
 
 ### Create a new ADR
+
+Manual approach:
 
 1. Copy `template.md` to `NNNN-title-with-dashes.md`, where `NNNN` indicates the next number in sequence.
 2. Edit `NNNN-title-with-dashes.md`.
 3. Update `index.md`, e.g., by executing `adr-log -d .`
    You can get adr-log from <https://github.com/adr/adr-log>.
 
+We are working to enhance an adr tool (such as
+[adr-j](https://github.com/adoble/adr-j),
+[adr-tools](https://github.com/npryce/adr-tools), or
+[adr](https://www.npmjs.com/package/adr))
+to provide support for MADR.
 
 ## Background Information
 
