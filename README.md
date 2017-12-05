@@ -77,7 +77,7 @@ The template reads as follows:
 * *[...]* <!-- numbers of pros and cons can vary -->
 ```
 
-The template is available at [docs/adr/template.md](docs/adr/template.md).
+The template is available at [template/template.md](template/template.md).
 
 
 ## Example
@@ -103,7 +103,7 @@ And if we do, how to structure these recordings?
 * The MADR template is lean and fits our development style.
 ```
 
-The example is rendered at [docs/adr/0000-use-markdown-architectural-decision-records.md](https://github.com/adr/madr/blob/master/docs/adr/0000-use-markdown-architectural-decision-records.md)
+The example is rendered at [template/0000-use-markdown-architectural-decision-records.md](template/0000-use-markdown-architectural-decision-records.md)
 
 
 ## Apply It To Your Project
