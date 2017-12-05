@@ -105,6 +105,7 @@ And if we do, how to structure these recordings?
 
 The example is rendered at [template/0000-use-markdown-architectural-decision-records.md](template/0000-use-markdown-architectural-decision-records.md)
 
+For the MADR project itself, all ADRs are exist at [docs/adr/](docs/adr/).
 
 ## Apply It To Your Project
 
