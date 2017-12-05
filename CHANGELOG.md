@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [unreleased]
 
+### Changed
+
+- Simplify `package.json`.
 
 ## [1.1.0] – 2017-12-04
 
