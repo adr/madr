@@ -14,6 +14,11 @@ b) to version the decisions.
 This repository offers a solution to record architectural decisions.
 It provides provides an initial directory structure and files to document Architectural Decisions using **M**arkdown and **A**rchitectural **D**ecision **R**ecords.
 
+The decisions are placed in the folder `docs/adr` to
+1) Enable [GitHub pages](https://pages.github.com/) to render it using in the web.
+   See <https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/> for more information.
+2) Separate the architectural decisions from other documentation
+
 ## Table of Contents
 
 <!-- toc -->
