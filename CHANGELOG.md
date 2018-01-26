@@ -10,6 +10,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 - Add installation instructions using `npm`.
 
+### Changed
+- Placeholders changed from `*[PLACEHOLDER]*` to `[PLACEHOLDER]` to have a single pair of enclosing characters (`[]`) instead of two (`*[]*`).
+- Rename `argument 1 pro` to `pro point` and `argument 1 con` to `con point`
+
 ## [1.1.1] – 2017-12-05
 
 ### Changed
