@@ -4,10 +4,9 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## [unreleased]
+## [1.2.0] – 2018-01-26
 
 ### Added
-
 - Add installation instructions using `npm`.
 
 ### Changed
@@ -17,13 +16,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## [1.1.1] – 2017-12-05
 
 ### Changed
-
 - Simplify `package.json` and fix name.
 
 ## [1.1.0] – 2017-12-04
 
 ### Changed
-
 - No change in the template itself.
 - Use [adr-log](https://adr.github.io/adr-log/) to generate links to the ADRs in `docs/adr/index.md`.
 - `template.md` is not part of the log, but a separate text block in `docs/adr/index.md`.
@@ -32,7 +29,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Refined `README.md`.
 
 ### Fixed
-
 - Fixed internal links in `docs/adr/index.md`.
 - Fixed typo in `docs/adr/0000-use-markdown-architectural-decision-records.md`.
 
@@ -40,7 +36,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 First release of Markdown Architectural Decision Records.
 
-[unreleased]: https://github.com/adr/madr/compare/1.1.1...master
+[unreleased]: https://github.com/adr/madr/compare/1.2.0...master
+[1.2.0]: https://github.com/adr/madr/compare/1.1.1...1.2.0
 [1.1.1]: https://github.com/adr/madr/compare/1.1.0...1.1.1
 [1.1.0]: https://github.com/adr/madr/compare/1.0.0...1.1.0
 [1.0.0]: https://github.com/adr/madr/releases/tag/1.0.0
