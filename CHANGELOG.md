@@ -15,6 +15,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Rename "point" to "argument" (which reverts the change of version 1.2.0)
 - Number "arguments" from a to c. Re-use "variables" a to c to guide the author that the same topic should be handled by the enumeration. e..g, performance, ...
 - Exchange `+` and `-` by "Good, because ..." and "Bad, because ..."
+- Remove emphasize of "User Story:"
 
 ## [1.2.0] – 2018-01-26
 

@@ -40,7 +40,7 @@ The template reads as follows:
 ```markdown
 # [short title of solved problem and solution]
 
-**User Story:** [ticket/issue-number] <!-- optional -->
+User Story: [ticket/issue-number] <!-- optional -->
 
 [context and problem statement]
 [decision drivers | forces | facing] <!-- optional -->
