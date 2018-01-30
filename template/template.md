@@ -14,7 +14,7 @@
 
 ## Decision Outcome
 
-Chosen option: [option 1], because [Justification. e.g., only option, which meets k.o. criterion decision driver | which resolves force force | ... | comes out best (see below)].
+Chosen option: [option 1], because [justification. e.g., only option, which meets k.o. criterion decision driver | which resolves force force | ... | comes out best (see below)].
 
 Positive Consequences: <!-- optional -->
   - [e.g., improvement of quality attribute satisfaction, follow-up decisions required, ...]

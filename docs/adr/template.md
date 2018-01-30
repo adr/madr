@@ -3,40 +3,46 @@
 **User Story:** [ticket/issue-number] <!-- optional -->
 
 [context and problem statement]
-[decision drivers | forces] <!-- optional -->
+[decision drivers | forces | facing] <!-- optional -->
 
-## Considered Alternatives
+## Considered Options
 
-* [alternative 1]
-* [alternative 2]
-* [alternative 3]
-* ... <!-- numbers of alternatives can vary -->
+* [option 1]
+* [option 2]
+* [option 3]
+* ... <!-- numbers of options can vary -->
 
 ## Decision Outcome
 
-* Chosen Alternative: [alternative 1]
-* [justification. e.g., only alternative, which meets k.o. criterion decision driver | which resolves force force | ... | comes out best (see below)]
-* [consequences. e.g., negative impact on quality attribute, follow-up decisions required, ...] <!-- optional -->
+Chosen option: [option 1], because [justification. e.g., only option, which meets k.o. criterion decision driver | which resolves force force | ... | comes out best (see below)].
 
-## Pros and Cons of the Alternatives <!-- optional -->
+Positive Consequences: <!-- optional -->
+  - [e.g., improvement of quality attribute satisfaction, follow-up decisions required, ...]
+  - ...
 
-### [alternative 1]
+Negative consequences: <!-- optional -->
+  - [e.g., compromizing quality attribute, follow-up decisions required, ...]
+  - ...
 
-* `+` [pro point]
-* `+` [pro point]
-* `-` [con point]
+## Pros and Cons of the Options <!-- optional -->
+
+### [option 1]
+
+* Good, because [argument a]
+* Good, because [argument b]
+* Bad, because [argument c]
 * ... <!-- numbers of pros and cons can vary -->
 
-### [alternative 2]
+### [option 2]
 
-* `+` [pro point]
-* `+` [pro point]
-* `-` [con point]
+* Good, because [argument a]
+* Good, because [argument b]
+* Bad, because [argument c]
 * ... <!-- numbers of pros and cons can vary -->
 
-### [alternative 3]
+### [option 3]
 
-* `+` [pro point]
-* `+` [pro point]
-* `-` [con point]
+* Good, because [argument a]
+* Good, because [argument b]
+* Bad, because [argument c]
 * ... <!-- numbers of pros and cons can vary -->
