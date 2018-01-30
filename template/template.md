@@ -21,7 +21,7 @@ Positive Consequences: <!-- optional -->
   - ...
 
 Negative consequences: <!-- optional -->
-  - [e.g., compromizing quality attribute, follow-up decisions required, ...]
+  - [e.g., compromising quality attribute, follow-up decisions required, ...]
   - ...
 
 ## Pros and Cons of the Options <!-- optional -->
