@@ -10,10 +10,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Changed
 - Changed template to be closer to the [Y-Statements](https://www.infoq.com/articles/sustainable-architectural-design-decisions).
-  Especially rename "alternative" to "option"
+  Especially rename "alternative" to "option".
 - Restructured syntax of "Decision Outcome".
   Positive and negative consequences as separate bullet list.
-- More Y-Statement-like -- add "facing"
 - Rename "point" to "argument" (which reverts the change of version 1.2.0)
 - Number "arguments" from a to c. Re-use "variables" a to c to guide the author that the same topic should be handled by the enumeration. e..g, performance, ...
 - Exchange `+` and `-` by "Good, because ..." and "Bad, because ..."
