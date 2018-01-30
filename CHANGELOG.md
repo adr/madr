@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## [Unreleased]
+## [1.3.0] – 2018-01-30
 
 ### Changed
 - Changed template to be closer to the [Y-Statements](https://www.infoq.com/articles/sustainable-architectural-design-decisions).
@@ -49,7 +49,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 First release of Markdown Architectural Decision Records.
 
-[Unreleased]: https://github.com/adr/madr/compare/1.2.0...master
+[Unreleased]: https://github.com/adr/madr/compare/1.3.0...master
+[1.3.0]: https://github.com/adr/madr/compare/1.2.0...1.3.0
 [1.2.0]: https://github.com/adr/madr/compare/1.1.1...1.2.0
 [1.1.1]: https://github.com/adr/madr/compare/1.1.0...1.1.1
 [1.1.0]: https://github.com/adr/madr/compare/1.0.0...1.1.0
