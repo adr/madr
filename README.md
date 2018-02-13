@@ -110,7 +110,7 @@ And if we do, how to structure these recordings?
 
 ## Decision Outcome
 
-* Chosen Alternative: MADR
+* Chosen option: MADR
 * The MADR template is lean and fits our development style.
 ```
 

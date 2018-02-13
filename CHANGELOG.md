@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+### Fixed
+- Replace "alternative" by "option" in all `md` files
+- Update to new "Decision Outcome" format in all `md` files
+
 ## [1.3.0] – 2018-01-30
 
 ### Changed

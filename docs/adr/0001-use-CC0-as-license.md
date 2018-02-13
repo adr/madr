@@ -7,7 +7,7 @@ For more information see <https://help.github.com/articles/licensing-a-repositor
 We want to have MADR used without any hassle and that users can just go ahead and write MADRs.
 
 
-## Considered Alternatives
+## Considered Options
 
 * [CC0](https://creativecommons.org/share-your-work/public-domain/cc0/)
 * No license
@@ -16,5 +16,4 @@ We want to have MADR used without any hassle and that users can just go ahead an
 
 ## Decision Outcome
 
-* Chosen Alternative: CC0
-* This license donates the content to "public domain" and does so as legally as possible.
+Chosen option: CC0, because this license donates the content to "public domain" and does so as legally as possible.
