@@ -99,7 +99,7 @@ The template is available at [template/template.md](template/template.md).
 Should we record the architectural decisions made in this project?
 And if we do, how to structure these recordings?
 
-## Considered Alternatives
+## Considered Options
 
 * [MADR](https://github.com/adr/madr) - Markdown Architectural Decision Records
 * [Michael Nygard's template](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions) - The first incarnation of the term "ADR". Maintainable by [adr-tools](https://github.com/npryce/adr-tools).
