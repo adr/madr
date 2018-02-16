@@ -1,4 +1,4 @@
-# Markdown Architectural Decision Records
+# Markdown Architectural Decision Records [![part of ADR](https://img.shields.io/badge/part_of-ADR-blue.svg)](https://adr.github.io)
 
 > "Markdown Architectural Decision Records" (MADR) `[ˈmæɾɚ]` – architectural decisions that [matter `[ˈmæɾɚ]`](https://en.wiktionary.org/wiki/matter#Pronunciation).
 
@@ -28,7 +28,6 @@ The decisions are placed in the folder `docs/adr` to
 - [Apply It To Your Project](#apply-it-to-your-project)
   * [Initialization](#initialization)
   * [Create a new ADR](#create-a-new-adr)
-- [Background Information](#background-information)
 - [License](#license)
 
 <!-- tocstop -->
@@ -145,26 +144,6 @@ We are working to enhance an adr tool (such as
 [adr-tools](https://github.com/npryce/adr-tools), or
 [adr](https://www.npmjs.com/package/adr))
 to provide support for MADR.
-
-## Background Information
-
-The Y-Statements (presented as "[Sustainable Architectural Design Decisions](https://www.infoq.com/articles/sustainable-architectural-design-decisions)") are the most prominent alternative of this template.
-They are even shorter as their minimal form is just one sentence:
-
-```
-In the context of <use case/user story u>,
-facing <concern c>
-we decided for <option o>
-and neglected <other options>,
-to achieve <system qualities/desired consequences>,
-accepting <downside d/undesired consequences>,
-because <additional rationale>.
-```
-
-Both MADR and the Y-Statements can embedded in Java code using the [e-adr library](https://github.com/adr/e-adr).
-
-For more information on ADRs check <http://adr.github.io>.
-
 
 ## License
 
