@@ -9,6 +9,7 @@ This log lists the architectural decisions for [project name].
 - [ADR-0002](0002-do-not-use-numbers-in-headings.md) - Do not use numbers in headings
 - [ADR-0003](0003-include-in-adr-tools.md) - Inlucde in adr-tools
 - [ADR-0004](0004-write-own-toc-tool.md) - Write own TOC tool
+- [ADR-0005](0005-use-dashes-in-filenames.md) - Use dashes in filenames
 
 <!-- adrlogstop -->
 

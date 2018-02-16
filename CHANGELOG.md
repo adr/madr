@@ -8,8 +8,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Added
 - Version of MADR into [ADR-0000](template/0000-use-markdown-architectural-decision-records.md) of the template. Fixes [#5](https://github.com/adr/madr/issues/5)
+- `README.md`: Added wints on the filenames.
 - More ADRs on MADR
-- `LICENSE` file
+- Added`LICENSE` file
 
 ### Changed
 - `README.md`: Removed section "Background Information" as the information is contained at <http://adr.github.io>, too. Fixes [#4](https://github.com/adr/madr/issues/4)
