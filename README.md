@@ -26,8 +26,6 @@ The decisions are placed in the folder `docs/adr` to
 - [The Template](#the-template)
 - [Example](#example)
 - [Apply It To Your Project](#apply-it-to-your-project)
-  * [Initialization](#initialization)
-  * [Create a new ADR](#create-a-new-adr)
 - [License](#license)
 
 <!-- tocstop -->
@@ -137,13 +135,12 @@ Manual approach:
 1. Copy `template.md` to `NNNN-title-with-dashes.md`, where `NNNN` indicates the next number in sequence.
 2. Edit `NNNN-title-with-dashes.md`.
 3. Update `index.md`, e.g., by executing `adr-log -d .`
-   You can get adr-log from <https://github.com/adr/adr-log>.
+   You can get [adr-log](https://github.com/adr/adr-log) by executing `npm install -g adr-log`.
 
-We are working to enhance an adr tool (such as
-[adr-j](https://github.com/adoble/adr-j),
-[adr-tools](https://github.com/npryce/adr-tools), or
-[adr](https://www.npmjs.com/package/adr))
-to provide support for MADR.
+Automatic approach:
+
+Use our fork of `adr-tools`.
+See <https://github.com/npryce/adr-tools/pull/43> for the current status of integration.
 
 ## License
 
