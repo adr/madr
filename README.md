@@ -26,6 +26,7 @@ The decisions are placed in the folder `docs/adr` to
 - [The Template](#the-template)
 - [Example](#example)
 - [Apply It To Your Project](#apply-it-to-your-project)
+- [Development](#development)
 - [License](#license)
 
 <!-- tocstop -->
@@ -141,6 +142,13 @@ Automatic approach:
 
 Use our fork of `adr-tools`.
 See <https://github.com/npryce/adr-tools/pull/43> for the current status of integration.
+
+### Development
+
+MADR follows [Semantic Versioning 2.0.0](https://semver.org/) and documents changes in a `CHANGELOG.md` following [keep a changelog 1.0.0](http://keepachangelog.com/en/1.0.0/).
+Issues can be reported at <https://github.com/adr/madr/issues>.
+
+When releasing a new version, the version reference in `template/0000-use-markdown-architectural-decision-records.md` has to be adapted.
 
 ## License
 
