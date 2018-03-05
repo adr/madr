@@ -155,7 +155,10 @@ See <https://github.com/npryce/adr-tools/pull/43> for the current status of inte
 MADR follows [Semantic Versioning 2.0.0](https://semver.org/) and documents changes in a `CHANGELOG.md` following [keep a changelog 1.0.0](http://keepachangelog.com/en/1.0.0/).
 Issues can be reported at <https://github.com/adr/madr/issues>.
 
-When releasing a new version, the version reference in `template/0000-use-markdown-architectural-decision-records.md` has to be adapted.
+**Releasing a new version:**
+
+- Adapt the version reference in `template/0000-use-markdown-architectural-decision-records.md`
+- Update `package.json`, publish to npmjs
 
 ## License
 
