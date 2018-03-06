@@ -2,9 +2,6 @@
 
 Technical Story: https://github.com/adr/madr/issues/9
 
-
-Currently, I lean towards adding the links at the bottom of a MADR.
-
 ## Considered Options
 
 * Use tables
