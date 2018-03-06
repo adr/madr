@@ -10,6 +10,11 @@ This log lists the architectural decisions for [project name].
 - [ADR-0003](0003-include-in-adr-tools.md) - Inlucde in adr-tools
 - [ADR-0004](0004-write-own-toc-tool.md) - Write own TOC tool
 - [ADR-0005](0005-use-dashes-in-filenames.md) - Use dashes in filenames
+- [ADR-0006](0006-use-names-as-identifier.md) - Use names as identifier
+- [ADR-0007](0007-do-not-emphasize-line-headings.md) - Do not emphasize line headings
+- [ADR-0008](0008-add-status-field.md) - Add status field
+- [ADR-0009](0009-support-links-between-adrs-inside-an-adrs.md) - Support links between ADRs inside an ADRs
+- [ADR-0010](0010-support-categories.md) - Support categories
 
 <!-- adrlogstop -->
 

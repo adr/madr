@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## [Unreleased]
 
 ### Added
-- Optional: Status, Deciders, Date
+- Optional: Status, Deciders, Date. Fixes [#2](https://github.com/adr/madr/issues/2).
 - More explanations of options can now be put next to each option
 - Links to other ADRs added at the bottom of the ADR
 
