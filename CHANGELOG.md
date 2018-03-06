@@ -6,13 +6,24 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+### Added
+- Optional: Status, Deciders, Date
+- More explanations of options can now be put next to each option
+- Links to other ADRs added at the bottom of the ADR
+
+### Changed
+- Rename "User Story" to "Technical Story"
+- "Context and Problem Statement" and "Decision Drivers" are now a heading
+- The chosen option is now written in quotes to separate the name from the rest of the text
+- All bullet lists are now made using `*` (instead of `-` at some lists)
+
 ## [1.4.0] - 2018-03-01
 
 ### Added
 - Version of MADR into [ADR-0000](template/0000-use-markdown-architectural-decision-records.md) of the template. Fixes [#5](https://github.com/adr/madr/issues/5)
 - `README.md`: Added wints on the filenames.
 - More ADRs on MADR
-- Added`LICENSE` file
+- Added `LICENSE` file
 
 ### Changed
 - `README.md`: Removed section "Background Information" as the information is contained at <http://adr.github.io>, too. Fixes [#4](https://github.com/adr/madr/issues/4)
