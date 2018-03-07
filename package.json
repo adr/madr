@@ -11,7 +11,7 @@
     "documentation",
     "markdown"
   ],
-  "version": "1.3.0",
+  "version": "2.0.0",
   "homepage": "https://adr.github.io/madr/",
   "author": "Oliver Kopp (http://github.com/koppor/)",
   "contributors": [
