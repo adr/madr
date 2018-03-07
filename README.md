@@ -184,8 +184,10 @@ Issues can be reported at <https://github.com/adr/madr/issues>.
 
 **Releasing a new version:**
 
-- Adapt the version reference in `template/0000-use-markdown-architectural-decision-records.md`
-- Update `package.json`, publish to npmjs
+1. Update `CHANGELOG.md`.
+2. Adapt the version reference in `template/0000-use-markdown-architectural-decision-records.md`.
+3. Update `package.json`, publish to npmjs, create GitHub release.
+  Use [release-it](https://www.npmjs.com/package/release-it) (do not create a release on GitHub) and [github-release-from-changelog](https://www.npmjs.com/package/github-release-from-changelog).
 
 ## License
 
