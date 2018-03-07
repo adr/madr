@@ -13,7 +13,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Changed
 - Rename "User Story" to "Technical Story"
-- "Context and Problem Statement" and "Decision Drivers" are now a heading
+- "Context and Problem Statement" and "Decision Drivers" are a heading now
 - The chosen option is now written in quotes to separate the name from the rest of the text
 - All bullet lists are now made using `*` (instead of `-` at some lists)
 
