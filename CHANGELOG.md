@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+### Changed
+- Streamlined template's ADR-0000.
+
 ## [2.0.1] - 2018-03-07
 
 ### Fixed
