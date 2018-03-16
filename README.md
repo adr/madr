@@ -141,7 +141,7 @@ The example is rendered at [template/0000-use-markdown-architectural-decision-re
 
 For the MADR project itself, all ADRs are exist at [docs/adr/](docs/adr/).
 
-## Apply It To Your Project
+## Apply it to your project
 
 ### Initialization
 
@@ -172,15 +172,16 @@ See <https://github.com/npryce/adr-tools/pull/43> for the current status of inte
 
 ### Development
 
-MADR follows [Semantic Versioning 2.0.0](https://semver.org/) and documents changes in a `CHANGELOG.md` following [keep a changelog 1.0.0](http://keepachangelog.com/en/1.0.0/).
-Issues can be reported at <https://github.com/adr/madr/issues>.
+* MADR follows [Semantic Versioning 2.0.0](https://semver.org/) and documents changes in a `CHANGELOG.md` following [keep a changelog 1.0.0](http://keepachangelog.com/en/1.0.0/).
+* Issues can be reported at <https://github.com/adr/madr/issues>.
+* Use the [Markdown Style Guide](http://www.cirosantilli.com/markdown-style-guide/) space-sentence:1, wrap:sentence, header:atx, list-marker:asterisk, list-space:1, code:fenced
 
 **Releasing a new version:**
 
 1. Update `CHANGELOG.md`.
 2. Adapt the version reference in `template/0000-use-markdown-architectural-decision-records.md`.
-3. Update `package.json`, publish to npmjs, create GitHub release.
-  Use [release-it](https://www.npmjs.com/package/release-it) (do not create a release on GitHub) and [github-release-from-changelog](https://www.npmjs.com/package/github-release-from-changelog).
+3. Update `package.json`, publish to npmjs, create GitHub release.<br>
+   Use [release-it](https://www.npmjs.com/package/release-it) (do not create a release on GitHub) and [github-release-from-changelog](https://www.npmjs.com/package/github-release-from-changelog).
 
 ## License
 
