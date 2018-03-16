@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Changed
 
 - Streamlined template's ADR-0000.
+- Streamlined template by using ellipsis and removing double empty lines.
 
 ## [2.0.1] - 2018-03-07
 
