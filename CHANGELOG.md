@@ -1,4 +1,5 @@
 # Changelog
+
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
@@ -7,21 +8,25 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## [Unreleased]
 
 ### Changed
+
 - Streamlined template's ADR-0000.
 
 ## [2.0.1] - 2018-03-07
 
 ### Fixed
+
 - State MADR 2.0.1 also in template's ADR-0000.
 
 ## [2.0.0] - 2018-03-07
 
 ### Added
+
 - Optional: Status, Deciders, Date. Fixes [#2](https://github.com/adr/madr/issues/2).
 - More explanations of options can now be put next to each option
 - Links to other ADRs added at the bottom of the ADR
 
 ### Changed
+
 - Rename "User Story" to "Technical Story"
 - "Context and Problem Statement" and "Decision Drivers" are a heading now
 - The chosen option is now written in quotes to separate the name from the rest of the text
@@ -30,23 +35,27 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## [1.4.0] - 2018-03-01
 
 ### Added
+
 - Version of MADR into [ADR-0000](template/0000-use-markdown-architectural-decision-records.md) of the template. Fixes [#5](https://github.com/adr/madr/issues/5)
 - `README.md`: Added wints on the filenames.
 - More ADRs on MADR
 - Added `LICENSE` file
 
 ### Changed
+
 - `README.md`: Removed section "Background Information" as the information is contained at <http://adr.github.io>, too. Fixes [#4](https://github.com/adr/madr/issues/4)
 
 ## [1.3.1] – 2018-02-13
 
 ### Fixed
+
 - Replace "alternative" by "option" in all `md` files
 - Update to new "Decision Outcome" format in all `md` files
 
 ## [1.3.0] – 2018-01-30
 
 ### Changed
+
 - Changed template to be closer to the [Y-Statements](https://www.infoq.com/articles/sustainable-architectural-design-decisions).
   Especially rename "alternative" to "option".
 - Restructured syntax of "Decision Outcome".
@@ -59,20 +68,24 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## [1.2.0] – 2018-01-26
 
 ### Added
+
 - Add installation instructions using `npm`.
 
 ### Changed
+
 - Placeholders changed from `*[PLACEHOLDER]*` to `[PLACEHOLDER]` to have a single pair of enclosing characters (`[]`) instead of two (`*[]*`).
 - Rename `argument 1 pro` to `pro point` and `argument 1 con` to `con point`
 
 ## [1.1.1] – 2017-12-05
 
 ### Changed
+
 - Simplify `package.json` and fix name.
 
 ## [1.1.0] – 2017-12-04
 
 ### Changed
+
 - No change in the template itself.
 - Use [adr-log](https://adr.github.io/adr-log/) to generate links to the ADRs in `docs/adr/index.md`.
 - `template.md` is not part of the log, but a separate text block in `docs/adr/index.md`.
@@ -81,6 +94,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Refined `README.md`.
 
 ### Fixed
+
 - Fixed internal links in `docs/adr/index.md`.
 - Fixed typo in `docs/adr/0000-use-markdown-architectural-decision-records.md`.
 
