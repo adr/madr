@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## [Unreleased]
+## [2.0.2] - 2018-03-16
 
 ### Changed
 
@@ -103,7 +103,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 First release of Markdown Architectural Decision Records.
 
-[Unreleased]: https://github.com/adr/madr/compare/2.0.1...master
+[Unreleased]: https://github.com/adr/madr/compare/2.0.2...master
+[2.0.2]: https://github.com/adr/madr/compare/2.0.1...2.0.2
 [2.0.1]: https://github.com/adr/madr/compare/2.0.0...2.0.1
 [2.0.0]: https://github.com/adr/madr/compare/1.4.0...2.0.0
 [1.4.0]: https://github.com/adr/madr/compare/1.3.1...1.4.0
