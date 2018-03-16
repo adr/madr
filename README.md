@@ -24,7 +24,6 @@ The filenames are following the pattern `NNNN-title-with-dashes.md` ([ADR-0005](
 - the title is stored using dashes and lowercase, because [adr-tools] also does that.
 - the suffix is `.md`, because it is a [Markdown](https://github.github.com/gfm/) file.
 
-
 ## Table of Contents
 
 <!-- toc -->
@@ -50,10 +49,8 @@ The template reads as follows:
 
 Technical Story: [description | ticket/issue URL] <!-- optional -->
 
-
 ## Context and Problem Statement
 [Describe the context and problem statement, e.g., in free form using two to three sentences. You may want to articulate the problem in form of a question.]
-
 
 ## Decision Drivers <!-- optional -->
 
@@ -61,14 +58,12 @@ Technical Story: [description | ticket/issue URL] <!-- optional -->
 * [driver 2, e.g., a force, facing concern, ...]
 * ... <!-- numbers of drivers can vary -->
 
-
 ## Considered Options
 
 * [option 1]
 * [option 2]
 * [option 3]
 * ... <!-- numbers of options can vary -->
-
 
 ## Decision Outcome
 
@@ -81,7 +76,6 @@ Positive Consequences: <!-- optional -->
 Negative consequences: <!-- optional -->
 * [e.g., compromising quality attribute, follow-up decisions required, ...]
 * ...
-
 
 ## Pros and Cons of the Options <!-- optional -->
 
@@ -120,7 +114,6 @@ Negative consequences: <!-- optional -->
 ```
 
 The template is available at [template/template.md](template/template.md).
-
 
 ## Example
 
