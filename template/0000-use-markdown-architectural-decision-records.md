@@ -22,4 +22,4 @@ Chosen option: "MADR 2.0.2", because
 * The MADR format is lean and fits our development style.
 * The MADR structure is comprehensible and facilitates usage & maintenance.
 * The MADR project is vivid.
-* Version 2.0.1 is the latest one available when starting to document ADRs.
+* Version 2.0.2 is the latest one available when starting to document ADRs.
