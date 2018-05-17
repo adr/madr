@@ -120,7 +120,7 @@ Negative consequences: <!-- optional -->
 * … <!-- numbers of links can vary -->
 ```
 
-The template is available at [template/template.md](template/template.md).
+The template is available at [template/template.md](https://github.com/adr/madr/blob/master/template/template.md).
 
 ## Example
 
