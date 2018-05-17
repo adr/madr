@@ -15,6 +15,7 @@ This log lists the architectural decisions for MADR.
 - [ADR-0008](0008-add-status-field.md) - Add status field
 - [ADR-0009](0009-support-links-between-adrs-inside-an-adrs.md) - Support links between ADRs inside an ADRs
 - [ADR-0010](0010-support-categories.md) - Support categories
+- [ADR-0011](0011-use-asterisk-as-list-marker.md) - Use asterisk as list marker
 
 <!-- adrlogstop -->
 
