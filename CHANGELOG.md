@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+### Changed
+
+- Positive and negative consequences are a full h3 heading now.
+
 ## [2.0.3] - 2018-03-21
 
 ## Fixed

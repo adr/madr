@@ -16,8 +16,10 @@ Chosen option: Write own tool `adr-log`, because
 We accept that changing adr-tools would also be possible.
 It is prepared to included header and footer: <https://github.com/npryce/adr-tools/blob/master/tests/generate-contents-with-header-and-footer.sh>.
 
-Positive Consequences:
-  - `adr-log` is installable using `npm install -g adr-log`, which is easier than installing `adr-tools`.
+### Positive Consequences
 
-Negative consequences:
-  - Another tool has to be maintained
+- `adr-log` is installable using `npm install -g adr-log`, which is easier than installing `adr-tools`.
+
+### Negative consequences
+
+- Another tool has to be maintained
