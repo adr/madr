@@ -14,7 +14,7 @@ Technical Story: https://github.com/adr/madr/issues/9
 
 Chosen option: "Use heading together with a bullet list at the end", because comes out best (see below).
 
-## Pros and Cons of the Options 
+## Pros and Cons of the Options
 
 ### Use tables
 

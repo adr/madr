@@ -27,7 +27,7 @@ ADRs are recorded. The number of ADRs grows and the context/topic/scope of ADRs 
 
 Chosen option: "Use subfolders with local ids"
 
-## Pros and Cons of the Options 
+## Pros and Cons of the Options
 
 ### Use labels
 

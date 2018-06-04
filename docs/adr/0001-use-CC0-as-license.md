@@ -6,13 +6,11 @@ For more information see <https://help.github.com/articles/licensing-a-repositor
 
 We want to have MADR used without any hassle and that users can just go ahead and write MADRs.
 
-
 ## Considered Options
 
 * [CC0](https://creativecommons.org/share-your-work/public-domain/cc0/)
 * No license
 * Other open source licenses
-
 
 ## Decision Outcome
 
