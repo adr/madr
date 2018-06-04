@@ -11,7 +11,8 @@ ADRs have to take a unique identifier.
 ## Decision Outcome
 
 Chosen option: Use the title only, because
-- This is common in other markdown files, too.
+
+* This is common in other markdown files, too.
   One does not add numbering manually at the markdown files, but tries to get the numbers injected by the rendering framework or CSS.
-- Enables renaming of ADRs (before publication) easily
-- Allows copy'n'paste of ADRs from other repositories without having to worry about the numbers.
+* Enables renaming of ADRs (before publication) easily
+* Allows copy'n'paste of ADRs from other repositories without having to worry about the numbers.

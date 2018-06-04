@@ -1,17 +1,17 @@
 # Support categories
 
-# Context and Problem Statement
+## Context and Problem Statement
 
 ADRs are recorded. The number of ADRs grows and the context/topic/scope of ADRs might be different (e.g., frontend, backend)
 
 ## Decision Drivers
 
-- Easy to find groups ADRs in hundreds of ADRs
-- Easy to group
-- Easy to create
-- Good finding without external tooling
-- Keep newcomers in mind (should be doable in <10 minutes)
-- Keep template lean
+* Easy to find groups ADRs in hundreds of ADRs
+* Easy to group
+* Easy to create
+* Good finding without external tooling
+* Keep newcomers in mind (should be doable in <10 minutes)
+* Keep template lean
 
 ## Considered Options
 
@@ -53,7 +53,7 @@ Use Angular ![category-frontend](https://img.shields.io/badge/category-frontend-
 
 Example:
 
-```
+```yaml
 ---
 category: frontend
 ---
@@ -68,10 +68,10 @@ category: frontend
 
 Example: `0050--frontend--title-with-dashes.md`
 
-- Good, because programmatic filtering is possible
-- Good, because `ls -la | grep --category--` works
-- Bad, because plain file list in Windows explorer cannot be filtered
-- Bad, because as bad as [TagSpaces](https://www.tagspaces.org/), which stores the tags in the filenames in brackets. E.g., `demo[demotag secondtag].md`.
+* Good, because programmatic filtering is possible
+* Good, because `ls -la | grep --category--` works
+* Bad, because plain file list in Windows explorer cannot be filtered
+* Bad, because as bad as [TagSpaces](https://www.tagspaces.org/), which stores the tags in the filenames in brackets. E.g., `demo[demotag secondtag].md`.
 
 ### Use subfolders with local ids
 
@@ -79,25 +79,24 @@ Optionally "to-be-categorized" folder.
 
 One level of subfolder, not nested
 
-Examples:
+#### Examples
 
-- `docs/adr/smar/0000-secure-entities.md`
-- `docs/adr/smar/0001-flexible-properties-selection.md`
+* `docs/adr/smar/0000-secure-entities.md`
+* `docs/adr/smar/0001-flexible-properties-selection.md`
 
-Pros/cons:
+#### Pros/cons
 
-- Good, because grouping is done by folders (which are natural for grouping)
-- Good, because typos can easily be spotted
-- Bad, because there is no unique number identifying an ADR 
-- Bad, because two indices have to be maintained (adr-log needs to be updated)
-- Bad, because e-adr needs to be adapted to `@ADR("category", number)` (not that bad)
-- Bad, because when category is unknown it is hard to find the right folder
-- Bad, because using categories might be hampering newcomers
-
+* Good, because grouping is done by folders (which are natural for grouping)
+* Good, because typos can easily be spotted
+* Bad, because there is no unique number identifying an ADR
+* Bad, because two indices have to be maintained (adr-log needs to be updated)
+* Bad, because e-adr needs to be adapted to `@ADR("category", number)` (not that bad)
+* Bad, because when category is unknown it is hard to find the right folder
+* Bad, because using categories might be hampering newcomers
 
 ### Use subfolders with global ids
 
-Example:
+#### Examples
 
-- `docs/adr/smar/0005-secure-entities.md`
-- `docs/adr/smar/0047-flexible-properties-selection.md`
+* `docs/adr/smar/0005-secure-entities.md`
+* `docs/adr/smar/0047-flexible-properties-selection.md`

@@ -18,21 +18,21 @@ Chosen option: "Use heading together with a bullet list at the end", because com
 
 ### Use tables
 
-- Good, because easy to write
-- Good, because history is shown (enabled by concept)
-- Good, because current adr-tools support (https://github.com/npryce/adr-tools/pull/43) uses tables to describe links.
-- Bad, because not supported by the CommonMark spec
-- Bad, because unclear whether a link was superseeded by another one
-- Bad, because valid links not clear at first sight (there might be outdated links shown)
+* Good, because easy to write
+* Good, because history is shown (enabled by concept)
+* Good, because current adr-tools support (https://github.com/npryce/adr-tools/pull/43) uses tables to describe links.
+* Bad, because not supported by the CommonMark spec
+* Bad, because unclear whether a link was superseeded by another one
+* Bad, because valid links not clear at first sight (there might be outdated links shown)
 
 ### Use heading together with a bullet list directly after status
 
-Example: 
+Example:
 ![grafik](https://user-images.githubusercontent.com/1366654/36787434-6a63e318-1c8a-11e8-8824-4dd7b3d0f2c6.png)
 
-- Good, because easy to write
-- Good, because supported by the CommonMark spec
-- Bad, because not consistent with the status label (refs https://github.com/adr/madr/issues/2)
+* Good, because easy to write
+* Good, because supported by the CommonMark spec
+* Bad, because not consistent with the status label (refs https://github.com/adr/madr/issues/2)
 
 ### Use heading together with a bullet list directly after "Decision Outcome"
 

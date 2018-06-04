@@ -18,16 +18,15 @@ ADRs have a status. Should this be tracked? And if it should, how should we trac
 
 Chosen option: "Use text line", because [justification. e.g., only option, which meets k.o. criterion decision driver | which resolves force force | ... | comes out best (see below)].
 
-
-## Pros and Cons of the Options 
+## Pros and Cons of the Options
 
 ### Use badge
 
-Examples:
-*  ![grafik](https://user-images.githubusercontent.com/1366654/36786999-ca368324-1c88-11e8-966d-56f25980fd76.png) 
-*  [![status-superseeded](https://img.shields.io/badge/status-superseeded_by_ADR_0001-orange.svg?style=flat-square)](https://github.com/adr/madr/blob/master/docs/adr/0001-use-CC0-as-license.md)
+#### Examples
+* ![grafik](https://user-images.githubusercontent.com/1366654/36786999-ca368324-1c88-11e8-966d-56f25980fd76.png)
+* [![status-superseeded](https://img.shields.io/badge/status-superseeded_by_ADR_0001-orange.svg?style=flat-square)](https://github.com/adr/madr/blob/master/docs/adr/0001-use-CC0-as-license.md)
 
-Pros/cons:
+#### Pros/cons
 
 * Good, because plain markdown
 * Good, because looks good
