@@ -197,6 +197,7 @@ See <https://github.com/npryce/adr-tools/pull/43> for the current status of inte
 **Releasing a new version:**
 
 1. Update `CHANGELOG.md`.
+1. Update `README.md` with the new template and the example.
 1. Adapt the version reference in `template/0000-use-markdown-architectural-decision-records.md`.
 1. Copy `template/0000-use-markdown-architectural-decision-records.md` to `docs/adr/0000-use-markdown-architectural-decision-records.md`.
 1. Update `package.json`, publish to [npmjs](https://www.npmjs.com/package/madr), create GitHub release.  
