@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## [Unreleased]
+## [2.1.0] – 2018-06-14
 
 ### Changed
 
@@ -16,26 +16,26 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 - Added ADR-0011 stating that we use an asterisk as list marker
 
-## [2.0.3] - 2018-03-21
+## [2.0.3] – 2018-03-21
 
 ## Fixed
 
 - Fix reference to MADR version in ADR-0000 and README.md
 
-## [2.0.2] - 2018-03-16
+## [2.0.2] – 2018-03-16
 
 ### Changed
 
 - Streamlined template's ADR-0000.
 - Streamlined template by using ellipsis and removing double empty lines.
 
-## [2.0.1] - 2018-03-07
+## [2.0.1] – 2018-03-07
 
 ### Fixed
 
 - State MADR 2.0.1 also in template's ADR-0000.
 
-## [2.0.0] - 2018-03-07
+## [2.0.0] – 2018-03-07
 
 ### Added
 
@@ -50,7 +50,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - The chosen option is now written in quotes to separate the name from the rest of the text
 - All bullet lists are now made using `*` (instead of `-` at some lists)
 
-## [1.4.0] - 2018-03-01
+## [1.4.0] – 2018-03-01
 
 ### Added
 
@@ -120,7 +120,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 First release of Markdown Architectural Decision Records.
 
-[Unreleased]: https://github.com/adr/madr/compare/2.0.3...master
+[Unreleased]: https://github.com/adr/madr/compare/2.1.0...master
+[2.1.0]: https://github.com/adr/madr/compare/2.0.3...2.1.0
 [2.0.3]: https://github.com/adr/madr/compare/2.0.2...2.0.3
 [2.0.2]: https://github.com/adr/madr/compare/2.0.1...2.0.2
 [2.0.1]: https://github.com/adr/madr/compare/2.0.0...2.0.1
