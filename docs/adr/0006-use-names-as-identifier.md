@@ -4,7 +4,7 @@
 
 An option is listed at "Considered Options" and repeated at "Pros and Cons of the Options". Finally, the chosen option is stated at "Decision Outcome".
 
-## Decision Drivers <!-- optional -->
+## Decision Drivers
 
 * Easy to read
 * Easy to write

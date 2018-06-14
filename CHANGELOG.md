@@ -9,7 +9,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Changed
 
-- Positive and negative consequences are a full h3 heading now.
+- Headings "Positive/negative consequences" now full h3 headings instead of text headings
+- Adapted internal ADRs to new format
+
+### Added
+
+- Added ADR-0011 stating that we use an asterisk as list marker
 
 ## [2.0.3] - 2018-03-21
 

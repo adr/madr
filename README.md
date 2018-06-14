@@ -27,6 +27,7 @@ The decisions are placed in the folder `docs/adr` to
 2) Separate the architectural decisions from other documentation.
 
 The filenames are following the pattern `NNNN-title-with-dashes.md` ([ADR-0005](docs/adr/0005-use-dashes-in-filenames.md)), where
+
 - `NNNN` is a consecutive number and we assume that there won't be more than 1000 ADRs in one repository.
 - the title is stored using dashes and lowercase, because [adr-tools] also does that.
 - the suffix is `.md`, because it is a [Markdown](https://github.github.com/gfm/) file.
@@ -168,7 +169,7 @@ Copy all files in `template` from the MADR project to the folder `docs/adr` in y
 For instance, using `npm`, this can be done using the following command:
 
 ```sh
-$ npm install madr && mkdir -p docs/adr && cp node_modules/madr/template/* docs/adr/
+npm install madr && mkdir -p docs/adr && cp node_modules/madr/template/* docs/adr/
 ```
 
 ### Create a new ADR
@@ -198,7 +199,7 @@ See <https://github.com/npryce/adr-tools/pull/43> for the current status of inte
 1. Update `CHANGELOG.md`.
 1. Adapt the version reference in `template/0000-use-markdown-architectural-decision-records.md`.
 1. Copy `template/0000-use-markdown-architectural-decision-records.md` to `docs/adr/0000-use-markdown-architectural-decision-records.md`.
-1. Update `package.json`, publish to [npmjs](https://www.npmjs.com/package/madr), create GitHub release.<br>
+1. Update `package.json`, publish to [npmjs](https://www.npmjs.com/package/madr), create GitHub release.  
    Use [release-it](https://www.npmjs.com/package/release-it) (do not create a release on GitHub) and [github-release-from-changelog](https://www.npmjs.com/package/github-release-from-changelog).
 
 ## License

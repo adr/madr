@@ -1,6 +1,6 @@
 # Add status field
 
-Technical Story: https://github.com/adr/madr/issues/2
+Technical Story: <https://github.com/adr/madr/issues/2>
 
 ## Context and Problem Statement
 
@@ -23,6 +23,7 @@ Chosen option: "Use text line", because [justification. e.g., only option, which
 ### Use badge
 
 #### Examples
+
 * ![grafik](https://user-images.githubusercontent.com/1366654/36786999-ca368324-1c88-11e8-966d-56f25980fd76.png)
 * [![status-superseeded](https://img.shields.io/badge/status-superseeded_by_ADR_0001-orange.svg?style=flat-square)](https://github.com/adr/madr/blob/master/docs/adr/0001-use-CC0-as-license.md)
 

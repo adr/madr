@@ -4,7 +4,7 @@
 
 MADR contains lines such as `Chosen option: "[option 1]"`. Should "Chosen option" be emphasised?
 
-## Decision Drivers <!-- optional -->
+## Decision Drivers
 
 * MADR should be easy to read
 * MADR should be easy to write
