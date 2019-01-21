@@ -18,7 +18,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [2.0.3] – 2018-03-21
 
-## Fixed
+### Fixed
 
 - Fix reference to MADR version in ADR-0000 and README.md
 
