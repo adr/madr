@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [Unreleased]
+
+### Fixed
+
+- Fix typo in heading. Fixes [#18](https://github.com/adr/madr/issues/18)
+
 ## [2.1.0] – 2018-06-14
 
 ### Changed
