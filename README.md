@@ -28,7 +28,7 @@ The decisions are placed in the folder `docs/adr` to
 
 The filenames are following the pattern `NNNN-title-with-dashes.md` ([ADR-0005](docs/adr/0005-use-dashes-in-filenames.md)), where
 
-- `NNNN` is a consecutive number and we assume that there won't be more than 10,000 ADRs in one repository.
+- `NNNN` is a consecutive number and we assume that there won't be more than 9,999 ADRs in one repository.
 - the title is stored using dashes and lowercase, because [adr-tools] also does that.
 - the suffix is `.md`, because it is a [Markdown](https://github.github.com/gfm/) file.
 
