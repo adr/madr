@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+### Added
+
+- Add more status fields. Source: [#20](https://github.com/adr/madr/pull/20).
+
 ## [2.1.1] – 2019-01-21
 
 ### Fixed
