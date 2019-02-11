@@ -32,7 +32,7 @@ Chosen option: "[option 1]", because [justification. e.g., only option, which me
 * [e.g., improvement of quality attribute satisfaction, follow-up decisions required, …]
 * …
 
-### Negative consequences <!-- optional -->
+### Negative Consequences <!-- optional -->
 
 * [e.g., compromising quality attribute, follow-up decisions required, …]
 * …
