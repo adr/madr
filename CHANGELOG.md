@@ -11,6 +11,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 - Add more status fields. Source: [#20](https://github.com/adr/madr/pull/20).
 
+### Fixed
+
+- Fixed typos in `README.md`.
+
 ## [2.1.1] – 2019-01-21
 
 ### Fixed
