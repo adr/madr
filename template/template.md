@@ -1,14 +1,14 @@
-# [short title of solved problem and solution]
+# Agent Reporting and Viewing
 
-* Status: [proposed | rejected | accepted | deprecated | … | superseded by [ADR-0005](0005-example.md)] <!-- optional -->
-* Deciders: [list everyone involved in the decision] <!-- optional -->
-* Date: [YYYY-MM-DD when the decision was last updated] <!-- optional -->
+* Status: proposed
+* Deciders: 
+* Date: 2019-11-15
 
-Technical Story: [description | ticket/issue URL] <!-- optional -->
+Technical Story: https://jira.redventures.net/browse/FLEX-302
 
 ## Context and Problem Statement
 
-[Describe the context and problem statement, e.g., in free form using two to three sentences. You may want to articulate the problem in form of a question.]
+Twilio provides valuable tools for collection and analysis of agent metrics.  Unfortunately, most of those are locked behind admin permissions through Flex and Ytica.  How can we allow anyone, project owners, performance coaches, and sales professionals, to be able to see their relevant analytics?
 
 ## Decision Drivers <!-- optional -->
 
@@ -18,10 +18,43 @@ Technical Story: [description | ticket/issue URL] <!-- optional -->
 
 ## Considered Options
 
-* [option 1]
-* [option 2]
-* [option 3]
-* … <!-- numbers of options can vary -->
+* Extract Data through Flex Insights
+* Work with Twilio to Add Permissions
+* Scrub Page and Grab IFrame Elements
+
+## Pros and Cons of the Options
+
+### Extract Data through Flex Insights
+
+Extract data in a csv through Flex Insights, then display the data using Chart.js.
+
+* + Enactable now without giving more permissions/access
+* + Maintains the same reports and display information
+* + Allows us flexibility in displaying data
+* 0 Uses chart.js, which looks a little different
+* - More manual process; have to setup each chart
+
+### Work with Twilio to Add Permissions
+
+Collaborate with Twilio to add more nuanced permissions to individual reports.
+
+* + Allows for using Twilio's generated reports
+* + Twilio is moving toward more granular permissions
+* + Allows us flexibility in displaying data
+* - Not available to us for at least several months
+
+### Scrub Page and Grab IFrame Elements
+
+Use an AWS service or Lamdba to access the iframe that Twilio builds containing the report, grab the HTML elements displaying the chart, and make the iframe visible through the service's endpoint.
+
+*  + Allows for exact same look and feel
+* - Time-consuming to construct scrubber
+* - Requires an additional ECS/Lamdba
+* - Very rigid and subject to breakage on changes
+* - Passes through login credentials in some form
+
+
+
 
 ## Decision Outcome
 
@@ -36,37 +69,3 @@ Chosen option: "[option 1]", because [justification. e.g., only option, which me
 
 * [e.g., compromising quality attribute, follow-up decisions required, …]
 * …
-
-## Pros and Cons of the Options <!-- optional -->
-
-### [option 1]
-
-[example | description | pointer to more information | …] <!-- optional -->
-
-* Good, because [argument a]
-* Good, because [argument b]
-* Bad, because [argument c]
-* … <!-- numbers of pros and cons can vary -->
-
-### [option 2]
-
-[example | description | pointer to more information | …] <!-- optional -->
-
-* Good, because [argument a]
-* Good, because [argument b]
-* Bad, because [argument c]
-* … <!-- numbers of pros and cons can vary -->
-
-### [option 3]
-
-[example | description | pointer to more information | …] <!-- optional -->
-
-* Good, because [argument a]
-* Good, because [argument b]
-* Bad, because [argument c]
-* … <!-- numbers of pros and cons can vary -->
-
-## Links <!-- optional -->
-
-* [Link type] [Link to ADR] <!-- example: Refined by [ADR-0005](0005-example.md) -->
-* … <!-- numbers of links can vary -->
