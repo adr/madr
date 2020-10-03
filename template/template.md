@@ -70,3 +70,5 @@ Chosen option: "[option 1]", because [justification. e.g., only option, which me
 
 * [Link type] [Link to ADR] <!-- example: Refined by [ADR-0005](0005-example.md) -->
 * … <!-- numbers of links can vary -->
+
+<!-- markdownlint-disable-file MD013 -->

@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+### Added
+
+- Disable [markdown-lint](https://github.com/DavidAnson/markdownlint)'s [MD013 - line length](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md013---line-length) for the ADR files.
+
 ## [2.1.2] – 2019-02-17
 
 ### Added
@@ -153,3 +157,5 @@ First release of Markdown Architectural Decision Records.
 [1.1.1]: https://github.com/adr/madr/compare/1.1.0...1.1.1
 [1.1.0]: https://github.com/adr/madr/compare/1.0.0...1.1.0
 [1.0.0]: https://github.com/adr/madr/releases/tag/1.0.0
+
+<!-- markdownlint-disable-file MD013 MD024 -->
