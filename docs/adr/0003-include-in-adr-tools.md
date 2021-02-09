@@ -1,4 +1,4 @@
-# Inlucde in adr-tools
+# Include in adr-tools
 
 Developers seem to like tooling to create ADRs.
 That tooling should support MADR.
