@@ -16,7 +16,7 @@ ADRs have a status. Should this be tracked? And if it should, how should we trac
 
 ## Decision Outcome
 
-Chosen option: "Use text line", because [justification. e.g., only option, which meets k.o. criterion decision driver | which resolves force force | ... | comes out best (see below)].
+Chosen option: "Use text line", because [justification. e.g., only option, which meets k.o. criterion decision driver | which resolves force | ... | comes out best (see below)].
 
 ## Pros and Cons of the Options
 
