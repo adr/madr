@@ -25,14 +25,14 @@ Chosen option: "Use text line", because [justification. e.g., only option, which
 #### Examples
 
 * ![grafik](https://user-images.githubusercontent.com/1366654/36786999-ca368324-1c88-11e8-966d-56f25980fd76.png)
-* [![status-superseeded](https://img.shields.io/badge/status-superseeded_by_ADR_0001-orange.svg?style=flat-square)](https://github.com/adr/madr/blob/master/docs/adr/0001-use-CC0-as-license.md)
+* [![status-superseeded](https://img.shields.io/badge/status-superseeded_by_ADR_0001-orange.svg?style=flat-square)](https://github.com/adr/madr/blob/main/docs/decisions/0001-use-CC0-as-license.md)
 
 #### Pros/cons
 
 * Good, because plain markdown
 * Good, because looks good
 * Bad, because hard to read in markdown source
-* Bad, because relies on the online service https://shields.io or [local badges have to be generated](https://github.com/badges/shields#using-the-badge-library)
+* Bad, because relies on the online service <https://shields.io> or [local badges have to be generated](https://github.com/badges/shields#using-the-badge-library)
 * Bad, because at local usages, many badges have to be generated (superseeded-by-ADR-0006, for each ADR number)
 * Bad, because not easy to write
 
