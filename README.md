@@ -25,12 +25,13 @@ b) to version the decisions.
 This repository offers a solution to record architectural decisions.
 It provides files to document Architectural Decisions using **M**arkdown and **A**rchitectural **D**ecision **R**ecords.
 
-The decisions are placed in the folder `docs/adr` to
+Since MADR 3.0.0, the decisions are placed in the folder `docs/decisions` to
+
 1) Enable [GitHub pages](https://pages.github.com/) to render it using the web.
    See <https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/> for more information.
 2) Separate the architectural decisions from other documentation.
 
-The filenames are following the pattern `NNNN-title-with-dashes.md` ([ADR-0005](docs/adr/0005-use-dashes-in-filenames.md)), where
+The filenames are following the pattern `NNNN-title-with-dashes.md` ([ADR-0005](docs/decisions/0005-use-dashes-in-filenames.md)), where
 
 - `NNNN` is a consecutive number and we assume that there won't be more than 9,999 ADRs in one repository.
 - the title is stored using dashes and lowercase, because [adr-tools] also does that.
@@ -162,19 +163,19 @@ Chosen option: "MADR 2.1.0", because
 
 The example is rendered at [template/0000-use-markdown-architectural-decision-records.md](template/0000-use-markdown-architectural-decision-records.md)
 
-For the MADR project itself, all ADRs exist at [docs/adr/](docs/adr/).
+For the MADR project itself, all ADRs exist at [docs/decisions/](docs/decisions/).
 
 ## Apply it to your project
 
 ### Initialization
 
-Create folder `docs/adr` in your project.
-Copy all files in `template` from the MADR project to the folder `docs/adr` in your project.
+Create folder `docs/decisions` in your project.
+Copy all files in `template` from the MADR project to the folder `docs/decisions` in your project.
 
 For instance, using `npm`, this can be done using the following command:
 
 ```sh
-npm install madr && mkdir -p docs/adr && cp node_modules/madr/template/* docs/adr/
+npm install madr && mkdir -p docs/decisions && cp node_modules/madr/template/* docs/decisions/
 ```
 
 ### Create a new ADR
@@ -204,7 +205,7 @@ See <https://github.com/npryce/adr-tools/pull/43> for the current status of inte
 1. Update `CHANGELOG.md`.
 1. Update `README.md` with the new template and the example.
 1. Adapt the version reference in `template/0000-use-markdown-architectural-decision-records.md`.
-1. Copy `template/0000-use-markdown-architectural-decision-records.md` to `docs/adr/0000-use-markdown-architectural-decision-records.md`.
+1. Copy `template/0000-use-markdown-architectural-decision-records.md` to `docs/decisions/0000-use-markdown-architectural-decision-records.md`.
 1. Update `package.json`, publish to [npmjs](https://www.npmjs.com/package/madr), create GitHub release.  
    Use [release-it](https://www.npmjs.com/package/release-it) (do not create a release on GitHub) and [github-release-from-changelog](https://www.npmjs.com/package/github-release-from-changelog).
 

@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Changed
 
 - Place holders for values are denoted by curly braces (`{placehodler}`). Before it was `[placeholder]`. [#35](https://github.com/adr/madr/issues/35)
+- Directory of ADRs changed from `docs/adr` to `docs/decisions`. [#33](https://github.com/adr/madr/issues/33)
 
 ## [2.1.2] – 2019-02-17
 

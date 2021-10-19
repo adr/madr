@@ -81,8 +81,8 @@ One level of subfolder, not nested
 
 #### Examples
 
-* `docs/adr/smar/0000-secure-entities.md`
-* `docs/adr/smar/0001-flexible-properties-selection.md`
+* `docs/decisions/smar/0000-secure-entities.md`
+* `docs/decisions/smar/0001-flexible-properties-selection.md`
 
 #### Pros/cons
 
@@ -98,5 +98,5 @@ One level of subfolder, not nested
 
 #### Examples
 
-* `docs/adr/smar/0005-secure-entities.md`
-* `docs/adr/smar/0047-flexible-properties-selection.md`
+* `docs/decisions/smar/0005-secure-entities.md`
+* `docs/decisions/smar/0047-flexible-properties-selection.md`
