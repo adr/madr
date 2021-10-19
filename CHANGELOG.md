@@ -11,6 +11,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 - Disable [markdown-lint](https://github.com/DavidAnson/markdownlint)'s [MD013 - line length](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md013---line-length) for the ADR files.
 
+### Changed
+
+- Place holders for values are denoted by curly braces (`{placehodler}`). Before it was `[placeholder]`. [#35](https://github.com/adr/madr/issues/35)
+
 ## [2.1.2] – 2019-02-17
 
 ### Added
