@@ -128,7 +128,7 @@ Chosen option: "{option 1}", because {justification. e.g., only option, which me
 * … <!-- numbers of links can vary -->
 ```
 
-The template is available at [template/template.md](https://github.com/adr/madr/blob/main/template/template.md).
+The template is available at [template/adr-template.md](https://github.com/adr/madr/blob/main/template/adr-template.md).
 
 ## Example
 
@@ -182,7 +182,7 @@ npm install madr && mkdir -p docs/decisions && cp node_modules/madr/template/* d
 
 Manual approach:
 
-1. Copy `template.md` to `NNNN-title-with-dashes.md`, where `NNNN` indicates the next number in sequence.
+1. Copy `adr-template.md` to `NNNN-title-with-dashes.md`, where `NNNN` indicates the next number in sequence.
 2. Edit `NNNN-title-with-dashes.md`.
 3. Update `index.md`, e.g., by executing `adr-log -d .`
    You can get [adr-log](https://github.com/adr/adr-log) by executing `npm install -g adr-log`.
