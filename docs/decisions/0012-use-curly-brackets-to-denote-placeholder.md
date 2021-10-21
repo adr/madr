@@ -9,6 +9,7 @@ How to mark the place holders?
 
 * Use curly braces
 * Use square brackets
+* Use less-than and greater-than
 
 ## Decision Outcome
 
@@ -29,3 +30,12 @@ Example: `[option 1]`.
 
 * Good, because used in MADR 1.x and MADR 2.x
 * Bad, because confusion with markdown notation for links
+
+### Use less-than and greater-than
+
+Example: `<option 1>`
+
+Idea taken from <https://github.com/schubmat/DecisionCapture/blob/master/templates/captureTemplate_full.md>
+
+* Good, because kept in markdown as is
+* Bad, because could be mixed up with an HTML element
