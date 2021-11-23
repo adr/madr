@@ -69,7 +69,8 @@ Chosen option: "{option 1}", because {justification. e.g., only option, which me
 
 {You might want to provide additional evidence/confidence for the decision outcome here and/or
  document the team agreement on the decision and/or
- define when this decision when and how the decision should be realized and if/when it should be re-visited.
+ define when this decision when and how the decision should be realized and if/when it should be re-visited and/or
+ how the decision is validated (e.g., archunit tests).
  Links to other decisions and resources might here appear as well.}
 
 <!-- markdownlint-disable-file MD013 -->
