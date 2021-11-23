@@ -6,7 +6,8 @@
 
 ## Context and Problem Statement
 
-{Describe the context and problem statement, technical story, e.g., in free form using two to three sentences. You may want to articulate the problem in form of a question and add links to tickets or issues.}
+{Describe the context and problem statement, technical story, e.g., in free form using two to three sentences.
+ You may want to articulate the problem in form of a question and add links to tickets or issues.}
 
 ## Decision Drivers <!-- This is an optional element. Feel free to remove. -->
 
@@ -64,9 +65,11 @@ Chosen option: "{option 1}", because {justification. e.g., only option, which me
 * Bad, because {argument c}
 * … <!-- numbers of pros and cons can vary -->
 
-## Links <!-- This is an optional element. Feel free to remove. -->
+## More information <!-- This is an optional element. Feel free to remove. -->
 
-* {Link type} {Link to ADR} <!-- example: Refined by [ADR-0005](0005-example.md) -->
-* … <!-- numbers of links can vary -->
+{You might want to provide additional evidence/confidence for the decision outcome here and/or
+ document the team agreement on the decision and/or
+ define when this decision when and how the decision should be realized and if/when it should be re-visited.
+ Links to other decisions and resources might here appear as well.}
 
 <!-- markdownlint-disable-file MD013 -->
