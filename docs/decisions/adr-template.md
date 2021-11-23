@@ -6,13 +6,13 @@
 
 ## Context and Problem Statement
 
-{Describe the context and problem statement, technical story, e.g., in free form using two to three sentences.
- You may want to articulate the problem in form of a question and add links to tickets or issues.}
+{Describe the context and problem statement, e.g., in free form using two to three sentences or in the form of an illustrative story.
+ You may want to articulate the problem in form of a question and add links to collaboration boards or issue management systems.}
 
 ## Decision Drivers <!-- This is an optional element. Feel free to remove. -->
 
-* {driver 1, e.g., a force, facing concern, …}
-* {driver 2, e.g., a force, facing concern, …}
+* {decision driver 1, e.g., a force, facing concern, …}
+* {decision driver 2, e.g., a force, facing concern, …}
 * … <!-- numbers of drivers can vary -->
 
 ## Considered Options
@@ -28,12 +28,12 @@ Chosen option: "{option 1}", because {justification. e.g., only option, which me
 
 ### Positive Consequences <!-- This is an optional element. Feel free to remove. -->
 
-* {e.g., improvement of quality attribute satisfaction, follow-up decisions required, …}
+* {e.g., improvement of one or more desired qualities, …}
 * …
 
 ### Negative Consequences <!-- This is an optional element. Feel free to remove. -->
 
-* {e.g., compromising quality attribute, follow-up decisions required, …}
+* {e.g., compromising one or more desired qualities, …}
 * …
 
 ## Pros and Cons of the Options <!-- This is an optional element. Feel free to remove. -->
@@ -70,7 +70,7 @@ Chosen option: "{option 1}", because {justification. e.g., only option, which me
 {You might want to provide additional evidence/confidence for the decision outcome here and/or
  document the team agreement on the decision and/or
  define when this decision when and how the decision should be realized and if/when it should be re-visited and/or
- how the decision is validated (e.g., archunit tests).
+ how the decision is validated.
  Links to other decisions and resources might here appear as well.}
 
 <!-- markdownlint-disable-file MD013 -->
