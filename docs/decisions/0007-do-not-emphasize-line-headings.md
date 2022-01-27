@@ -12,7 +12,7 @@ MADR contains lines such as `Chosen option: "[option 1]"`. Should "Chosen option
 ## Considered Options
 
 * Do not emphasize line headings
-* Emphysize line headings
+* Emphasize line headings
 
 ## Decision Outcome
 
