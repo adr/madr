@@ -42,7 +42,7 @@ Use Angular ![category-frontend](https://img.shields.io/badge/category-frontend-
 * Bad, because not straight-forward to parse
 * Bad, because no simple filtering using `ls` or Windows Explorer is possible
 
-### Add `* Category: CATEGORY` directly under the heading 
+### Add `* Category: CATEGORY` directly under the heading
 
 * Good, because full markdown
 * Good, because linking to an overview page is possible (using markdown)
