@@ -1,0 +1,5 @@
+default: true
+
+# The FAQs state questions - we allow them
+MD026:
+  punctuation: ".,;:!"
