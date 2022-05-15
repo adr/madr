@@ -102,16 +102,17 @@ npm install madr && mkdir -p docs/decisions && cp node_modules/madr/template/* d
 
 ### Create a new ADR
 
-Manual approach:
+#### Manual approach
 
 1. Copy `adr-template.md` to `NNNN-title-with-dashes.md`, where `NNNN` indicates the next number in sequence.
 2. Edit `NNNN-title-with-dashes.md`.
 3. Update `index.md`, e.g., by executing `adr-log -d .`
    You can get [adr-log](https://github.com/adr/adr-log) by executing `npm install -g adr-log`.
 
-Note you can also use [other patterns for the directory format](https://github.com/joelparkerhenderson/architecture_decision_record#adr-file-name-conventions), but then the tools cannot be applied.
+Note you can also use [other patterns for the directory format](https://github.com/joelparkerhenderson/architecture_decision_record#adr-file-name-conventions).
+As a consequence, some existing tooling might not be applicable.
 
-Automatic approach:
+#### Automatic approach
 
 There is currently no tooling supporting MADR 3.0.0.
 
