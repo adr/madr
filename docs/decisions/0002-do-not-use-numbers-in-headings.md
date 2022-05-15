@@ -1,3 +1,7 @@
+---
+parent: Decisions
+nav_order: 2
+---
 # Do not use numbers in headings
 
 How to render the first line in an ADR?

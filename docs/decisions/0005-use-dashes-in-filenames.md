@@ -1,3 +1,7 @@
+---
+parent: Decisions
+nav_order: 5
+---
 # Use dashes in filenames
 
 What is the pattern of the filename where an ADR is stored?

@@ -1,8 +1,9 @@
-# Architectural Decision Log
+---
+has_children: true
+---
+# Decisions
 
-This log lists the architectural decisions for MADR.
-
-<!-- adrlog -- Regenerate the content by using "adr-log -i". You can install it via "npm install -g adr-log" -->
+This lists the architectural decisions for MADR.
 
 - [ADR-0000](0000-use-markdown-architectural-decision-records.md) - Use Markdown Architectural Decision Records
 - [ADR-0001](0001-use-CC0-as-license.md) - Use CC0 as license
@@ -17,8 +18,6 @@ This log lists the architectural decisions for MADR.
 - [ADR-0010](0010-support-categories.md) - Support categories
 - [ADR-0011](0011-use-asterisk-as-list-marker.md) - Use asterisk as list marker
 - [ADR-0012](0012-use-curly-brackets-to-denote-placeholder.md) - Use curly brackets to denote placeholders
-
-<!-- adrlogstop -->
 
 For new ADRs, please use [adr-template.md](adr-template.md) as basis.
 More information on MADR is available at <https://adr.github.io/madr/>.
