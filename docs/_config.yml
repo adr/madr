@@ -28,8 +28,8 @@ gh_edit_view_mode: "edit"
 # ga_tracking: UA-5555555-55
 # ga_tracking_anonymize_ip: true
 
-baseurl: ""
-url: ""
+baseurl: "/madr"
+url: "https://adr.github.io"
 
 plugins:
   - jekyll-remote-theme
