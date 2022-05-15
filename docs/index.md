@@ -27,7 +27,7 @@ nav_order: 1
 
 ## Overview
 
-An [Architectural Decision (AD)](https://en.wikipedia.org/wiki/Architectural_decision) is a software design choice that addresses a functional or non-functional requirement that is architecturally significant. 
+An [Architectural Decision (AD)](https://en.wikipedia.org/wiki/Architectural_decision) is a software design choice that addresses a functional or non-functional requirement that is architecturally significant.
 This might, for instance, be a technology choice (e.g., Java vs. JavaScript), a choice of the IDE (e.g., IntelliJ vs. Eclipse IDE), a choice between a library (e.g., [SLF4J](https://www.slf4j.org/) vs [java.util.logging](https://docs.oracle.com/javase/8/docs/api/java/util/logging/package-summary.html)), or a decision on features (e.g., infinite undo vs. limited undo).
 Do not take the term "architecture" too seriously or interpret it too strongly.
 As the examples illustrate, any decisions that might have an impact on the architecture somehow are architectural decisions.
@@ -50,87 +50,6 @@ The filenames are following the pattern `NNNN-title-with-dashes.md` ([ADR-0005](
 - `NNNN` is a consecutive number and we assume that there won't be more than 9,999 ADRs in one repository.
 - the title is stored using dashes and lowercase, because [adr-tools] also does that.
 - the suffix is `.md`, because it is a [Markdown](https://github.github.com/gfm/) file.
-
-## The Template
-
-The template reads as follows:
-
-```markdown
-# {short title of solved problem and solution}
-
-* Status: {proposed | rejected | accepted | deprecated | … | superseded by [ADR-0005](0005-example.md)} <!-- optional -->
-* Deciders: {list everyone involved in the decision} <!-- optional -->
-* Date: {YYYY-MM-DD when the decision was last updated} <!-- optional -->
-
-Technical Story: {description | ticket/issue URL} <!-- optional -->
-
-## Context and Problem Statement
-
-{Describe the context and problem statement, e.g., in free form using two to three sentences. You may want to articulate the problem in form of a question.}
-
-## Decision Drivers <!-- optional -->
-
-* {driver 1, e.g., a force, facing concern, …}
-* {driver 2, e.g., a force, facing concern, …}
-* … <!-- numbers of drivers can vary -->
-
-## Considered Options
-
-* {option 1}
-* {option 2}
-* {option 3}
-* … <!-- numbers of options can vary -->
-
-## Decision Outcome
-
-Chosen option: "{option 1}", because {justification. e.g., only option, which meets k.o. criterion decision driver | which resolves force {force} | … | comes out best (see below)}.
-
-### Positive Consequences <!-- optional -->
-
-* {e.g., improvement of quality attribute satisfaction, follow-up decisions required, …}
-* …
-
-### Negative Consequences <!-- optional -->
-
-* {e.g., compromising quality attribute, follow-up decisions required, …}
-* …
-
-## Pros and Cons of the Options <!-- optional -->
-
-### {option 1}
-
-{example | description | pointer to more information | …} <!-- optional -->
-
-* Good, because {argument a}
-* Good, because {argument b}
-* Bad, because {argument c}
-* … <!-- numbers of pros and cons can vary -->
-
-### {option 2}
-
-{example | description | pointer to more information | …} <!-- optional -->
-
-* Good, because {argument a}
-* Good, because {argument b}
-* Bad, because {argument c}
-* … <!-- numbers of pros and cons can vary -->
-
-### {option 3}
-
-{example | description | pointer to more information | …} <!-- optional -->
-
-* Good, because {argument a}
-* Good, because {argument b}
-* Bad, because {argument c}
-* … <!-- numbers of pros and cons can vary -->
-
-## Links <!-- optional -->
-
-* {Link type} {Link to ADR} <!-- example: Refined by [ADR-0005](0005-example.md) -->
-* … <!-- numbers of links can vary -->
-```
-
-The template is available at [template/adr-template.md](https://github.com/adr/madr/blob/main/template/adr-template.md).
 
 ## Example
 
@@ -163,7 +82,8 @@ Chosen option: "MADR 2.1.2", because
 * Version 2.1.2 is the latest one available when starting to document ADRs.
 ```
 
-The example is rendered at <decisions/adr-tempalte.md>.
+The example is rendered at <decisions/0000-use-markdown-architectural-decision-records.md>.
+The full template (with placeholders and some guidance how to use) can be found at <decisions/adr-template.md>.
 
 For the MADR project itself, all ADRs exist at [docs/decisions/](https://github.com/adr/madr/tree/main/docs/decisions).
 

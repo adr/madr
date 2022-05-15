@@ -10,13 +10,14 @@ For user documentation, please head to <https://adr.github.io/madr/>.
 * Issues can be reported at <https://github.com/adr/madr/issues>.
 * Use the [Markdown Style Guide](http://www.cirosantilli.com/markdown-style-guide/) space-sentence:1, wrap:sentence, header:atx, list-marker:asterisk, list-space:1, code:fenced
 
-**Releasing a new version:**
+## Releasing a new version
 
 1. Update `CHANGELOG.md`.
-1. Update `README.md` with the new template and the example.
-1. Adapt the version reference in `template/0000-use-markdown-architectural-decision-records.md`.
-1. Copy `template/0000-use-markdown-architectural-decision-records.md` to `docs/decisions/0000-use-markdown-architectural-decision-records.md`.
-1. Update `package.json`, publish to [npmjs](https://www.npmjs.com/package/madr), create GitHub release.  
+2. Update the example at `docs/index.md`.
+3. Update `docs/decisions/*` with the new template
+4. Adapt the version reference in `template/0000-use-markdown-architectural-decision-records.md`.
+5. Copy `template/0000-use-markdown-architectural-decision-records.md` to `docs/decisions/0000-use-markdown-architectural-decision-records.md`.
+6. Update `package.json`, publish to [npmjs](https://www.npmjs.com/package/madr), create GitHub release.\
    Use [release-it](https://www.npmjs.com/package/release-it) (do not create a release on GitHub) and [github-release-from-changelog](https://www.npmjs.com/package/github-release-from-changelog).
 
 ## License
