@@ -24,7 +24,7 @@
   "bugs": {
     "url": "https://github.com/adr/madr/issues"
   },
-  "license": "CC0-1.0",
+  "license": "MIT OR CC0-1.0",
   "files": [
     "template/"
   ]
