@@ -117,4 +117,10 @@ There is currently no tooling supporting MADR 3.0.0.
 
 ## License
 
-License: [CC0](https://creativecommons.org/share-your-work/public-domain/cc0)
+This work is dual-licensed under [MIT](https://opensource.org/licenses/MIT) and
+[CC0](https://creativecommons.org/share-your-work/public-domain/cc0/).
+You can choose between one of them if you use this work.
+
+```yaml
+SPDX-License-Identifier: MIT OR CC0-1.0
+```
