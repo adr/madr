@@ -1,3 +1,7 @@
+---
+parent: Decisions
+nav_order: 1
+---
 # Use CC0 as license
 
 Everything needs to be licensed, otherwise the default copyright laws apply.

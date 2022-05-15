@@ -1,3 +1,7 @@
+---
+parent: Decisions
+nav_order: 7
+---
 # Do not emphasize line headings
 
 ## Context and Problem Statement

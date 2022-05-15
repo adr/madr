@@ -1,3 +1,7 @@
+---
+parent: Decisions
+nav_order: 3
+---
 # Include in adr-tools
 
 Developers seem to like tooling to create ADRs.

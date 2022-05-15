@@ -1,3 +1,7 @@
+---
+parent: Decisions
+nav_order: 10
+---
 # Support categories
 
 ## Context and Problem Statement
