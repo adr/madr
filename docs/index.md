@@ -82,8 +82,8 @@ Chosen option: "MADR 2.1.2", because
 * Version 2.1.2 is the latest one available when starting to document ADRs.
 ```
 
-The example is rendered at <decisions/0000-use-markdown-architectural-decision-records.md>.
-The full template (with placeholders and some guidance how to use) can be found at <decisions/adr-template.md>.
+The example is rendered at [decisions/0000-use-markdown-architectural-decision-records.md](decisions/0000-use-markdown-architectural-decision-records.md).
+The full template (with placeholders and some guidance how to use) can be found at [decisions/adr-template.md](decisions/adr-template.md).
 
 For the MADR project itself, all ADRs exist at [docs/decisions/](https://github.com/adr/madr/tree/main/docs/decisions).
 
