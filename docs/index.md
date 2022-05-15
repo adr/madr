@@ -9,7 +9,6 @@ nav_order: 1
 
 - [News](#news)
 - [Overview](#overview)
-- [The Template](#the-template)
 - [Example](#example)
 - [Apply it to your project](#apply-it-to-your-project)
   - [Initialization](#initialization)
