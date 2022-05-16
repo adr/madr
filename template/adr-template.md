@@ -1,9 +1,10 @@
+---
+# These are an optional element. Feel free to remove any of them.
+Status: {proposed | rejected | accepted | deprecated | … | superseded by [ADR-0005](0005-example.md)}
+Deciders: {list everyone involved in the decision}
+Date: {YYYY-MM-DD when the decision was last updated}
+---
 # {short title of solved problem and solution}
-
-<!-- These are an optional element. Feel free to remove any of them. -->
-* Status: {proposed | rejected | accepted | deprecated | … | superseded by [ADR-0005](0005-example.md)}
-* Deciders: {list everyone involved in the decision}
-* Date: {YYYY-MM-DD when the decision was last updated}
 
 ## Context and Problem Statement
 
