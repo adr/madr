@@ -1,0 +1,10 @@
+default: true
+
+# allow arbitrary line length
+MD013: false
+
+MD024: false
+
+# The FAQs state questions - we allow them
+MD026:
+  punctuation: ".,;:!"
