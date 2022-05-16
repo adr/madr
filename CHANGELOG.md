@@ -168,7 +168,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 First release of Markdown Architectural Decision Records.
 
-[Unreleased]: https://github.com/adr/madr/compare/2.1.2...master
+[Unreleased]: https://github.com/adr/madr/compare/2.1.2...main
 [2.1.2]: https://github.com/adr/madr/compare/2.1.1...2.1.2
 [2.1.1]: https://github.com/adr/madr/compare/2.1.0...2.1.1
 [2.1.0]: https://github.com/adr/madr/compare/2.0.3...2.1.0
