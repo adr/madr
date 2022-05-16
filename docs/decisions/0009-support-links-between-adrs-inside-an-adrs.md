@@ -1,6 +1,6 @@
 # Support links between ADRs inside an ADRs
 
-Technical Story: https://github.com/adr/madr/issues/9
+Technical Story: <https://github.com/adr/madr/issues/9>
 
 ## Considered Options
 
