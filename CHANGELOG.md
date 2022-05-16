@@ -29,6 +29,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Removed
 
 - Removed `Technical Story: {description | ticket/issue URL} <!-- optional -->`, because all description should go into "Context and Problem Statement"
+- Removed files `.adr-dir` and `.adr-type` as tooling should automatically detect the style of the template
 
 ## [2.1.2] – 2019-02-17
 
