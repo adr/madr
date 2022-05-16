@@ -5,6 +5,7 @@ nav_order: 1
 
 > "Markdown Architectural Decision Records" (MADR) `[ˈmæɾɚ]` – architectural decisions that [matter `[ˈmæɾɚ]`](https://en.wiktionary.org/wiki/matter#Pronunciation).
 
+<!-- markdownlint-disable-next-line -->
 **Note that this documentation describes MADR 3.0.0-alpha (not yet released) and might not apply to earlier released versions**
 
 - [News](#news)
