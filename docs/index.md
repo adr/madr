@@ -54,38 +54,28 @@ Since MADR 3.0.0, "Architectural" was replaced by "Any".
 ## Example
 
 ```markdown
-# Use Markdown Any Decision Records
+# Use Plain JUnit5 for advanced test assertions
 
 ## Context and Problem Statement
 
-We want to record any decisions made in this project independent whether decisions concern the architecture ("architectural decision record"), the code, or other fields.
-Which format and structure should these records follow?
+How to write readable test assertions?
+How to write readable test assertions for advanced tests?
 
 ## Considered Options
 
-* [MADR](https://adr.github.io/madr/) 3.0.0 – The Markdown Any Decision Records
-* [Michael Nygard's template](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions) – The first incarnation of the term "ADR"
-* [Sustainable Architectural Decisions](https://www.infoq.com/articles/sustainable-architectural-design-decisions) – The Y-Statements
-* Other templates listed at <https://github.com/joelparkerhenderson/architecture_decision_record>
-* Formless – No conventions for file format and structure
+* Plain JUnit5
+* Hamcrest
+* AssertJ
 
 ## Decision Outcome
 
-Chosen option: "MADR 3.0.0", because
-
-* Implicit assumptions should be made explicit.
-  Design documentation is important to enable people understanding the decisions later on.
-  See also [A rational design process: How and why to fake it](https://doi.org/10.1109/TSE.1986.6312940).
-* MADR allows for structured capturing of any decision.
-* The MADR format is lean and fits our development style.
-* The MADR structure is comprehensible and facilitates usage & maintenance.
-* The MADR project is vivid.
+Chosen option: "Plain JUnit5", because it is a standard framework and the features of the other frameworks do not outweigh the drawbrack of adding a new dependency.
 ```
 
-The example is rendered at [decisions/0000-use-markdown-any-decision-records.md](decisions/0000-use-markdown-any-decision-records.md).
+For more examples see [examples/](examples/)
+For the MADR project itself, all ADRs exist at [docs/decisions/](https://github.com/adr/madr/tree/main/docs/decisions).
 The full template (with placeholders and some guidance how to use) can be found at [decisions/adr-template.md](decisions/adr-template.md).
 
-For the MADR project itself, all ADRs exist at [docs/decisions/](https://github.com/adr/madr/tree/main/docs/decisions).
 
 ## Apply it to your project
 
