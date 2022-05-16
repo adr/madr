@@ -25,6 +25,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Changed `optional` to `This is an optional element. Feel free to remove.` to make it more clear how to work with an optional element.
 - Changed `driver 1` to `decicion driver 1`.
 - Changed `e.g., compromising quality attribute, follow-up decisions required, …` to `e.g., compromising one or more desired qualities, …`
+- Moved the fields to the YAML front matter
 - Renamed `template/index.md` to `template/README.md`, because i) `README.md` is directly rendered on GitHub and ii) for Jekyll-based rendering, the index file has to be adapted (e.g., to show a hint to the doc as MADR does in `docs/decisions/index.md`)
 - Restructured and streamlined documentation
 
