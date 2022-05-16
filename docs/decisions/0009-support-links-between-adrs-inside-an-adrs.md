@@ -20,7 +20,7 @@ Chosen option: "Use heading together with a bullet list at the end", because com
 
 * Good, because easy to write
 * Good, because history is shown (enabled by concept)
-* Good, because current adr-tools support (https://github.com/npryce/adr-tools/pull/43) uses tables to describe links.
+* Good, because [current adr-tools support](https://github.com/npryce/adr-tools/pull/43) uses tables to describe links.
 * Bad, because not supported by the CommonMark spec
 * Bad, because unclear whether a link was superseeded by another one
 * Bad, because valid links not clear at first sight (there might be outdated links shown)
@@ -32,7 +32,7 @@ Example:
 
 * Good, because easy to write
 * Good, because supported by the CommonMark spec
-* Bad, because not consistent with the status label (refs https://github.com/adr/madr/issues/2)
+* Bad, because not consistent with the status label (refs <https://github.com/adr/madr/issues/2>)
 
 ### Use heading together with a bullet list directly after "Decision Outcome"
 
