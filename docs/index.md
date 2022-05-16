@@ -1,9 +1,12 @@
 ---
 nav_order: 1
 ---
-# Markdown Architectural Decision Records [![part of ADR](https://img.shields.io/badge/part_of-ADR-blue.svg)](https://adr.github.io)
+# Markdown Any Decision Records [![part of ADR](https://img.shields.io/badge/part_of-ADR-blue.svg)](https://adr.github.io)
 
-> "Markdown Architectural Decision Records" (MADR) `[ˈmæɾɚ]` – architectural decisions that [matter `[ˈmæɾɚ]`](https://en.wiktionary.org/wiki/matter#Pronunciation).
+> "Markdown Any Decision Records" (MADR) `[ˈmæɾɚ]` – decisions that [matter `[ˈmæɾɚ]`](https://en.wiktionary.org/wiki/matter#Pronunciation).
+
+MADR is a lean template to capture any decisions in a structured way.
+The template originated from capturing architectural decisions and developed to a template allowing to capture any decisions taken.
 
 <!-- markdownlint-disable-file MD036-->
 **Note that this documentation describes MADR 3.0.0-alpha (not yet released) and might not apply to earlier released versions**
@@ -37,53 +40,47 @@ It should be as easy as possible to
 a) write down the decisions and
 b) to version the decisions.
 
-This repository offers a solution to record architectural decisions.
-It provides files to document Architectural Decisions using **M**arkdown and **A**rchitectural **D**ecision **R**ecords.
+There are debates what is an architecturally-significant decision and which decisions are not architecturally significant.
+Since we believe that any (important) decision should be captured in a structured way, we offer the MADR template to capture any decision.
 
-Since MADR 3.0.0, the decisions are placed in the folder `docs/decisions` to
+This repository offers a solution to record any decisions.
+It provides files to document any decisions using **M**arkdown and **A**ny **D**ecision **R**ecords.
 
-1) Enable [GitHub pages](https://pages.github.com/) to render it using the web.
-   See <https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/> for more information.
-2) Separate the architectural decisions from other documentation.
-
-The filenames are following the pattern `NNNN-title-with-dashes.md` ([ADR-0005](docs/decisions/0005-use-dashes-in-filenames.md)), where
-
-- `NNNN` is a consecutive number and we assume that there won't be more than 9,999 ADRs in one repository.
-- the title is stored using dashes and lowercase, because [adr-tools] also does that.
-- the suffix is `.md`, because it is a [Markdown](https://github.github.com/gfm/) file.
+Before MADR 3.0.0, "MADR" stood for **M**arkdown and **A**rchitectural **D**ecision **R**ecords.
+Since MADR 3.0.0, "Architectural" was replaced by "Any".
 
 ## Example
 
 ```markdown
-# Use Markdown Architectural Decision Records
+# Use Markdown Any Decision Records
 
 ## Context and Problem Statement
 
-We want to record architectural decisions made in this project.
+We want to record any decisions made in this project independent whether decisions concern the architecture ("architectural decision record"), the code, or other fields.
 Which format and structure should these records follow?
 
 ## Considered Options
 
-* [MADR](https://adr.github.io/madr/) 2.1.2 - The Markdown Architectural Decision Records
-* [Michael Nygard's template](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions) - The first incarnation of the term "ADR"
-* [Sustainable Architectural Decisions](https://www.infoq.com/articles/sustainable-architectural-design-decisions) - The Y-Statements
+* [MADR](https://adr.github.io/madr/) 3.0.0 – The Markdown Any Decision Records
+* [Michael Nygard's template](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions) – The first incarnation of the term "ADR"
+* [Sustainable Architectural Decisions](https://www.infoq.com/articles/sustainable-architectural-design-decisions) – The Y-Statements
 * Other templates listed at <https://github.com/joelparkerhenderson/architecture_decision_record>
-* Formless - No conventions for file format and structure
+* Formless – No conventions for file format and structure
 
 ## Decision Outcome
 
-Chosen option: "MADR 2.1.2", because
+Chosen option: "MADR 3.0.0", because
 
 * Implicit assumptions should be made explicit.
   Design documentation is important to enable people understanding the decisions later on.
   See also [A rational design process: How and why to fake it](https://doi.org/10.1109/TSE.1986.6312940).
+* MADR allows for structured capturing of any decision.
 * The MADR format is lean and fits our development style.
 * The MADR structure is comprehensible and facilitates usage & maintenance.
 * The MADR project is vivid.
-* Version 2.1.2 is the latest one available when starting to document ADRs.
 ```
 
-The example is rendered at [decisions/0000-use-markdown-architectural-decision-records.md](decisions/0000-use-markdown-architectural-decision-records.md).
+The example is rendered at [decisions/0000-use-markdown-any-decision-records.md](decisions/0000-use-markdown-any-decision-records.md).
 The full template (with placeholders and some guidance how to use) can be found at [decisions/adr-template.md](decisions/adr-template.md).
 
 For the MADR project itself, all ADRs exist at [docs/decisions/](https://github.com/adr/madr/tree/main/docs/decisions).
@@ -105,13 +102,19 @@ npm install madr && mkdir -p docs/decisions && cp node_modules/madr/template/* d
 
 #### Manual approach
 
-1. Copy `adr-template.md` to `NNNN-title-with-dashes.md`, where `NNNN` indicates the next number in sequence.
+1. Copy `docs/decisions/adr-template.md` to `docs/decisions/NNNN-title-with-dashes.md`, where `NNNN` indicates the next number in sequence.
 2. Edit `NNNN-title-with-dashes.md`.
-3. Update `index.md`, e.g., by executing `adr-log -d .`
-   You can get [adr-log](https://github.com/adr/adr-log) by executing `npm install -g adr-log`.
 
 Note you can also use [other patterns for the directory format](https://github.com/joelparkerhenderson/architecture_decision_record#adr-file-name-conventions).
 As a consequence, some existing tooling might not be applicable.
+
+The filenames are following the pattern `NNNN-title-with-dashes.md` ([ADR-0005](docs/decisions/0005-use-dashes-in-filenames.md)), where
+
+- `NNNN` is a consecutive number and we assume that there won't be more than 9,999 ADRs in one repository.
+- the title is stored using dashes and lowercase, because [adr-tools] also does that.
+- the suffix is `.md`, because it is a [Markdown](https://github.github.com/gfm/) file.
+
+Decisions are placed in the subfolder `decisions/` to keep them close to the documentation but also separate the decisions from other documentation.
 
 #### Automatic approach
 
