@@ -26,7 +26,8 @@ Date: {YYYY-MM-DD when the decision was last updated}
 
 ## Decision Outcome
 
-Chosen option: "{title of option 1}", because {justification. e.g., only option, which meets k.o. criterion decision driver | which resolves force {force} | … | comes out best (see below)}.
+Chosen option: "{title of option 1}", because
+{justification. e.g., only option, which meets k.o. criterion decision driver | which resolves force {force} | … | comes out best (see below)}.
 
 ### Positive Consequences <!-- This is an optional element. Feel free to remove. -->
 
