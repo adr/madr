@@ -1,3 +1,7 @@
+---
+parent: Decisions
+nav_order: 6
+---
 # Use names as identifier
 
 ## Context and Problem Statement

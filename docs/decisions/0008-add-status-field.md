@@ -1,3 +1,7 @@
+---
+parent: Decisions
+nav_order: 8
+---
 # Add status field
 
 Technical Story: <https://github.com/adr/madr/issues/2>

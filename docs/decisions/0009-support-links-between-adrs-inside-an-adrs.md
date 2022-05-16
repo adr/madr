@@ -1,3 +1,7 @@
+---
+parent: Decisions
+nav_order: 9
+---
 # Support links between ADRs inside an ADRs
 
 Technical Story: https://github.com/adr/madr/issues/9

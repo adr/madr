@@ -1,3 +1,7 @@
+---
+parent: Decisions
+nav_order: 4
+---
 # Write own TOC tool
 
 ADRs have to be indexed somehow. E.g., for offering a web site showing all ADRs.

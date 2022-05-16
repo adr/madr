@@ -1,3 +1,7 @@
+---
+parent: Decisions
+nav_order: 12
+---
 # Use curly brackets to denote placeholders
 
 ## Context and Problem Statement
