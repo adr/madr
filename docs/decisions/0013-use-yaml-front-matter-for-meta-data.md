@@ -32,10 +32,7 @@ Example:
 
 ```markdown
 ---
-layout: page
 status: accepted
-adr: "0000"
-title: Use Markdown Architectural Decision Records
 deciders:
 date:
 ---
