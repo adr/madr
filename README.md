@@ -26,9 +26,10 @@ For user documentation, please head to <https://adr.github.io/madr/>.
 2. Update the example at `docs/index.md`.
 3. Update `docs/decisions/*` with the new template
 4. Check that the YAML front madder in `docs/decisions/adr-template.md` is kept.
-5. Adapt the version reference in `template/0000-use-markdown-architectural-decision-records.md`.
-6. Copy `template/0000-use-markdown-architectural-decision-records.md` to `docs/decisions/0000-use-markdown-architectural-decision-records.md`.
-7. Update `package.json`, publish to [npmjs](https://www.npmjs.com/package/madr), create GitHub release.\
+5. Copy `.markdownlint.yml` to `template/.markdownlint.yml`
+6. Adapt the version reference in `template/0000-use-markdown-architectural-decision-records.md`.
+7. Copy `template/0000-use-markdown-architectural-decision-records.md` to `docs/decisions/0000-use-markdown-architectural-decision-records.md`.
+8. Update `package.json`, publish to [npmjs](https://www.npmjs.com/package/madr), create GitHub release.\
    Use [release-it](https://www.npmjs.com/package/release-it) (do not create a release on GitHub) and [github-release-from-changelog](https://www.npmjs.com/package/github-release-from-changelog).
 
 ## License
