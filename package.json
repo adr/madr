@@ -1,8 +1,10 @@
 {
   "name": "madr",
-  "description": "Markdown Architectural Decision Records",
+  "description": "Markdown Any Decision Records",
   "keywords": [
     "adr",
+    "decision record",
+    "any decision record",
     "architectural decision",
     "architectural decision record",
     "architecture decision",

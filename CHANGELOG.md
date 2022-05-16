@@ -18,6 +18,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Changed
 
+- Rename "Markdown Architectural Decision Record" to "Markdown Any Decision Record"
 - Place holders for values are denoted by curly braces (`{placehodler}`). Before it was `[placeholder]`. [#35](https://github.com/adr/madr/issues/35)
 - Directory of ADRs changed from `docs/adr` to `docs/decisions`. [#33](https://github.com/adr/madr/issues/33)
 - Renamed `template.md` to `adr-template.md`. [#36](https://github.com/adr/madr/issues/36)
