@@ -14,6 +14,7 @@ nav_order: 1
 - [Apply it to your project](#apply-it-to-your-project)
   - [Initialization](#initialization)
   - [Create a new ADR](#create-a-new-adr)
+  - [Lint ADRs](#lint-adrs)
 - [License](#license)
 
 ## News
@@ -115,6 +116,15 @@ As a consequence, some existing tooling might not be applicable.
 #### Automatic approach
 
 There is currently no tooling supporting MADR 3.0.0.
+
+### Lint ADRs
+
+ADRs are written using Markdown.
+Since markdown allows many styles, formatting can be incosistent.
+To notify about inconsistencies, [markdownlint](https://github.com/DavidAnson/markdownlint#markdownlint) has been invented.
+There is an initial configuration for it at `template/.markdownlint`.
+You can use that configuration in a GitHub workflow.
+See [`.github/workflows/lint.yaml`](.github/workflows/lint.yaml) for an example.
 
 ## License
 
