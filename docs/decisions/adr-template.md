@@ -3,6 +3,8 @@ parent: Decisions
 nav_order: 100
 title: ADR Template
 ---
+<!-- we need to disable MD025, because we use the different heading "ADR Template" in the homepage (see above) than it is foreseen in the template -->
+<!-- markdownlint-disable MD025 -->
 # {short title of solved problem and solution}
 
 <!-- These are an optional element. Feel free to remove any of them. -->
