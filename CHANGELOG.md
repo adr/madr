@@ -9,9 +9,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Added
 
+- Added YAML front matter to `docs/decisions/adr-template.md`
+- Added "Neutral" arguments (in addition to "Good, because", and "Bad, because")
 - Refined howto texts
 - Disable [markdown-lint](https://github.com/DavidAnson/markdownlint)'s [MD013 - line length](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md013---line-length) for the ADR files.
-- Added YAML front matter to `docs/decisions/adr-template.md`
 - Added initial [markdownlint](https://github.com/DavidAnson/markdownlint) configuration file `.markdownlint`.
   This can, for instance, be used by a [GitHub linting workflow](https://github.com/adr/madr/blob/main/.github/workflows/lint.yaml)
 
@@ -26,8 +27,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Changed `driver 1` to `decicion driver 1`.
 - Changed `e.g., compromising quality attribute, follow-up decisions required, …` to `e.g., compromising one or more desired qualities, …`
 - Moved the fields to the YAML front matter
-- Renamed `template/index.md` to `template/README.md`, because i) `README.md` is directly rendered on GitHub and ii) for Jekyll-based rendering, the index file has to be adapted (e.g., to show a hint to the doc as MADR does in `docs/decisions/index.md`)
-- Restructured and streamlined documentation
+- Renamed `template/index.md` to `template/README.md`, because i) `README.md` is directly rendered on GitHub and ii) for Jekyll-based rendering, the index file has to be adapted (e.g., to show a hint to the doc as MADR does in `docs/decisions/index.md`).
+- Replace `{option 1}` place holder to `{title of option 1}`.
+- Restructured and streamlined documentation.
 
 ### Removed
 

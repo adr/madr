@@ -26,14 +26,14 @@ Date: {YYYY-MM-DD when the decision was last updated}
 
 ## Considered Options
 
-* {option 1}
-* {option 2}
-* {option 3}
+* {title of option 1}
+* {title of option 2}
+* {title of option 3}
 * … <!-- numbers of options can vary -->
 
 ## Decision Outcome
 
-Chosen option: "{option 1}", because {justification. e.g., only option, which meets k.o. criterion decision driver | which resolves force {force} | … | comes out best (see below)}.
+Chosen option: "{title of option 1}", because {justification. e.g., only option, which meets k.o. criterion decision driver | which resolves force {force} | … | comes out best (see below)}.
 
 ### Positive Consequences <!-- This is an optional element. Feel free to remove. -->
 
@@ -47,31 +47,24 @@ Chosen option: "{option 1}", because {justification. e.g., only option, which me
 
 ## Pros and Cons of the Options <!-- This is an optional element. Feel free to remove. -->
 
-### {option 1}
+### {title of option 1}
 
 {example | description | pointer to more information | …} <!-- This is an optional element. Feel free to remove. -->
 
 * Good, because {argument a}
 * Good, because {argument b}
-* Bad, because {argument c}
+* Neutral, because {argument c} <!-- use "neutral" if the given argument weights neither for good nor bad>
+* Bad, because {argument d}
 * … <!-- numbers of pros and cons can vary -->
 
-### {option 2}
+### {title of other option}
 
-{example | description | pointer to more information | …} <!-- This is an optional element. Feel free to remove. -->
-
-* Good, because {argument a}
-* Good, because {argument b}
-* Bad, because {argument c}
-* … <!-- numbers of pros and cons can vary -->
-
-### {option 3}
-
-{example | description | pointer to more information | …} <!-- This is an optional element. Feel free to remove. -->
+{example | description | pointer to more information | …}
 
 * Good, because {argument a}
 * Good, because {argument b}
-* Bad, because {argument c}
+* Neutral, because {argument c}
+* Bad, because {argument d}
 * … <!-- numbers of pros and cons can vary -->
 
 ## More information <!-- This is an optional element. Feel free to remove. -->
