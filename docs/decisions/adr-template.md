@@ -5,9 +5,9 @@ nav_order: 100
 title: ADR Template
 
 # These are an optional element. Feel free to remove any of them.
-Status: {proposed | rejected | accepted | deprecated | … | superseded by [ADR-0005](0005-example.md)}
-Deciders: {list everyone involved in the decision}
-Date: {YYYY-MM-DD when the decision was last updated}
+# Status: {proposed | rejected | accepted | deprecated | … | superseded by [ADR-0005](0005-example.md)}
+# Deciders: {list everyone involved in the decision}
+# Date: {YYYY-MM-DD when the decision was last updated}
 ---
 <!-- we need to disable MD025, because we use the different heading "ADR Template" in the homepage (see above) than it is foreseen in the template -->
 <!-- markdownlint-disable-file MD025 -->
