@@ -46,7 +46,8 @@ Chosen option: "{title of option 1}", because {justification. e.g., only option,
 
 * Good, because {argument a}
 * Good, because {argument b}
-* Bad, because {argument c}
+* Neutral, because {argument c} <!-- use "neutral" if the given argument weights neither for good nor bad>
+* Bad, because {argument d}
 * … <!-- numbers of pros and cons can vary -->
 
 ### {title of other option}
@@ -55,7 +56,8 @@ Chosen option: "{title of option 1}", because {justification. e.g., only option,
 
 * Good, because {argument a}
 * Good, because {argument b}
-* Bad, because {argument c}
+* Neutral, because {argument c}
+* Bad, because {argument d}
 * … <!-- numbers of pros and cons can vary -->
 
 ## More information <!-- This is an optional element. Feel free to remove. -->

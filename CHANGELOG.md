@@ -9,9 +9,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Added
 
+- Added YAML front matter to `docs/decisions/adr-template.md`
+- Added "Neutral" arguments (in addition to "Good, because", and "Bad, because")
 - Refined howto texts
 - Disable [markdown-lint](https://github.com/DavidAnson/markdownlint)'s [MD013 - line length](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md013---line-length) for the ADR files.
-- Added YAML front matter to `docs/decisions/adr-template.md`
 - Added initial [markdownlint](https://github.com/DavidAnson/markdownlint) configuration file `.markdownlint`.
   This can, for instance, be used by a [GitHub linting workflow](https://github.com/adr/madr/blob/main/.github/workflows/lint.yaml)
 
