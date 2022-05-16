@@ -20,6 +20,30 @@ For user documentation, please head to <https://adr.github.io/madr/>.
   title: ADR Template
   ---
 
+## How to start Jekyll locally
+
+For rendedring the `docs` directory, Jekyll is needed.
+
+For local development, follow the [Jekyll installation instructions](https://jekyllrb.com/docs/installation/).
+Installing the latest version of ruby followed by `gem install bundler` should be enough.
+
+Afterwards, run
+
+```terminal
+bundle install
+jekyll serve --livereload
+```
+
+and go to <http://localhost:4000/madr/> in your browser.
+
+On Windows, using a dockerized environment is recommended:
+
+```terminal
+docker run -p 4000:4000 --rm --volume="C:\git-repositories\adr.github.io\madr\docs":/srv/jekyll jekyll/jekyll:4 jekyll serve
+```
+
+In case you get errors regarding `Gemfile.lock`, just delete `Gemfile.lock` and rerun.
+
 ## Releasing a new version
 
 1. Update `CHANGELOG.md`.
