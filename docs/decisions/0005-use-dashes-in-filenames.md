@@ -9,7 +9,7 @@ What is the pattern of the filename where an ADR is stored?
 ## Considered Options
 
 * `NNNN-title-with-dashes.md` - format used by [adr-tools](https://github.com/npryce/adr-tools)
-* `YYYY-MM-DD Title` - see https://github.com/joelparkerhenderson/architecture_decision_record#adr-file-name-conventions
+* `YYYY-MM-DD Title` - see <https://github.com/joelparkerhenderson/architecture_decision_record#adr-file-name-conventions>
 
 ## Decision Outcome
 

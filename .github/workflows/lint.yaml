@@ -1,0 +1,13 @@
+name: Lint
+on: [push, pull_request, workflow_dispatch]
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Git repository
+        uses: actions/checkout@v2
+      - name: Lint other files files
+        uses: avto-dev/markdown-lint@v1
+        with:
+          args: '**/*.md'
+          config: '.markdownlint.yml'
