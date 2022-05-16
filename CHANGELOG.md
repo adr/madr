@@ -9,14 +9,27 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Added
 
+- Refined howto texts
 - Disable [markdown-lint](https://github.com/DavidAnson/markdownlint)'s [MD013 - line length](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md013---line-length) for the ADR files.
+- Added YAML front matter to `docs/decisions/adr-template.md`
 
 ### Changed
 
 - Place holders for values are denoted by curly braces (`{placehodler}`). Before it was `[placeholder]`. [#35](https://github.com/adr/madr/issues/35)
 - Directory of ADRs changed from `docs/adr` to `docs/decisions`. [#33](https://github.com/adr/madr/issues/33)
 - Renamed `template.md` to `adr-template.md`. [#36](https://github.com/adr/madr/issues/36)
+- Changed `## Links` to `## More information`
+- Relaxed content of `More information` section from a bullet list to free text.
+- Changed `optional` to `This is an optional element. Feel free to remove.` to make it more clear how to work with an optional element.
+- Changed `driver 1` to `decicion driver 1`.
+- Changed `e.g., compromising quality attribute, follow-up decisions required, …` to `e.g., compromising one or more desired qualities, …`
+- Renamed `template/index.md` to `template/README.md`, because i) `README.md` is directly rendered on GitHub and ii) for Jekyll-based rendering, the index file has to be adapted (e.g., to show a hint to the doc as MADR does in `docs/decisions/index.md`)
 - Restructured and streamlined documentation
+
+### Removed
+
+- Removed `Technical Story: {description | ticket/issue URL} <!-- optional -->`, because all description should go into "Context and Problem Statement"
+- Removed files `.adr-dir` and `.adr-type` as tooling should automatically detect the style of the template
 
 ## [2.1.2] – 2019-02-17
 
