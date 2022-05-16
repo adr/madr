@@ -53,7 +53,7 @@ Use Angular ![category-frontend](https://img.shields.io/badge/category-frontend-
 * Good, because straight-forward to parse
 * Bad, because no simple filtering using `ls` or Windows Explorer is possible
 
-### Use YAML  frontmatter
+### Use YAML frontmatter
 
 Example:
 
