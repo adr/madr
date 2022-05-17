@@ -72,9 +72,12 @@ How to write readable test assertions for advanced tests?
 Chosen option: "Plain JUnit5", because it is a standard framework and the features of the other frameworks do not outweigh the drawbrack of adding a new dependency.
 ```
 
-For more examples see [examples/](examples/)
-For the MADR project itself, all ADRs exist at [docs/decisions/](https://github.com/adr/madr/tree/main/docs/decisions).
-The full template (with placeholders and some guidance how to use) can be found at <https://github.com/adr/madr/blob/main/template/adr-template.md>.
+For more examples see [examples](examples.md).
+For the MADR project itself, all ADRs are rendered at [decisions/](decisions/).
+Their source can be found at <https://github.com/adr/madr/tree/main/docs/decisions>.
+The latest release of the full template (with placeholders and some guidance how to use) can be found at <https://github.com/adr/madr/blob/2.1.2/template/template.md>.
+For the brave, the version under development is available at <https://github.com/adr/madr/blob/main/template/adr-template.md>.
+There also is a [CHANGELOG](https://github.com/adr/madr/blob/main/CHANGELOG.md#changelog) listing the changes between the last released version and the currently developed version.
 
 ## Apply it to your project
 
