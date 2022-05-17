@@ -4,6 +4,8 @@ nav_order: 1
 ---
 # Dual license the work
 
+## Context and Problem Statement
+
 Everything needs to be licensed, otherwise the default copyright laws apply.
 For instance, in Germany that means users may not alter anything without explicitly asking for permission.
 For more information see <https://help.github.com/articles/licensing-a-repository/>.

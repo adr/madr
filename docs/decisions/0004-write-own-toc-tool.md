@@ -4,6 +4,8 @@ nav_order: 4
 ---
 # Write own TOC tool
 
+## Context and Problem Statement
+
 ADRs have to be indexed somehow. E.g., for offering a web site showing all ADRs.
 
 ## Considered Options
@@ -13,7 +15,7 @@ ADRs have to be indexed somehow. E.g., for offering a web site showing all ADRs.
 
 ## Decision Outcome
 
-Chosen option: Write own tool `adr-log`, because
+Chosen option: "Write own tool `adr-log`", because
 
 * we want to have the format `ADR-0001 - Title` in the TOC.
 * adr-tools offers `title` only.

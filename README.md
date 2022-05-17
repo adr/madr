@@ -49,7 +49,7 @@ In case you get errors regarding `Gemfile.lock`, just delete `Gemfile.lock` and 
 1. Update `CHANGELOG.md`.
 2. Update the example at `docs/index.md`.
 3. Update `docs/decisions/*` with the new template
-4. Check that the YAML front madder in `docs/decisions/adr-template.md` is kept.
+4. Check that the YAML front matter in `docs/decisions/adr-template.md` is kept.
 5. Copy `.markdownlint.yml` to `template/.markdownlint.yml`
 6. Adapt the version reference in `template/0000-use-markdown-any-decision-records.md`.
 7. Copy `template/0000-use-markdown-any-decision-records.md` to `docs/decisions/0000-use-markdown-any-decision-records.md`.

@@ -4,6 +4,8 @@ nav_order: 5
 ---
 # Use dashes in filenames
 
+## Context and Problem Statement
+
 What is the pattern of the filename where an ADR is stored?
 
 ## Considered Options
@@ -13,7 +15,7 @@ What is the pattern of the filename where an ADR is stored?
 
 ## Decision Outcome
 
-Chosen option: `NNNN-title-with-dashes.md`, because
+Chosen option: "`NNNN-title-with-dashes.md`", because
 
 * `NNNN` provides a unique number, which can be used for referencing in the forms
   * `ADR-0001` in plain text and

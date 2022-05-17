@@ -4,10 +4,13 @@ nav_order: 9
 ---
 # Support links between ADRs inside an ADRs
 
+## Context and Problem Statement
+
 Technical Story: <https://github.com/adr/madr/issues/9>
 
 ## Considered Options
 
+* Include in section "More Information"
 * Use tables
 * Use heading together with a bullet list directly after status
 * Use heading together with a bullet list directly after "Decision Outcome"
@@ -16,9 +19,22 @@ Technical Story: <https://github.com/adr/madr/issues/9>
 
 ## Decision Outcome
 
-Chosen option: "Use heading together with a bullet list at the end", because comes out best (see below).
+Chosen option: "Include in section 'More Information'", because comes out best (see below).
 
 ## Pros and Cons of the Options
+
+### Include in section "More Information"
+
+Example:
+
+```markdown
+## More Information
+
+[ADR-0008](0008-add-status-field.md) reasons on adding meta data (such as status).
+```
+
+* Good, because provides freedom to the user
+* Bad, because parsing gets harder
 
 ### Use tables
 

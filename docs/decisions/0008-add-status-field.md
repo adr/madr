@@ -4,14 +4,15 @@ nav_order: 8
 ---
 # Add status field
 
-Technical Story: <https://github.com/adr/madr/issues/2>
-
 ## Context and Problem Statement
+
+Technical Story: <https://github.com/adr/madr/issues/2>
 
 ADRs have a status. Should this be tracked? And if it should, how should we track it?
 
 ## Considered Options
 
+* Use YAML front matter
 * Use badge
 * Use text line
 * Use separate heading
@@ -20,9 +21,24 @@ ADRs have a status. Should this be tracked? And if it should, how should we trac
 
 ## Decision Outcome
 
-Chosen option: "Use text line", because [justification. e.g., only option, which meets k.o. criterion decision driver | which resolves force force | ... | comes out best (see below)].
+Chosen option: "Use YAML front matter", because comes out best (see below).
 
 ## Pros and Cons of the Options
+
+### Use YAML front matter
+
+Example:
+
+```markdown
+---
+parent: Decisions
+nav_order: 3
+status: on hold
+---
+# Write own MADR tooling
+```
+
+* Good, because YAML front matter is supported by most Markdown parsers
 
 ### Use badge
 
@@ -31,7 +47,7 @@ Chosen option: "Use text line", because [justification. e.g., only option, which
 * ![grafik](https://user-images.githubusercontent.com/1366654/36786999-ca368324-1c88-11e8-966d-56f25980fd76.png)
 * [![status-superseeded](https://img.shields.io/badge/status-superseeded_by_ADR_0001-orange.svg?style=flat-square)](https://github.com/adr/madr/blob/main/docs/decisions/0001-use-CC0-as-license.md)
 
-#### Pros/cons
+---
 
 * Good, because plain markdown
 * Good, because looks good
@@ -78,3 +94,7 @@ Example:  ![grafik](https://user-images.githubusercontent.com/1366654/36787043-0
 * Good, because MADR is kept lean
 * Bad, because users demand state field
 * Bad, because not in line with other ADR templates
+
+## More Information
+
+See [ADR-0013](0013-use-yaml-front-matter-for-meta-data.md) for more reasoning on using YAML front matter.

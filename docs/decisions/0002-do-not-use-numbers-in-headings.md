@@ -4,6 +4,8 @@ nav_order: 2
 ---
 # Do not use numbers in headings
 
+## Context and Problem Statement
+
 How to render the first line in an ADR?
 ADRs have to take a unique identifier.
 
@@ -14,7 +16,7 @@ ADRs have to take a unique identifier.
 
 ## Decision Outcome
 
-Chosen option: Use the title only, because
+Chosen option: "Use the title only", because
 
 * This is common in other markdown files, too.
   One does not add numbering manually at the markdown files, but tries to get the numbers injected by the rendering framework or CSS.

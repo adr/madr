@@ -24,7 +24,10 @@ The template originated from capturing architectural decisions and developed to 
 
 ## News
 
-* 2021-04-25: MADR examples featured in Medium stories ["From Architectural Decisions to Design Decisions"](https://medium.com/olzzio/from-architectural-decisions-to-design-decisions-f05f6d57032b) and ["ADR = Any Decision Record?"](https://medium.com/olzzio/adr-any-decision-record-916d1b64b28d) <!-- and blog post ["ADR = Any Decision Record? Architecture, Design and Beyond"](https://ozimmer.ch/practices/2021/04/23/AnyDecisionRecords.html) -->
+* 2022-05-17: Release of MADR 3.0.0-beta.
+  Besides improvement of the template, there was a renaming from "Markdown Architectural Decision Records" to "Markdown Any Decision Records" to follow the movement ["ADR = Any Decision Record? Architecture, Design and Beyond"](https://ozimmer.ch/practices/2021/04/23/AnyDecisionRecords.html).
+  The acronym is still MADR.
+* 2021-04-25: MADR examples featured in Medium stories ["From Architectural Decisions to Design Decisions"](https://medium.com/olzzio/from-architectural-decisions-to-design-decisions-f05f6d57032b) and ["ADR = Any Decision Record?"](https://medium.com/olzzio/adr-any-decision-record-916d1b64b28d)
 * 2021-04-08: MADR recommended as an ADR format in "Design Practice Repository". This ebook is available on [Leanpub](https://leanpub.com/dpr). The decision capturing activity is also described [online](https://socadk.github.io/design-practice-repository/activities/DPR-ArchitecturalDecisionCapturing.html).
 * 2020-09-29: MADR presented in the keynote "Markdown Architectural Decision Records: Capturing Decisions Where the Developer is Working" at the workshop "[Second Software Documentation Generation Challenge (DocGen2)](https://dysdoc.github.io/docgen2/index.html)". Slides available at [Speaker Deck](https://speakerdeck.com/koppor/markdown-architecturaldecisionrecords-capturing-decisions-where-the-developer-is-working).
 * 2019-07-08: MADR referenced in [Architectural Decisions — The Making Of](https://ozimmer.ch/practices/2020/04/27/ArchitectureDecisionMaking.html), a post in the new blog "The Concerned Architect" by Olaf Zimmermann (shorter version available on [Medium](https://medium.com/@docsoc/y-statements-10eb07b5a177)).
@@ -75,7 +78,7 @@ Chosen option: "Plain JUnit5", because it is a standard framework and the featur
 For more examples see [examples](examples.md).
 For the MADR project itself, all ADRs are rendered at [decisions/](decisions/).
 Their source can be found at <https://github.com/adr/madr/tree/main/docs/decisions>.
-The latest release of the full template (with placeholders and some guidance how to use) can be found at <https://github.com/adr/madr/blob/2.1.2/template/template.md>.
+The latest release of the full template (with placeholders and some guidance how to use) can be found at <https://github.com/adr/madr/blob/3.0.0-beta/template/template.md>.
 For the brave, the version under development is available at <https://github.com/adr/madr/blob/main/template/adr-template.md>.
 There also is a [CHANGELOG](https://github.com/adr/madr/blob/main/CHANGELOG.md#changelog) listing the changes between the last released version and the currently developed version.
 

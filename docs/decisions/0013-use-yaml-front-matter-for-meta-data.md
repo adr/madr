@@ -60,4 +60,8 @@ Rendered output:
 * Bad, because special markdown parsing tooling is needed
 * Bad, because meta data is handled the same way as the content
 
+## More Information
+
+[ADR-0008](0008-add-status-field.md) reasons on adding meta data (such as status).
+
 <!-- markdownlint-disable-file MD013 -->
