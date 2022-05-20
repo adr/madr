@@ -9,7 +9,7 @@ MADR is a lean template to capture any decisions in a structured way.
 The template originated from capturing architectural decisions and developed to a template allowing to capture any decisions taken.
 
 <!-- markdownlint-disable-file MD036-->
-**Note that this documentation describes MADR 3.0.0-alpha (not yet released) and might not apply to earlier released versions**
+**Note that this documentation describes [MADR 3.0.0-beta](https://github.com/adr/madr/blob/main/CHANGELOG.md#300-beta--2022-05-17) and might not apply to earlier released versions**
 
 * [News](#news)
 * [Overview](#overview)
