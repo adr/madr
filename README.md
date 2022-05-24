@@ -19,6 +19,7 @@ For user documentation, please head to <https://adr.github.io/madr/>.
   nav_order: 100
   title: ADR Template
   ---
+  ```
 
 ## How to start Jekyll locally
 
