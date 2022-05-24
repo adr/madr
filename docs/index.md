@@ -136,7 +136,7 @@ Some proposals from the community are pres
 
 MADR logs may be categorized ADRs by defining sub directories and put the ADRs into these folders.
 
-An examplary folder structure could follow the architectural structure of the system under construction:
+An examplary folder structure might follow the architectural structure of the system under construction:
 
 ```tree
 .
@@ -147,10 +147,11 @@ An examplary folder structure could follow the architectural structure of the sy
         `-- 0001-use-vuejs.md
 ```
 
-This approach makes all categories explicit because the sub directory/folder names define the categories.
+This approach makes all categories explicit because the sub directory/folder names define the categories. 
 As a consequence, numbers of ADRs are no longer unique throughout the repository, but locally within a category only.
+Ideally, the ADR categorization the same organizing principles as other artifacts such as the code; using architectural structur breakdown is just one option and functional decomposition would be an additional one. This comes down to a meta-decision to be made rather early on. 
 
-Note that other alternatives are discussed at [ADR-0010](decisions/0010-support-categories.md).
+Note that alternatives to categorization via subfolders are discussed at [ADR-0010](decisions/0010-support-categories.md).
 
 ## License
 
