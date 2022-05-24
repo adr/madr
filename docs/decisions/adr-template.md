@@ -4,7 +4,7 @@ parent: Decisions
 nav_order: 100
 title: ADR Template
 
-# These are an optional element. Feel free to remove any of them.
+# These are optional elements. Feel free to remove any of them.
 # status: {proposed | rejected | accepted | deprecated | … | superseded by [ADR-0005](0005-example.md)}
 # date: {YYYY-MM-DD when the decision was last updated}
 # deciders: {list everyone involved in the decision}
@@ -20,7 +20,8 @@ title: ADR Template
 {Describe the context and problem statement, e.g., in free form using two to three sentences or in the form of an illustrative story.
  You may want to articulate the problem in form of a question and add links to collaboration boards or issue management systems.}
 
-## Decision Drivers <!-- This is an optional element. Feel free to remove. -->
+<!-- This is an optional element. Feel free to remove. -->
+## Decision Drivers
 
 * {decision driver 1, e.g., a force, facing concern, …}
 * {decision driver 2, e.g., a force, facing concern, …}
@@ -38,25 +39,30 @@ title: ADR Template
 Chosen option: "{title of option 1}", because
 {justification. e.g., only option, which meets k.o. criterion decision driver | which resolves force {force} | … | comes out best (see below)}.
 
-### Positive Consequences <!-- This is an optional element. Feel free to remove. -->
+<!-- This is an optional element. Feel free to remove. -->
+### Positive Consequences
 
 * {e.g., improvement of one or more desired qualities, …}
 * …
 
-### Negative Consequences <!-- This is an optional element. Feel free to remove. -->
+<!-- This is an optional element. Feel free to remove. -->
+### Negative Consequences
 
 * {e.g., compromising one or more desired qualities, …}
 * …
 
-## Pros and Cons of the Options <!-- This is an optional element. Feel free to remove. -->
+<!-- This is an optional element. Feel free to remove. -->
+## Pros and Cons of the Options
 
 ### {title of option 1}
 
-{example | description | pointer to more information | …} <!-- This is an optional element. Feel free to remove. -->
+<!-- This is an optional element. Feel free to remove. -->
+{example | description | pointer to more information | …}
 
 * Good, because {argument a}
 * Good, because {argument b}
-* Neutral, because {argument c} <!-- use "neutral" if the given argument weights neither for good nor bad>
+<!-- use "neutral" if the given argument weights neither for good nor bad -->
+* Neutral, because {argument c}
 * Bad, because {argument d}
 * … <!-- numbers of pros and cons can vary -->
 
@@ -68,9 +74,10 @@ Chosen option: "{title of option 1}", because
 * Good, because {argument b}
 * Neutral, because {argument c}
 * Bad, because {argument d}
-* … <!-- numbers of pros and cons can vary -->
+* …
 
-## More Information <!-- This is an optional element. Feel free to remove. -->
+<!-- This is an optional element. Feel free to remove. -->
+## More Information
 
 {You might want to provide additional evidence/confidence for the decision outcome here and/or
  document the team agreement on the decision and/or
