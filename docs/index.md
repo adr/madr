@@ -130,7 +130,7 @@ See [`.github/workflows/lint.yaml`](.github/workflows/lint.yaml) for an example.
 
 Large projects may accumulate hundreds of decision records over time, and finding them might be hard.
 MADR does not enforce any repository or directory organization structure.
-Some proposals from the community are pres
+Some proposals from the community are presented in the following.
 
 ### Usage of categories
 
@@ -147,9 +147,9 @@ An examplary folder structure might follow the architectural structure of the sy
         `-- 0001-use-vuejs.md
 ```
 
-This approach makes all categories explicit because the sub directory/folder names define the categories. 
+This approach makes all categories explicit because the sub directory/folder names define the categories.
 As a consequence, numbers of ADRs are no longer unique throughout the repository, but locally within a category only.
-Ideally, the ADR categorization the same organizing principles as other artifacts such as the code; using architectural structur breakdown is just one option and functional decomposition would be an additional one. This comes down to a meta-decision to be made rather early on. 
+Ideally, the ADR categorization the same organizing principles as other artifacts such as the code; using architectural structur breakdown is just one option and functional decomposition would be an additional one. This comes down to a meta-decision to be made rather early on.
 
 Note that alternatives to categorization via subfolders are discussed at [ADR-0010](decisions/0010-support-categories.md).
 
