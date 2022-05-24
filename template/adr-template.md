@@ -1,5 +1,5 @@
 ---
-# These are an optional element. Feel free to remove any of them.
+# These are optional elements. Feel free to remove any of them.
 status: {proposed | rejected | accepted | deprecated | … | superseded by [ADR-0005](0005-example.md)}
 deciders: {list everyone involved in the decision}
 date: {YYYY-MM-DD when the decision was last updated}

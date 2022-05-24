@@ -82,7 +82,7 @@ The latest release of the full template (with placeholders and some guidance how
 For the brave, the version under development is available at <https://github.com/adr/madr/blob/main/template/adr-template.md>.
 There also is a [CHANGELOG](https://github.com/adr/madr/blob/main/CHANGELOG.md#changelog) listing the changes between the last released version and the currently developed version.
 
-## Apply it to your project
+## Applying MADR to your project
 
 ### Initialization
 
@@ -126,17 +126,17 @@ There is an initial configuration for it at `template/.markdownlint`.
 You can use that configuration in a GitHub workflow.
 See [`.github/workflows/lint.yaml`](.github/workflows/lint.yaml) for an example.
 
-## Using in large projects
+## Using MADR in large projects and product developments
 
-Large projects may have hunders decision records, where finding them might be hard.
+Large projects may accumulate hundreds of decision records over time, and finding them might be hard.
 MADR does not enforce any repository or directory organization structure.
-In the following proposals from the community are presented
+Some proposals from the community are presented in the following.
 
 ### Usage of categories
 
-However, MADR leans forward to categorize ADRs using sub directories and put the ADRs into these sub folders.
+MADR logs may be categorized ADRs by defining sub directories and put the ADRs into these folders.
 
-Example folder structure could be as follows:
+An examplary folder structure might follow the architectural structure of the system under construction:
 
 ```tree
 .
@@ -147,10 +147,11 @@ Example folder structure could be as follows:
         `-- 0001-use-vuejs.md
 ```
 
-With this approach, all categories are explicit, because the sub directories define the catories.
-It is accepted, that numbers of ADRs are not unique throughout the repository any more, but local for a category.
+This approach makes all categories explicit because the sub directory/folder names define the categories.
+As a consequence, numbers of ADRs are no longer unique throughout the repository, but locally within a category only.
+Ideally, the ADR categorization the same organizing principles as other artifacts such as the code; using architectural structur breakdown is just one option and functional decomposition would be an additional one. This comes down to a meta-decision to be made rather early on.
 
-Note that other alternatives are discussed at [ADR-0010](decisions/0010-support-categories.md).
+Note that alternatives to categorization via subfolders are discussed at [ADR-0010](decisions/0010-support-categories.md).
 
 ## License
 
