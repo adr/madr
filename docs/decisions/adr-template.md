@@ -77,6 +77,11 @@ Chosen option: "{title of option 1}", because
 * …
 
 <!-- This is an optional element. Feel free to remove. -->
+## Validation
+
+{describe how the implementation of/compliance with the ADR is validated. E.g., by a review or an ArchUnit test}
+
+<!-- This is an optional element. Feel free to remove. -->
 ## More Information
 
 {You might want to provide additional evidence/confidence for the decision outcome here and/or

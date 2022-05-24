@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 
 - Added front matter fields "consulted" and "informed" (inspired by [RACI](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix#Role_distinction)). [#62](https://github.com/adr/madr/issues/62)
+- Added section "Validation"
 
 ### Changed
 
