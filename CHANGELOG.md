@@ -11,6 +11,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Changed
 
+- Moved markings for optional content from next to the heading above the heading
+
 ## [3.0.0-beta] – 2022-05-17
 
 ### Added
