@@ -128,7 +128,7 @@ See [`.github/workflows/lint.yaml`](.github/workflows/lint.yaml) for an example.
 
 ## Using in large projects
 
-Large projects may have hunders decision records, where finding them might be hard.
+Large projects may have hundreds of decision records, where finding them might be hard.
 MADR does not enforce any repository or directory organization structure.
 In the following proposals from the community are presented
 
@@ -147,7 +147,7 @@ Example folder structure could be as follows:
         `-- 0001-use-vuejs.md
 ```
 
-With this approach, all categories are explicit, because the sub directories define the catories.
+With this approach, all categories are explicit, because the sub directories define the categories.
 It is accepted, that numbers of ADRs are not unique throughout the repository any more, but local for a category.
 
 Note that other alternatives are discussed at [ADR-0010](decisions/0010-support-categories.md).
