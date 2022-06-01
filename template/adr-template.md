@@ -45,6 +45,11 @@ Chosen option: "{title of option 1}", because
 * …
 
 <!-- This is an optional element. Feel free to remove. -->
+## Validation
+
+{describe how the implementation of/compliance with the ADR is validated. E.g., by a review or an ArchUnit test}
+
+<!-- This is an optional element. Feel free to remove. -->
 ## Pros and Cons of the Options
 
 ### {title of option 1}
@@ -68,11 +73,6 @@ Chosen option: "{title of option 1}", because
 * Neutral, because {argument c}
 * Bad, because {argument d}
 * …
-
-<!-- This is an optional element. Feel free to remove. -->
-## Validation
-
-{describe how the implementation of/compliance with the ADR is validated. E.g., by a review or an ArchUnit test}
 
 <!-- This is an optional element. Feel free to remove. -->
 ## More Information
