@@ -2,12 +2,12 @@
 parent: Decisions
 nav_order: 12
 ---
-# Use curly brackets to denote placeholders
+# Use Curly Brackets to Denote Placeholders
 
 ## Context and Problem Statement
 
 When crafting an ADR placeholders need to be replaced by real values.
-How to mark the place holders?
+How to mark the placeholders?
 
 ## Considered Options
 
@@ -41,5 +41,5 @@ Example: `<option 1>`
 
 Idea taken from <https://github.com/schubmat/DecisionCapture/blob/master/templates/captureTemplate_full.md>
 
-* Good, because kept in markdown as is
+* Good, because kept in Markdown as is
 * Bad, because could be mixed up with an HTML element

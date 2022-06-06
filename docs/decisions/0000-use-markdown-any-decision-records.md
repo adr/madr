@@ -28,5 +28,3 @@ Chosen option: "MADR 3.0.0-beta", because
 * The MADR format is lean and fits our development style.
 * The MADR structure is comprehensible and facilitates usage & maintenance.
 * The MADR project is vivid.
-
-<!-- markdownlint-disable-file MD013 -->

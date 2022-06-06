@@ -1,14 +1,6 @@
 default: true
 
-# allow arbitrary line length
-# https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md#md013---line-length
+# Allow arbitrary line length.
+# We apply the one-sentence-per-line rule. A stence may get longer than 80 characters, especially if links are contained.
+# Details: https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md#md013---line-length
 MD013: false
-
-# allow multiple headings with the same content
-# https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md#md024---multiple-headings-with-the-same-content
-MD024: false
-
-# Allow punctuation at the end
-# https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md#md026---trailing-punctuation-in-heading
-MD026:
-  punctuation: ".,;:!?"

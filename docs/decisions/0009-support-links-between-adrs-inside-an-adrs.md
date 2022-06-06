@@ -2,9 +2,13 @@
 parent: Decisions
 nav_order: 9
 ---
-# Support links between ADRs inside an ADRs
+# Support Links To Other ADRs Inside an ADR
 
 ## Context and Problem Statement
+
+A decision might point to another decision.
+For instance, if a decision is a follow-up to another decision.
+This should be supported by MADR, too.
 
 Technical Story: <https://github.com/adr/madr/issues/9>
 
@@ -15,7 +19,7 @@ Technical Story: <https://github.com/adr/madr/issues/9>
 * Use heading together with a bullet list directly after status
 * Use heading together with a bullet list directly after "Decision Outcome"
 * Use heading together with a bullet list at the end
-* Don't add links
+* Do not add links
 
 ## Decision Outcome
 
@@ -40,9 +44,9 @@ Example:
 
 * Good, because easy to write
 * Good, because history is shown (enabled by concept)
-* Good, because [current adr-tools support](https://github.com/npryce/adr-tools/pull/43) uses tables to describe links.
+* Good, because [current `adr-tools`' support](https://github.com/npryce/adr-tools/pull/43) uses tables to describe links.
 * Bad, because not supported by the CommonMark spec
-* Bad, because unclear whether a link was superseeded by another one
+* Bad, because unclear whether a link was super seeded by another one
 * Bad, because valid links not clear at first sight (there might be outdated links shown)
 
 ### Use heading together with a bullet list directly after status
@@ -70,6 +74,6 @@ Example:
 * Good, because the options and pros/cons are kept together with the option list.
 * Good, because consistent with pattern format
 
-### Don't add links
+### Do not add links
 
 * Good, because template stays minimal

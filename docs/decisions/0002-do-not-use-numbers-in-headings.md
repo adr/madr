@@ -2,7 +2,7 @@
 parent: Decisions
 nav_order: 2
 ---
-# Do not use numbers in headings
+# Do Not Use Numbers in Headings
 
 ## Context and Problem Statement
 

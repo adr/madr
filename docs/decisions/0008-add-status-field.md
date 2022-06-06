@@ -2,7 +2,7 @@
 parent: Decisions
 nav_order: 8
 ---
-# Add status field
+# Add Status Field
 
 ## Context and Problem Statement
 
@@ -44,8 +44,8 @@ status: on hold
 
 #### Examples
 
-* ![grafik](https://user-images.githubusercontent.com/1366654/36786999-ca368324-1c88-11e8-966d-56f25980fd76.png)
-* [![status-superseeded](https://img.shields.io/badge/status-superseeded_by_ADR_0001-orange.svg?style=flat-square)](https://github.com/adr/madr/blob/main/docs/decisions/0001-use-CC0-as-license.md)
+* ![Example "Use Angular" with "status: accepted"](0008-example-badge.png)
+* [![Example "status: superseded"](https://img.shields.io/badge/status-superseeded_by_ADR_0001-orange.svg?style=flat-square)](https://github.com/adr/madr/blob/main/docs/decisions/0001-use-CC0-as-license.md)
 
 ---
 
@@ -71,7 +71,7 @@ Example: `Status: Accepted`
 
 ### Use separate heading
 
-Example:  ![grafik](https://user-images.githubusercontent.com/1366654/36787029-f5ea246c-1c88-11e8-9082-8e9531e4fac7.png)
+Example: ![example for separate heading](0008-example-separate-heading.png)
 
 * Good, because plain markdown
 * Good, because easy to write
@@ -79,11 +79,11 @@ Example:  ![grafik](https://user-images.githubusercontent.com/1366654/36787029-f
 
 ### Use table
 
-Example:  ![grafik](https://user-images.githubusercontent.com/1366654/36787043-0339a53e-1c89-11e8-8ebe-fb2a5752448c.png)
+Example: ![example for table](0008-example-table.png)
 
 * Good, because history can be included
 * Good, because multiple entries can be made
-* Good, because already implemented in adr-tools fork
+* Good, because already implemented in `adr-tools` fork
 * Bad, because not covered by the [CommonMark specification 0.28 (2017-08-01)](http://spec.commonmark.org/0.28/)
 * Bad, because hard to read
 * Bad, because outdated entries cannot be easily identified

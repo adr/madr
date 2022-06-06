@@ -2,13 +2,13 @@
 parent: Decisions
 nav_order: 13
 ---
-# Use YAML front matter for meta data
+# Use YAML front matter for metadata
 
 ## Context and Problem Statement
 
 MADR offers the fields "Status", "Deciders", and "Date".
-These are a kind of meta data fields.
-Should this data be included in the ADR directly or should it be separated somehow?
+These are a kind of metadata fields.
+Should this data be included in the ADR directly, or should it be separated somehow?
 
 ## Decision Drivers
 
@@ -18,7 +18,7 @@ Should this data be included in the ADR directly or should it be separated someh
 ## Considered Options
 
 * Use YAML front matter
-* Use plain markdown everywhere
+* Use plain Markdown everywhere
 
 ## Decision Outcome
 
@@ -54,14 +54,12 @@ Rendered output:
 * Bad, because rendering not standardized
 * Bad, because not all Markdown parsers can parse it
 
-## Use plain markdown everywhere
+## Use plain Markdown everywhere
 
 * Good, because all parsers can handle it
 * Bad, because special markdown parsing tooling is needed
-* Bad, because meta data is handled the same way as the content
+* Bad, because metadata is handled the same way as the content
 
 ## More Information
 
-[ADR-0008](0008-add-status-field.md) reasons on adding meta data (such as status).
-
-<!-- markdownlint-disable-file MD013 -->
+[ADR-0008](0008-add-status-field.md) reasons on adding metadata (such as status).

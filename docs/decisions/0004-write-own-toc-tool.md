@@ -2,25 +2,25 @@
 parent: Decisions
 nav_order: 4
 ---
-# Write own TOC tool
+# Write Own TOC Tool
 
 ## Context and Problem Statement
 
-ADRs have to be indexed somehow. E.g., for offering a web site showing all ADRs.
+ADRs have to be indexed somehow. E.g., for offering a website showing all ADRs.
 
 ## Considered Options
 
 * Write the own tool `adr-log`
-* Use adr-tools' TOC functionality
+* Use `adr-tools`' TOC functionality
 
 ## Decision Outcome
 
 Chosen option: "Write own tool `adr-log`", because
 
 * we want to have the format `ADR-0001 - Title` in the TOC.
-* adr-tools offers `title` only.
+* `adr-tools` offers `title` only.
 
-We accept that changing adr-tools would also be possible.
+We accept that changing `adr-tools` would also be possible.
 It is prepared to included header and footer: <https://github.com/npryce/adr-tools/blob/master/tests/generate-contents-with-header-and-footer.sh>.
 
 ### Positive Consequences
