@@ -1,0 +1,4 @@
+customRules:
+  - markdownlint-rule-github-internal-links
+  - markdownlint-rule-list-duplicates
+  - markdownlint-rule-titlecase
