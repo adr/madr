@@ -1,11 +1,13 @@
 default: true
 
-# Allow arbitrary line length.
-# Reason: We apply the one-sentence-per-line rule. A stence may get longer than 80 characters, especially if links are contained.
+# Allow arbitrary line length
+#
+# Reason: We apply the one-sentence-per-line rule. A sentence may get longer than 80 characters, especially if links are contained.
+#
 # Details: https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md#md013---line-length
 MD013: false
 
-# Allow uplicate headings
+# Allow duplicate headings
 #
 # Reasons:
 #

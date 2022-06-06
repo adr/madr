@@ -7,9 +7,17 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+### Added
+
+- Added comments to [markdownlint rules](https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md#rules) in `.markdownlint.yml` files.
+
 ### Changed
 
 - Moved section "Validation" directly after "Decision Outcome"
+
+### Removed
+
+- Removed allowed punctuation in `.markdownlint.yml` rule
 
 ## [3.0.0-beta.2] – 2022-05-25
 
