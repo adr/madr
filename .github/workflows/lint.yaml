@@ -7,7 +7,6 @@ jobs:
       - name: Set up Git repository
         uses: actions/checkout@v2
       - name: Lint
-        uses: avto-dev/markdown-lint@v1
+        uses: koppor/markdown-lint@switch-to-markdownlint-cli2
         with:
           args: '**/*.md'
-          config: '.markdownlint.yml'
