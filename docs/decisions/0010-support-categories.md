@@ -2,7 +2,7 @@
 parent: Decisions
 nav_order: 10
 ---
-# Support categories
+# Support Categories
 
 ## Context and Problem Statement
 
@@ -21,15 +21,15 @@ ADRs are recorded. The number of ADRs grows and the context/topic/scope of ADRs 
 
 * Use labels
 * Add `* Category: CATEGORY` directly under the heading (similar to <https://gist.github.com/FaKeller/2f9c63b6e1d436abb7358b68bf396f57>)
-* Use YAML frontmatter
+* Use YAML front matter
 * Encode category in filename
-* Use subfolders with local ids
-* Use subfolders with global ids
+* Use subfolders with local IDs
+* Use subfolders with global IDs
 * Don't do it.
 
 ## Decision Outcome
 
-Chosen option: "Use subfolders with local ids"
+Chosen option: "Use subfolders with local IDs", because comes out best (see below).
 
 ## Pros and Cons of the Options
 
@@ -53,7 +53,7 @@ Use Angular ![category-frontend](https://img.shields.io/badge/category-frontend-
 * Good, because straight-forward to parse
 * Bad, because no simple filtering using `ls` or Windows Explorer is possible
 
-### Use YAML frontmatter
+### Use YAML front matter
 
 Example:
 
@@ -65,7 +65,7 @@ category: frontend
 
 * Good, because nearly straight-forward to parse
 * Good, because Jekyll supports it
-* Bad, because YAML frontmatter is not part of the [CommonMarc Spec](http://spec.commonmark.org/)
+* Bad, because YAML front matter is not part of the [CommonMarc Spec](http://spec.commonmark.org/)
 * Bad, because no simple filtering using `ls` or Windows Explorer is possible
 
 ### Encode category in filename
@@ -77,7 +77,7 @@ Example: `0050--frontend--title-with-dashes.md`
 * Bad, because plain file list in Windows explorer cannot be filtered
 * Bad, because as bad as [TagSpaces](https://www.tagspaces.org/), which stores the tags in the filenames in brackets. E.g., `demo[demotag secondtag].md`.
 
-### Use subfolders with local ids
+### Use subfolders with local IDs
 
 Optionally "to-be-categorized" folder.
 
@@ -93,12 +93,12 @@ One level of subfolder, not nested
 * Good, because grouping is done by folders (which are natural for grouping)
 * Good, because typos can easily be spotted
 * Bad, because there is no unique number identifying an ADR
-* Bad, because two indices have to be maintained (adr-log needs to be updated)
-* Bad, because e-adr needs to be adapted to `@ADR("category", number)` (not that bad)
+* Bad, because two indices have to be maintained (`adr-log` needs to be updated)
+* Bad, because [e-adr](https://github.com/adr/e-adr) needs to be adapted to `@ADR("category", number)` (not that bad)
 * Bad, because when category is unknown it is hard to find the right folder
 * Bad, because using categories might be hampering newcomers
 
-### Use subfolders with global ids
+### Use subfolders with global IDs
 
 #### Examples
 

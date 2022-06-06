@@ -2,7 +2,7 @@
 parent: Decisions
 nav_order: 6
 ---
-# Use names as identifier
+# Use Names as Identifier
 
 ## Context and Problem Statement
 

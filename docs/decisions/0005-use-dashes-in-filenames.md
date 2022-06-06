@@ -2,7 +2,7 @@
 parent: Decisions
 nav_order: 5
 ---
-# Use dashes in filenames
+# Use Dashes in Filenames
 
 ## Context and Problem Statement
 

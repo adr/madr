@@ -2,7 +2,7 @@
 parent: Decisions
 nav_order: 1
 ---
-# Dual license the work
+# Dual License the Work
 
 ## Context and Problem Statement
 

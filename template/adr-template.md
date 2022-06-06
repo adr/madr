@@ -82,5 +82,3 @@ Chosen option: "{title of option 1}", because
  define when this decision when and how the decision should be realized and if/when it should be re-visited and/or
  how the decision is validated.
  Links to other decisions and resources might here appear as well.}
-
-<!-- markdownlint-disable-file MD013 -->
