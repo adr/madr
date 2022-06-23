@@ -14,11 +14,11 @@ The template originated from capturing architectural decisions and developed to 
 * [News](#news)
 * [Overview](#overview)
 * [Example](#example)
-* [Apply it to your project](#apply-it-to-your-project)
+* [Applying MADR to your project](#applying-madr-to-your-project)
   * [Initialization](#initialization)
   * [Create a new ADR](#create-a-new-adr)
   * [Lint ADRs](#lint-adrs)
-* [Using in large projects](#using-in-large-projects)
+* [Using MADR in large projects and product developments](#using-madr-in-large-projects-and-product-developments)
   * [Usage of categories](#usage-of-categories)
 * [License](#license)
 
