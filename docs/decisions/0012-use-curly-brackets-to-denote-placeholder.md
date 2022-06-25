@@ -34,6 +34,7 @@ Example: `[option 1]`.
 
 * Good, because used in MADR 1.x and MADR 2.x
 * Bad, because confusion with markdown notation for links
+* Bad, because some users did not remove the brackets. Example: `Date: [2021-03-12]` or `Good, because [user no longer activatess shortcut accidently when entering task]`.
 
 ### Use less-than and greater-than
 
