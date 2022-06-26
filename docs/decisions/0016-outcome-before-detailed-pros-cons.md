@@ -11,8 +11,9 @@ Where should that list be placed?
 
 ## Decision Drivers
 
-* MADR should be easy to write
-* MADR should be easy to read
+* Most important information should be above the fold.
+* MADR should be easy to write.
+* MADR should be easy to read.
 
 ## Considered Options
 
@@ -22,6 +23,9 @@ Where should that list be placed?
 ## Decision Outcome
 
 Chosen option: "Section 'Pros and Cons of the Options' after 'Decision Outcome'", because this keeps the available options and the decision outcome close together.
+One gets the decision outcome above the fold and preserve a nice logical flow.
+Hence, one can see the "Pros and Cons" section as a sort of "appendix" to the considered options section.
+It is almost like the "Considered Options" section implies the following sentence: "For a more detailed analysis of these options, refer to pros and cons".
 
 ## Pros and Cons of the Options
 
