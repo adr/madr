@@ -1,0 +1,4 @@
+vscode:
+  extensions:
+    - DavidAnson.vscode-markdownlint
+    - valentjn.vscode-ltex
