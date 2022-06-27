@@ -12,7 +12,6 @@ For user documentation, please head to <https://adr.github.io/madr/>.
 * Use [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
 * `template/adr-template.md` is mirrored to `docs/decisions/adr-template`.
   However, following YAML front matter is added to make it handled properly by the [Just the Docs Jekyll Template](https://just-the-docs.github.io/just-the-docs/).
-
   ```markdown
   ---
   parent: Decisions
