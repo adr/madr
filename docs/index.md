@@ -120,7 +120,7 @@ There is currently no tooling supporting MADR 3.0.0.
 ### Lint ADRs
 
 ADRs are written using Markdown.
-Since markdown allows many styles, formatting can be incosistent.
+Since markdown allows many styles, formatting can be inconsistent.
 To notify about inconsistencies, [markdownlint](https://github.com/DavidAnson/markdownlint#markdownlint) has been invented.
 There is an initial configuration for it at `template/.markdownlint`.
 You can use that configuration in a GitHub workflow.
