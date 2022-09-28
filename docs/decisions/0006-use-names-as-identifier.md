@@ -21,4 +21,4 @@ An option is listed at "Considered Options" and repeated at "Pros and Cons of th
 
 ## Decision Outcome
 
-Chosen option: "Assign an identifier to an option", because 1) there is no markdown standard for identifiers, 2) the document is harder to read if there are multiple options.
+Chosen option: "Repeat all option names if they occur", because 1) there is no markdown standard for identifiers, 2) the document is harder to read if there are multiple options which must be remembered.
