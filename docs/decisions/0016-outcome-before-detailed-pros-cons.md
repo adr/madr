@@ -70,3 +70,5 @@ Illustration:
 
 * Good, because the logical flow is kept
 * Bad, because the decision outcome is not close to the options
+* Bad, because "small" MADRs with the list of options and the decision outcome (and not containing the section "Pros and Cons of the Options")
+* Bad, because "small" MADRs with the list of options and the decision outcome (and not containing the section "Pros and Cons of the Options")

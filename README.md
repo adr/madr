@@ -22,7 +22,7 @@ For user documentation, please head to <https://adr.github.io/madr/>.
 
 ## How to start Jekyll locally
 
-For rendedring the `docs` directory, Jekyll is needed.
+For rendering the `docs` directory, Jekyll is needed.
 
 For local development, follow the [Jekyll installation instructions](https://jekyllrb.com/docs/installation/).
 Installing the latest version of ruby followed by `gem install bundler` should be enough.
@@ -47,7 +47,7 @@ In case you get errors regarding `Gemfile.lock`, just delete `Gemfile.lock` and 
 ## Releasing a new version
 
 1. Update `CHANGELOG.md`.
-2. Update the example at `docs/index.md`.
+2. Update the examples at `docs/index.md` and `docs/examples.md`.
 3. Update `docs/decisions/*` with the new template.
 4. Check that the YAML front matter in `docs/decisions/adr-template.md` is kept.
 5. Copy `.markdownlint.yml` to `template/.markdownlint.yml`
