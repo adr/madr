@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Changed
 
 - Moved section "Validation" directly after "Decision Outcome"
+- Merged sections "Positive Consequences" and "Negative Consequences" into "Consequences" to enable similar grammar as in "Pros and Cons of the Options". [#75](https://github.com/adr/madr/issues/75)
 
 ### Removed
 

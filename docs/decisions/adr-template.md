@@ -40,16 +40,11 @@ Chosen option: "{title of option 1}", because
 {justification. e.g., only option, which meets k.o. criterion decision driver | which resolves force {force} | … | comes out best (see below)}.
 
 <!-- This is an optional element. Feel free to remove. -->
-### Positive Consequences
+### Consequences
 
-* {e.g., improvement of one or more desired qualities, …}
-* …
-
-<!-- This is an optional element. Feel free to remove. -->
-### Negative Consequences
-
-* {e.g., compromising one or more desired qualities, …}
-* …
+* Good, because {positive consequence, e.g., improvement of one or more desired qualities, …}
+* Bad, because {negative consequence, e.g., compromising one or more desired qualities, …}
+* … <!-- numbers of consequences can vary -->
 
 <!-- This is an optional element. Feel free to remove. -->
 ## Validation
