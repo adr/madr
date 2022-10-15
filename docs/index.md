@@ -24,7 +24,10 @@ The template originated from capturing architectural decisions and developed to 
 
 ## News
 
-* 2022-05-17: Release of MADR 3.0.0-beta.
+* 2022-10-09: Release of MADR 3.0.0.\
+  The most important change is the merged of sections "Positive Consequences" and "Negative Consequences" into "Consequences" to enable similar grammar as in "Pros and Cons of the Options".
+  [[Full Changelog](https://github.com/adr/madr/blob/main/CHANGELOG.md#300--2022-10-09)]
+* 2022-05-17: Release of MADR 3.0.0-beta.\
   Besides improvement of the template, there was a renaming from "Markdown Architectural Decision Records" to "Markdown Any Decision Records" to follow the movement ["ADR = Any Decision Record? Architecture, Design and Beyond"](https://ozimmer.ch/practices/2021/04/23/AnyDecisionRecords.html).
   The acronym is still MADR.
 * 2021-04-25: MADR examples featured in Medium stories ["From Architectural Decisions to Design Decisions"](https://medium.com/olzzio/from-architectural-decisions-to-design-decisions-f05f6d57032b) and ["ADR = Any Decision Record?"](https://medium.com/olzzio/adr-any-decision-record-916d1b64b28d)
