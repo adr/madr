@@ -1,6 +1,6 @@
 repository: adr/madr
 title: "Any Decisions Records"
-remote_theme: just-the-docs/just-the-docs
+remote_theme: just-the-docs/just-the-docs@v0.4.0.rc3
 color_scheme: light
 
 # Hint by https://github.com/just-the-docs/just-the-docs/issues/374#issuecomment-680273258
