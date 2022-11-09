@@ -76,4 +76,4 @@ Chosen option: "{title of option 1}", because
  document the team agreement on the decision and/or
  define when this decision when and how the decision should be realized and if/when it should be re-visited and/or
  how the decision is validated.
- Links to other decisions and resources might here appear as well.}
+ Links to other decisions and resources might appear here as well.}
