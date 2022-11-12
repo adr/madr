@@ -40,7 +40,7 @@ Chosen option: "{title of option 1}", because
 * … <!-- numbers of consequences can vary -->
 
 <!-- This is an optional element. Feel free to remove. -->
-## Validation
+### Validation
 
 {describe how the implementation of/compliance with the ADR is validated. E.g., by a review or an ArchUnit test}
 
@@ -74,6 +74,5 @@ Chosen option: "{title of option 1}", because
 
 {You might want to provide additional evidence/confidence for the decision outcome here and/or
  document the team agreement on the decision and/or
- define when this decision when and how the decision should be realized and if/when it should be re-visited and/or
- how the decision is validated.
+ define when this decision when and how the decision should be realized and if/when it should be re-visited.
  Links to other decisions and resources might appear here as well.}
