@@ -23,6 +23,7 @@ The template originated from capturing architectural decisions and developed to 
 
 ## News
 
+* 2022-11-22. MADR Version 1.0 was released five years ago. A new blog post ["The Markdown ADR (MADR) Template Explained and Distilled"](https://www.researchgate.net/profile/Olaf-Zimmermann-2) is available on Medium.
 * 2022-10-09: Release of MADR 3.0.0.\
   The most important change is the merged of sections "Positive Consequences" and "Negative Consequences" into "Consequences" to enable similar grammar as in "Pros and Cons of the Options".
   [[Full Changelog](https://github.com/adr/madr/blob/main/CHANGELOG.md#300--2022-10-09)]
