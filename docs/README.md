@@ -19,7 +19,7 @@ and go to <http://localhost:4000/> in your browser.
 On **Windows**, using a dockerized environment is recommended:
 
 ```terminal
-docker run -p 4000:4000 --rm --volume="C:\git-repositories\jabref\docs":/srv/jekyll jekyll/jekyll:4 jekyll serve
+docker run -p 4000:4000 --rm --volume="C:\git-repositories\madr\docs":/srv/jekyll jekyll/jekyll:4 jekyll serve
 ```
 
 In case you get errors regarding `Gemfile.lock`, just delete `Gemfile.lock` and rerun.
