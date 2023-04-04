@@ -81,7 +81,8 @@ Chosen option: "Plain JUnit5", because it is a standard framework and the featur
 For more examples see [examples](examples.md).
 For the MADR project itself, all ADRs are rendered at [decisions/](decisions/).
 Their source can be found at <https://github.com/adr/madr/tree/main/docs/decisions>.
-The latest release of the full template (with placeholders and some guidance how to use) can be found at <https://github.com/adr/madr/blob/3.0.0-beta.2/docs/decisions/adr-template.md>.
+The latest release of the full template (with placeholders and some guidance how to use) can be found at the [releases page](https://github.com/adr/madr/releases/latest).
+By clicking on the number at the tag symbol, you browse the repository at the state of the release.
 For the brave, the version under development is available at <https://github.com/adr/madr/blob/main/template/adr-template.md>.
 There also is a [CHANGELOG](https://github.com/adr/madr/blob/main/CHANGELOG.md#changelog) listing the changes between the last released version and the currently developed version.
 
@@ -102,7 +103,7 @@ npm install madr && mkdir -p docs/decisions && cp node_modules/madr/template/* d
 
 #### Manual approach
 
-1. Copy `docs/decisions/adr-template.md` to `docs/decisions/NNNN-title-with-dashes.md`, where `NNNN` indicates the next number in sequence.
+1. Copy [`docs/decisions/adr-template.md`](https://github.com/adr/madr/blob/main/template/adr-template.md) to `docs/decisions/NNNN-title-with-dashes.md`, where `NNNN` indicates the next number in sequence.
 2. Edit `NNNN-title-with-dashes.md`.
 
 Note you can also use [other patterns for the directory format](https://github.com/joelparkerhenderson/architecture_decision_record#adr-file-name-conventions).
@@ -111,8 +112,8 @@ As a consequence, some existing tooling might not be applicable.
 The filenames are following the pattern `NNNN-title-with-dashes.md` ([ADR-0005](docs/decisions/0005-use-dashes-in-filenames.md)), where
 
 * `NNNN` is a consecutive number and we assume that there won't be more than 9,999 ADRs in one repository.
-* the title is stored using dashes and lowercase, because [adr-tools] also does that.
-* the suffix is `.md`, because it is a [Markdown](https://github.github.com/gfm/) file.
+* The title is stored using dashes and lowercase, because [adr-tools] also does that.
+* The suffix is `.md`, because it is a [Markdown](https://github.github.com/gfm/) file.
 
 Decisions are placed in the subfolder `decisions/` to keep them close to the documentation but also separate the decisions from other documentation.
 
@@ -123,7 +124,7 @@ There is currently no tooling supporting MADR 3.0.0.
 ### Lint ADRs
 
 ADRs are written using Markdown.
-Since markdown allows many styles, formatting can be inconsistent.
+Since Markdown allows many styles, formatting can be inconsistent.
 To notify about inconsistencies, [markdownlint](https://github.com/DavidAnson/markdownlint#markdownlint) has been invented.
 There is an initial configuration for it at `template/.markdownlint`.
 You can use that configuration in a GitHub workflow.
@@ -152,9 +153,17 @@ An examplary folder structure might follow the architectural structure of the sy
 
 This approach makes all categories explicit because the sub directory/folder names define the categories.
 As a consequence, numbers of ADRs are no longer unique throughout the repository, but locally within a category only.
-Ideally, the ADR categorization the same organizing principles as other artifacts such as the code; using architectural structur breakdown is just one option and functional decomposition would be an additional one. This comes down to a meta-decision to be made rather early on.
+Ideally, the ADR categorization the same organizing principles as other artifacts such as the code; using architectural structure breakdown is just one option and functional decomposition would be an additional one. This comes down to a meta-decision to be made rather early on.
 
 Note that alternatives to categorization via subfolders are discussed at [ADR-0010](decisions/0010-support-categories.md).
+
+## Full template
+
+The current development version renders as follows:
+
+```markdown
+{% include_relative decisions/adr-template.md %}
+```
 
 ## License
 
