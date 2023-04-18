@@ -62,7 +62,7 @@ Chosen option: "Plain JUnit5", because comes out best (see below).
 ### Consequences
 
 * Good, because tests are more readable
-* Goop, because more easy to write tests
+* Good, because more easy to write tests
 * Good, because more readable assertions
 * Bad, because more complicated testing leads to more complicated assertions
 
