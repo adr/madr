@@ -1,7 +1,17 @@
+title: "MADR"
+desription: Markdown Any Decisions Records
 repository: adr/madr
-title: "Any Decisions Records"
-remote_theme: just-the-docs/just-the-docs@v0.5.0
+theme: just-the-docs
 color_scheme: light
+
+exclude: [README.md]
+
+defaults:
+  -
+    scope:
+      path: "**/*.md"
+    values:
+      layout: "page"
 
 # Hint by https://github.com/just-the-docs/just-the-docs/issues/374#issuecomment-680273258
 # Theme read from https://github.com/StylishThemes/Syntax-Themes/blob/master/pygments/css-github/
@@ -28,8 +38,5 @@ gh_edit_view_mode: "edit"
 # ga_tracking: UA-5555555-55
 # ga_tracking_anonymize_ip: true
 
-baseurl: "/madr"
+baseurl: ""
 url: "https://adr.github.io"
-
-plugins:
-  - jekyll-remote-theme
