@@ -42,7 +42,7 @@ jobs:
         uses: actions/upload-pages-artifact@v1
 
   deploy:
-    if: github.ref == 'refs/heads/main'
+    if: github.ref == 'refs/heads/gh-pages'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
