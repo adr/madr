@@ -4,14 +4,14 @@ repository: adr/madr
 theme: just-the-docs
 color_scheme: light
 
-exclude: [README.md]
-
 defaults:
   -
     scope:
       path: "**/*.md"
     values:
       layout: "page"
+
+exclude: [Dockerfile, README.md, Gemfile, Gemfile.lock]
 
 # Hint by https://github.com/just-the-docs/just-the-docs/issues/374#issuecomment-680273258
 # Theme read from https://github.com/StylishThemes/Syntax-Themes/blob/master/pygments/css-github/
@@ -40,3 +40,6 @@ gh_edit_view_mode: "edit"
 
 baseurl: ""
 url: "https://adr.github.io"
+
+plugins:
+  - jekyll-titles-from-headings

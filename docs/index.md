@@ -1,5 +1,6 @@
 ---
 nav_order: 1
+title: About MADR
 ---
 # Markdown Any Decision Records [![part of ADR](https://img.shields.io/badge/part_of-ADR-blue.svg)](https://adr.github.io)
 
