@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [Unreleased]
+
+### Changed
+
+- Put the content of `status:` in quotes to tell YAML it's a string. [#91](https://github.com/adr/madr/issues/91)
+
 ## [3.0.0] – 2022-10-09
 
 ### Added
