@@ -40,9 +40,10 @@ Chosen option: "{title of option 1}", because
 * … <!-- numbers of consequences can vary -->
 
 <!-- This is an optional element. Feel free to remove. -->
-### Validation
+### Confirmation
 
-{describe how the implementation of/compliance with the ADR is validated. E.g., by a review or an ArchUnit test}
+{Describe how the implementation of/compliance with the ADR is confirmed. E.g., by a review or an ArchUnit test.
+ Although we classify this element as optional, it is included in most ADRs.}
 
 <!-- This is an optional element. Feel free to remove. -->
 ## Pros and Cons of the Options
