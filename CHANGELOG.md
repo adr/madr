@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Changed
 
 - Put the content of `status:` in quotes to tell YAML it's a string. [#91](https://github.com/adr/madr/issues/91)
+- Renamed "Validation" to "Confirmation" and put it as sub element of "Decision Outcome". [#87](https://github.com/adr/madr/pull/87)
 
 ## [3.0.0] – 2022-10-09
 
