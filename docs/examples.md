@@ -9,7 +9,7 @@ The following sections present an example in the context of assertion frameworks
 We start with presenting a very short and dense version:
 It "just" lists the context and problem statement, the available options, and the outcome.
 For some decisions, these bits of information could not be enough.
-Therfore, it is possible to "unpack" the decision.
+Therefore, it is possible to "unpack" the decision.
 This is done in the presented longer version of the ADR.
 
 ## Short Version
