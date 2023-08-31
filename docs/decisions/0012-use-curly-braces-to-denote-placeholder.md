@@ -2,7 +2,7 @@
 parent: Decisions
 nav_order: 12
 ---
-# Use Curly Brackets to Denote Placeholders
+# Use Curly Braces to Denote Placeholders
 
 ## Context and Problem Statement
 
