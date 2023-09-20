@@ -51,7 +51,7 @@ It should be as easy as possible to
 a) write down the decisions and
 b) to version the decisions.
 
-There are debates what is an architecturally-significant decision and which decisions are not architecturally significant.
+There are debates about what is an architecturally-significant decision and which decisions are not architecturally significant.
 Since we believe that any (important) decision should be captured in a structured way, we offer the MADR template to capture any decision.
 
 This repository offers a solution to record any decisions.
