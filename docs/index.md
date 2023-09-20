@@ -1,6 +1,8 @@
 ---
 nav_order: 1
+title: About MADR
 ---
+<!-- markdownlint-disable MD025 -->
 # Markdown Any Decision Records [![part of ADR](https://img.shields.io/badge/part_of-ADR-blue.svg)](https://adr.github.io)
 
 > "Markdown Any Decision Records" (MADR) `[ˈmæɾɚ]` – decisions that [matter `[ˈmæɾɚ]`](https://en.wiktionary.org/wiki/matter#Pronunciation).
