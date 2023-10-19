@@ -22,13 +22,13 @@ We needed a tool to record our decisions made in this project. Which format shou
 
 ## Considered Options
 
-Lightweight \n
-MADR
+* Lightweight 
+* MADR
 
 ## Decision Outcome
 
-Chosen option: "MADR", because\n
-The MADR format fits our development style\n
-MADR allows for structered capturing of any decision
+* Chosen option: "MADR", because
+* The MADR format fits our development style
+* MADR allows for structered capturing of any decision
 
 
