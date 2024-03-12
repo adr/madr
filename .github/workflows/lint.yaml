@@ -5,8 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Set up Git repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Lint
-        uses: DavidAnson/markdownlint-cli2-action@v5
+        uses: DavidAnson/markdownlint-cli2-action@v15
         with:
           globs: '**/*.md'
