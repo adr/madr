@@ -112,7 +112,7 @@ npm install madr && mkdir -p docs/decisions && cp node_modules/madr/template/* d
 Note you can also use [other patterns for the directory format](https://github.com/joelparkerhenderson/architecture_decision_record#adr-file-name-conventions).
 As a consequence, some existing tooling might not be applicable.
 
-The filenames are following the pattern `NNNN-title-with-dashes.md` ([ADR-0005](docs/decisions/0005-use-dashes-in-filenames.md)), where
+The filenames are following the pattern `NNNN-title-with-dashes.md` ([ADR-0005](decisions/0005-use-dashes-in-filenames.md)), where
 
 * `NNNN` is a consecutive number and we assume that there won't be more than 9,999 ADRs in one repository.
 * The title is stored using dashes and lowercase, because [adr-tools] also does that.
