@@ -1,12 +1,12 @@
 name: Check external href links
 
 on:
+  pull_request:
   push:
     paths:
       - '.github/workflows/check-links.yml'
       - '**/*.md'
   schedule:
-    # Run on the first of each month at 9:00 AM (See https://pubs.opengroup.org/onlinepubs/9699919799/utilities/crontab.html#tag_20_25_07)
     - cron: "0 9 1 * *"
   workflow_dispatch:
 
@@ -33,3 +33,11 @@ jobs:
         with:
           fail: true
           args: --max-concurrency 1 --cache --no-progress --exclude-all-private './**/*.md'
+  keepalive:
+    name: Keepalive
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: gautamkrishnar/keepalive-workflow@v2
