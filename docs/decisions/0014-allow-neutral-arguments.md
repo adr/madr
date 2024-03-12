@@ -48,7 +48,7 @@ Shorter example for pros and cons:
 
 ### OK, because …
 
-Real world example: <https://github.com/island-is/island.is/blob/main/handbook/technical-overview/adr/0005-error-tracking-and-monitoring.md>
+Real world example: <https://github.com/island-is/handbook/blob/master/docs/adr/0005-error-tracking-and-monitoring.md>
 
 ```markdown
 ### Bugsnag

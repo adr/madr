@@ -47,7 +47,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Refined howto texts
 - Disable [markdown-lint](https://github.com/DavidAnson/markdownlint)'s [MD013 - line length](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md013---line-length) for the ADR files.
 - Added initial [markdownlint](https://github.com/DavidAnson/markdownlint) configuration file `.markdownlint`.
-  This can, for instance, be used by a [GitHub linting workflow](https://github.com/adr/madr/blob/main/.github/workflows/lint.yaml)
+  This can, for instance, be used by a [GitHub linting workflow](https://github.com/adr/madr/blob/develop/.github/workflows/lint.yaml)
 
 ### Changed
 
@@ -135,7 +135,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Added
 
-- Version of MADR into [ADR-0000](template/0000-use-markdown-architectural-decision-records.md) of the template. Fixes [#5](https://github.com/adr/madr/issues/5)
+- Version of MADR into `ADR-0000` of the template. Fixes [#5](https://github.com/adr/madr/issues/5)
 - `README.md`: Added wints on the filenames.
 - More ADRs on MADR
 - Added `LICENSE` file
@@ -186,10 +186,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Changed
 
 - No change in the template itself.
-- Use [adr-log](https://adr.github.io/adr-log/) to generate links to the ADRs in `docs/adr/index.md`.
+- Use [adr-log](https://github.com/adr/adr-log?tab=readme-ov-file#adr-log-) to generate links to the ADRs in `docs/adr/index.md`.
 - `template.md` is not part of the log, but a separate text block in `docs/adr/index.md`.
 - Link to new homepage of MADR: <https://adr.github.io/madr/>.
-- Refined justification of [ADR-0000](docs/adr/0000-use-markdown-architectural-decision-records.md).
+- Refined justification of `ADR-0000`.
 - Refined `README.md`.
 
 ### Fixed
@@ -201,7 +201,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 First release of Markdown Architectural Decision Records.
 
-[Unreleased]: https://github.com/adr/madr/compare/3.0.0...main
+[Unreleased]: https://github.com/adr/madr/compare/3.0.0...develop
 [3.0.0]: https://github.com/adr/madr/compare/3.0.0-beta.2...3.0.0
 [3.0.0-beta.2]: https://github.com/adr/madr/compare/3.0.0-beta...3.0.0-beta.2
 [3.0.0-beta]: https://github.com/adr/madr/compare/2.1.2...3.0.0-beta
