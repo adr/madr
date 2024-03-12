@@ -131,7 +131,7 @@ Since Markdown allows many styles, formatting can be inconsistent.
 To notify about inconsistencies, [markdownlint](https://github.com/DavidAnson/markdownlint#markdownlint) has been invented.
 There is an initial configuration for it at `template/.markdownlint`.
 You can use that configuration in a GitHub workflow.
-See [`.github/workflows/lint.yaml`](.github/workflows/lint.yaml) for an example.
+See [`.github/workflows/lint.yaml`](https://github.com/adr/madr/blob/develop/.github/workflows/lint.yaml) for an example.
 
 ## Using MADR in large projects and product developments
 
