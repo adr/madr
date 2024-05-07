@@ -7,6 +7,9 @@ title: About MADR
 
 > "Markdown Any Decision Records" (MADR) `[ˈmæɾɚ]` – decisions that [matter `[ˈmæɾɚ]`](https://en.wiktionary.org/wiki/matter#Pronunciation).
 
+<!-- text source: https://adr.github.io/ -->
+An Architectural Decision (AD) is a justified software design choice that addresses a functional or non-functional requirement that is architecturally significant.
+An [Architectural Decision Record (ADR)](https://adr.github.io/) captures a single AD and its rationale.
 MADR is a lean template to capture any decisions in a structured way.
 The template originated from capturing architectural decisions and developed to a template allowing to capture any decisions taken.
 
