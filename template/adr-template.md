@@ -1,6 +1,6 @@
 ---
 # These are optional elements. Feel free to remove any of them.
-status: {proposed | rejected | accepted | deprecated | … | superseded by ADR-0005 <0005-example.md>}
+status: "{proposed | rejected | accepted | deprecated | … | superseded by [ADR-0005](0005-example.md)}"
 date: {YYYY-MM-DD when the decision was last updated}
 deciders: {list everyone involved in the decision}
 consulted: {list everyone whose opinions are sought (typically subject-matter experts); and with whom there is a two-way communication}
@@ -40,9 +40,10 @@ Chosen option: "{title of option 1}", because
 * … <!-- numbers of consequences can vary -->
 
 <!-- This is an optional element. Feel free to remove. -->
-## Validation
+### Confirmation
 
-{describe how the implementation of/compliance with the ADR is validated. E.g., by a review or an ArchUnit test}
+{Describe how the implementation of/compliance with the ADR is confirmed. E.g., by a review or an ArchUnit test.
+ Although we classify this element as optional, it is included in most ADRs.}
 
 <!-- This is an optional element. Feel free to remove. -->
 ## Pros and Cons of the Options
@@ -74,6 +75,5 @@ Chosen option: "{title of option 1}", because
 
 {You might want to provide additional evidence/confidence for the decision outcome here and/or
  document the team agreement on the decision and/or
- define when and how this decision should be realized and if/when it should be re-visited and/or
- how the decision is validated.
- Links to other decisions and resources might appear here as well.}
+ define when/how this decision the decision should be realized and if/when it should be re-visited.
+Links to other decisions and resources might appear here as well.}

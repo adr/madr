@@ -45,7 +45,7 @@ status: on hold
 #### Examples
 
 * ![Example "Use Angular" with "status: accepted"](0008-example-badge.png)
-* [![Example "status: superseded"](https://img.shields.io/badge/status-superseeded_by_ADR_0001-orange.svg?style=flat-square)](https://github.com/adr/madr/blob/main/docs/decisions/0001-use-CC0-as-license.md)
+* [![Example "status: superseded"](https://img.shields.io/badge/status-superseeded_by_ADR_0001-orange.svg?style=flat-square)](https://github.com/adr/madr/blob/develop/docs/decisions/0001-use-CC0-or-MIT-as-license.md)
 
 ---
 

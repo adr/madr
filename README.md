@@ -20,6 +20,15 @@ For user documentation, please head to <https://adr.github.io/madr/>.
   ---
   ```
 
+### Branches
+
+| Branch | Meaning |
+| -- | -- |
+| `gh-pages` | Homepage showing the latest released version, rendered at <https://adr.github.io/madr> |
+| `develop` | Latest developments, including homepage updates which should be published on a release. `gh-pages` should always be merged into this branch. |
+| `release/v1` | Branch for latest release 1.x version of MADR. Introduced to fix [#92](https://github.com/adr/madr/issues/92) |
+| `release/vY` | Branch for version Y.x of MADR. |
+
 ## How to start Jekyll locally
 
 For rendering the `docs` directory, Jekyll is needed.
@@ -46,15 +55,19 @@ In case you get errors regarding `Gemfile.lock`, just delete `Gemfile.lock` and 
 
 ## Releasing a new version
 
-1. Update `CHANGELOG.md`.
-2. Update the examples at `docs/index.md` and `docs/examples.md`.
-3. Update `docs/decisions/*` with the new template.
-4. Check that the YAML front matter in `docs/decisions/adr-template.md` is kept.
-5. Copy `.markdownlint.yml` to `template/.markdownlint.yml`
-6. Adapt the version reference in `template/0000-use-markdown-any-decision-records.md`.
-7. Copy `template/0000-use-markdown-any-decision-records.md` to `docs/decisions/0000-use-markdown-any-decision-records.md`.
-8. Update `package.json`, publish to [npmjs](https://www.npmjs.com/package/madr), create GitHub release.\
-   Use [release-it](https://www.npmjs.com/package/release-it) (do not create a release on GitHub) and [github-release-from-changelog](https://www.npmjs.com/package/github-release-from-changelog).
+1. Update the examples at `docs/index.md` and `docs/examples.md`.
+2. Update `docs/decisions/*` with the new template.
+3. Add link to `docs/index.md` (for the homepage).
+4. Commit and push.
+5. Update `CHANGELOG.md`.
+6. Check that the YAML front matter in `docs/decisions/adr-template.md` is kept.
+7. Copy `.markdownlint.yml` to `template/.markdownlint.yml`
+8. Adapt the version reference in `template/0000-use-markdown-any-decision-records.md`.
+9. Copy `template/0000-use-markdown-any-decision-records.md` to `docs/decisions/0000-use-markdown-any-decision-records.md`.
+10. Update `package.json`
+11. Publish to [npmjs](https://www.npmjs.com/package/madr) using [release-it](https://www.npmjs.com/package/release-it) (do not create a release on GitHub). This also does a commit.
+12. Create GitHub release using [github-release-from-changelog](https://www.npmjs.com/package/github-release-from-changelog).
+13. Merge `develop` into `gh-pages`
 
 ## License
 

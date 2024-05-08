@@ -6,3 +6,5 @@ default: true
 #
 # Details: https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md#md013---line-length
 MD013: false
+
+MD033: false
