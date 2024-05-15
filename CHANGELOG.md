@@ -11,6 +11,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 - Put the content of `status:` in quotes to tell YAML it's a string. [#91](https://github.com/adr/madr/issues/91)
 - Renamed "Validation" to "Confirmation" and put it as sub element of "Decision Outcome". [#87](https://github.com/adr/madr/pull/87)
+- Rename template name "Markdown Any Decision Record" back to "Markdown Architectural Decision Record"
+- Rename `0000-use-markdown-any-decision-records.md` to `0000-use-madr.md`.
 
 ## [3.0.0] – 2022-10-09
 
