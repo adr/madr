@@ -1,5 +1,5 @@
 title: "MADR"
-desription: Markdown Any Decisions Records
+desription: Markdown Architectural Decisions Records
 repository: adr/madr
 theme: just-the-docs
 color_scheme: light

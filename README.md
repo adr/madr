@@ -1,6 +1,6 @@
-# Markdown Any Decision Records
+# Markdown Architectural Decision Records
 
-> "Markdown Any Decision Records" (MADR) `[ˈmæɾɚ]` – decisions that [matter `[ˈmæɾɚ]`](https://en.wiktionary.org/wiki/matter#Pronunciation).
+> "Markdown Architectural Decision Records" (MADR) `[ˈmæɾɚ]` – decisions that [matter `[ˈmæɾɚ]`](https://en.wiktionary.org/wiki/matter#Pronunciation).
 
 For user documentation, please head to <https://adr.github.io/madr/>.
 
@@ -62,8 +62,8 @@ In case you get errors regarding `Gemfile.lock`, just delete `Gemfile.lock` and 
 5. Update `CHANGELOG.md`.
 6. Check that the YAML front matter in `docs/decisions/adr-template.md` is kept.
 7. Copy `.markdownlint.yml` to `template/.markdownlint.yml`
-8. Adapt the version reference in `template/0000-use-markdown-any-decision-records.md`.
-9. Copy `template/0000-use-markdown-any-decision-records.md` to `docs/decisions/0000-use-markdown-any-decision-records.md`.
+8. Adapt the version reference in `template/0000-use-madr.md`.
+9. Copy `template/0000-use-madr.md` to `docs/decisions/0000-use-madr.md`.
 10. Update `package.json`
 11. Publish to [npmjs](https://www.npmjs.com/package/madr) using [release-it](https://www.npmjs.com/package/release-it) (do not create a release on GitHub). This also does a commit.
 12. Create GitHub release using [github-release-from-changelog](https://www.npmjs.com/package/github-release-from-changelog).
