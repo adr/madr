@@ -48,10 +48,17 @@ and go to <http://localhost:4000/madr/> in your browser.
 On Windows, using a dockerized environment is recommended:
 
 ```terminal
-docker run -p 4000:4000 --rm --volume="C:\git-repositories\adr.github.io\madr\docs":/srv/jekyll jekyll/jekyll:4 jekyll serve
+docker run -p 4000:4000 --rm -v "C:\git-repositories\adr.github.io\madr\docs":/site bretfisher/jekyll-serve
 ```
 
 In case you get errors regarding `Gemfile.lock`, just delete `Gemfile.lock` and rerun.
+
+## Updating just-the-docs
+
+* Adapt `docs/Gemfile` to use newer just-the-docs version. Thereby check <https://github.com/just-the-docs/just-the-docs-template/blob/main/Gemfile> for versions.
+* Delete `docs/Gemfile.lock`. Start `bundle install`.
+* Check <https://github.com/just-the-docs/just-the-docs/blob/main/CHANGELOG.md>.
+* Check <https://just-the-docs.com/migration/>.
 
 ## Releasing a new version
 
