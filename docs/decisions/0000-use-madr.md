@@ -19,7 +19,7 @@ Which format and structure should these records follow?
 
 ## Decision Outcome
 
-Chosen option: "MADR 3.0.0", because
+Chosen option: "MADR 4.0.0", because
 
 * Implicit assumptions should be made explicit.
   Design documentation is important to enable people understanding the decisions later on.

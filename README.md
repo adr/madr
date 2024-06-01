@@ -4,7 +4,7 @@
 
 For user documentation, please head to <https://adr.github.io/madr/>.
 
-## Development Hints
+## Development hints
 
 * MADR follows [Semantic Versioning 2.0.0](https://semver.org/) and documents changes in a `CHANGELOG.md` following [keep a changelog 1.0.0](http://keepachangelog.com/en/1.0.0/).
 * Issues can be reported at <https://github.com/adr/madr/issues>.
@@ -63,18 +63,19 @@ In case you get errors regarding `Gemfile.lock`, just delete `Gemfile.lock` and 
 ## Releasing a new version
 
 1. Update the examples at `docs/index.md` and `docs/examples.md`.
-2. Update `docs/decisions/*` with the new template.
-3. Add link to `docs/index.md` (for the homepage).
-4. Commit and push.
-5. Update `CHANGELOG.md`.
-6. Check that the YAML front matter in `docs/decisions/adr-template.md` is kept.
-7. Copy `.markdownlint.yml` to `template/.markdownlint.yml`
-8. Adapt the version reference in `template/0000-use-madr.md`.
-9. Copy `template/0000-use-madr.md` to `docs/decisions/0000-use-madr.md`.
-10. Update `package.json`
-11. Publish to [npmjs](https://www.npmjs.com/package/madr) using [release-it](https://www.npmjs.com/package/release-it) (do not create a release on GitHub). This also does a commit.
-12. Create GitHub release using [github-release-from-changelog](https://www.npmjs.com/package/github-release-from-changelog).
-13. Merge `develop` into `gh-pages`
+2. Update the concrete decisions in `docs/decisions/*` with the new template.
+3. Commit ("Update examples and decisions") and push. Possibly as pull request.
+4. Adapt the version reference in `template/0000-use-madr.md`.
+5. Update "template" files in in `docs/decisions/`
+   * Copy `template/0000-use-madr.md` to `docs/decisions/0000-use-madr.md`.
+   * Adapt content of `docs/decisions/adr-template.md` based on `template/adr-template.md`.
+     Thereby, ensure that the YAML front matter in `docs/decisions/adr-template.md` is kept.
+6. Add link to `docs/index.md` at "Older versions" (for the homepage).
+7. Update `CHANGELOG.md`.
+8. Copy `.markdownlint.yml` to `template/.markdownlint.yml`
+9. Update `package.json` and publish to [npmjs](https://www.npmjs.com/package/madr) using [release-it](https://www.npmjs.com/package/release-it) (do not create a release on GitHub). This also does a commit.
+10. Create GitHub release using [github-release-from-changelog](https://www.npmjs.com/package/github-release-from-changelog).
+11. Merge `develop` into `gh-pages`
 
 ## License
 
