@@ -11,7 +11,7 @@ title: About MADR
 An Architectural Decision (AD) is a justified software design choice that addresses a functional or non-functional requirement of architectural significance.
 This decision is documented in an Architectural Decision Record (ADR), which details a single AD and its underlying rationale.
 To capture these records in a lean way, the Markdown Architectural Decision Records (MADRs) have been invented:
-MADR is a streamlined template for recording archictural significant decisions in a structured manner.
+MADR is a streamlined template for recording architectural significant decisions in a structured manner.
 
 ## Contents
 
@@ -24,11 +24,13 @@ MADR is a streamlined template for recording archictural significant decisions i
   * [Lint ADRs](#lint-adrs)
 * [Using MADR in large projects and product developments](#using-madr-in-large-projects-and-product-developments)
   * [Usage of categories](#usage-of-categories)
+* [Full template](#full-template)
+* [Older versions](#older-versions)
 * [License](#license)
 
 ## News
 
-* 2024-05-xx: Release of MADR 4.0.0
+* 2024-06-xx: Release of MADR 4.0.0-beta
   * To strengthen the importance for decisions in software architecture work, MADR spells out "Markdown Architectural Decision Records".
     They can still be used to sustain any decision, our focus is on architectural decisions.
 * 2023-04-05: Two new Medium stories ["How to create Architectural Decision Records (ADRs) — and how not to"](https://medium.com/olzzio/how-to-create-architectural-decision-records-adrs-and-how-not-to-93b5b4b33080) and ["How to review Architectural Decision Records (ADRs) — and how not to"](https://medium.com/olzzio/how-to-review-architectural-decision-records-adrs-and-how-not-to-2707652db196). Metaphors, patterns, anti-patterns, checklists applicable (but not limited) to MADRs.
@@ -61,10 +63,7 @@ There are debates about what is an architecturally-significant decision and whic
 Since we believe that any (important) decision should be captured in a structured way, we offer the MADR template to capture any decision.
 
 This repository offers a solution to record any decisions.
-It provides files to document any decisions using **M**arkdown and **A**ny **D**ecision **R**ecords.
-
-Before MADR 3.0.0, "MADR" stood for **M**arkdown and **A**rchitectural **D**ecision **R**ecords.
-Since MADR 3.0.0, "Architectural" was replaced by "Any".
+It provides files to document any decisions using **M**arkdown and **A**rchitectural **D**ecision **R**ecords.
 
 ## Example
 
@@ -147,9 +146,9 @@ Some proposals from the community are presented in the following.
 
 ### Usage of categories
 
-MADR logs may be categorized ADRs by defining sub directories and put the ADRs into these folders.
+MADR logs may be categorized ADRs by defining subdirectories and put the ADRs into these folders.
 
-An examplary folder structure might follow the architectural structure of the system under construction:
+An exemplary folder structure might follow the architectural structure of the system under construction:
 
 ```tree
 .
@@ -160,7 +159,7 @@ An examplary folder structure might follow the architectural structure of the sy
         `-- 0001-use-vuejs.md
 ```
 
-This approach makes all categories explicit because the sub directory/folder names define the categories.
+This approach makes all categories explicit because the subdirectory/folder names define the categories.
 As a consequence, numbers of ADRs are no longer unique throughout the repository, but locally within a category only.
 Ideally, the ADR categorization the same organizing principles as other artifacts such as the code; using architectural structure breakdown is just one option and functional decomposition would be an additional one. This comes down to a meta-decision to be made rather early on.
 
@@ -173,6 +172,16 @@ The current development version renders as follows:
 ```markdown
 {% include_relative decisions/adr-template.md %}
 ```
+
+## Older versions
+
+| Version | Branch | Homepage |
+| -- | -- | -- |
+| 1.x | [release/v1](https://github.com/adr/madr/tree/release/v1) | [README.md](https://github.com/adr/madr/blob/release/v1/README.md) |
+| 2.x | [release/v2](https://github.com/adr/madr/tree/release/v2) | [README.md](https://github.com/adr/madr/blob/release/v2/README.md) |
+| 3.x | [release/v3](https://github.com/adr/madr/tree/release/v3) | [index.md](https://github.com/adr/madr/blob/release/v3/docs/index.md) |
+
+The branch name conventions follow the [git flow model](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow).
 
 ## License
 
