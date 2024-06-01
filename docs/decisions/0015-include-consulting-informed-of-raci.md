@@ -6,7 +6,7 @@ nav_order: 15
 
 ## Context and Problem Statement
 
-We noticed an intersection between MADR and [RACI](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix), and felt the need to add a "consulted" and "informed" field in addition to "deciders".
+We noticed an intersection between MADR and [RACI](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix), and felt the need to add a "consulted" and "informed" field in addition to "decision maker(s)".
 Would it be beneficial to "upstream" these fields to MADR?
 
 MADR Issue: [#62](https://github.com/adr/madr/issues/62).

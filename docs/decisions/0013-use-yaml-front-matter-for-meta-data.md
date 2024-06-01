@@ -6,7 +6,7 @@ nav_order: 13
 
 ## Context and Problem Statement
 
-MADR offers the fields "Status", "Deciders", and "Date".
+MADR offers the fields "Status", "Decision Maker(s)", and "Date".
 These are a kind of metadata fields.
 Should this data be included in the ADR directly, or should it be separated somehow?
 
@@ -33,7 +33,7 @@ Example:
 ```markdown
 ---
 status: accepted
-deciders:
+decision-makers:
 date:
 ---
 
