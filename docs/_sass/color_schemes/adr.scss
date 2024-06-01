@@ -1,0 +1,19 @@
+@import "./color_schemes/dark";
+
+$body-background-color: #1f1f1f;
+$body-heading-color: lighten($body-text-color, 1%);
+$body-text-color: #cccccc;
+$link-color: #488ad1;
+$nav-child-link-color: $grey-dk-000;
+$sidebar-color: #1f1f1f;
+$base-button-color: $grey-dk-250;
+$btn-primary-color: $blue-200;
+$code-background-color: #1f1f1f;
+$code-linenumber-color: #cccccc;
+$feedback-color: darken($sidebar-color, 3%);
+$table-background-color: lighten($body-background-color, 1%);
+$search-background-color: lighten($body-background-color, 3%);
+$search-result-preview-color: $grey-dk-000;
+
+// cannot disable border, due to higher priority of code.scss
+$border-color: #1f1f1f;

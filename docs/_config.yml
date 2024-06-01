@@ -2,7 +2,7 @@ title: "MADR"
 desription: Markdown Architectural Decisions Records
 repository: adr/madr
 theme: just-the-docs
-color_scheme: dark
+color_scheme: adr
 
 defaults:
   -
