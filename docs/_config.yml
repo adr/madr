@@ -43,3 +43,4 @@ url: "https://adr.github.io"
 
 plugins:
   - jekyll-titles-from-headings
+  - jekyll-relative-links
