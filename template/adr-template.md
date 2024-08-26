@@ -35,8 +35,13 @@ Chosen option: "{title of option 1}", because
 <!-- This is an optional element. Feel free to remove. -->
 ### Consequences
 
-* Good, because {positive consequence, e.g., improvement of one or more desired qualities, …}
-* Bad, because {negative consequence, e.g., compromising one or more desired qualities, …}
+Positive Consequences:
+
+* {positive consequence, e.g., improvement of one or more desired qualities, …}
+
+Negative Consequences:
+
+* {negative consequence, e.g., compromising one or more desired qualities, …}
 * … <!-- numbers of consequences can vary -->
 
 <!-- This is an optional element. Feel free to remove. -->
@@ -53,22 +58,41 @@ Chosen option: "{title of option 1}", because
 <!-- This is an optional element. Feel free to remove. -->
 {example | description | pointer to more information | …}
 
-* Good, because {argument a}
-* Good, because {argument b}
+Pros:
+
+* {argument a}
+* {argument b}
+
 <!-- use "neutral" if the given argument weights neither for good nor bad -->
-* Neutral, because {argument c}
-* Bad, because {argument d}
-* … <!-- numbers of pros and cons can vary -->
+Neutral:
+
+* {argument c}
+* {argument d}
+
+Cons:
+
+* {argument e}
+* {argument f}
+* … <!-- numbers of arguments can vary -->
 
 ### {title of other option}
 
 {example | description | pointer to more information | …}
 
-* Good, because {argument a}
-* Good, because {argument b}
-* Neutral, because {argument c}
-* Bad, because {argument d}
-* …
+Pros:
+
+* {argument g}
+* {argument h}
+
+Neutral:
+
+* {argument i}
+* {argument j}
+
+Cons:
+
+* {argument k}
+* {argument l}
 
 <!-- This is an optional element. Feel free to remove. -->
 ## More Information
