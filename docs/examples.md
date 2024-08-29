@@ -35,7 +35,7 @@ Chosen option: "Plain JUnit5", because it is a standard framework and the featur
 
 ## Long Version
 
-This longer version of the above ADR adds pros and cons of the options, positive and negative consequences, as well as some more information.
+This longer version of the above ADR adds pros and cons of the options, positive and negative consequences, confirmation as well as some more information (e.g., about the options).
 
 ````markdown
 ---
@@ -57,7 +57,7 @@ How to write readable test assertions for advanced tests?
 
 ## Decision Outcome
 
-Chosen option: "Plain JUnit5", because comes out best (see below).
+Chosen option: "Plain JUnit5", because comes out best (see "Pros and Cons of the Options" below).
 
 ### Consequences
 
@@ -65,6 +65,12 @@ Chosen option: "Plain JUnit5", because comes out best (see below).
 * Good, because more easy to write tests
 * Good, because more readable assertions
 * Bad, because more complicated testing leads to more complicated assertions
+
+### Confirmation
+
+* Check project dependencies, JUnit5 should appear (and be the only test assertion library)
+* Collect experience with JUnit5 in sprint reviews and retrospectives: does experience match the pros and cons evaluation below?
+* Decide whether and when to review the decision (the 'R' in the [ecADR definition of done](https://medium.com/olzzio/a-definition-of-done-for-architectural-decisions-426cf5a952b9) for ADs) 
 
 ## Pros and Cons of the Options
 
