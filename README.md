@@ -39,6 +39,8 @@ Longer explanation: Head to <https://adr.github.io/madr/#applying-madr-to-your-p
 | `develop`    | Latest developments, including homepage updates which should be published on a release. `gh-pages` should always be merged into this branch. |
 | `release/vY` | Branch for latest release Y.x version of MADR. Introduced to fix [#92](https://github.com/adr/madr/issues/92)                                |
 
+The branch name conventions follow the [git flow model](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow).
+
 See also [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 ## How to start Jekyll locally
