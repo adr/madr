@@ -16,4 +16,10 @@ jobs:
       - name: Lint
         uses: DavidAnson/markdownlint-cli2-action@v16
         with:
-          globs: '**/*.md'
+          globs: |
+            *.md,
+            docs/**/*.md
+            template/0000-use-markdown-architectural-decision-records.md
+            template/adr-template-minimal.md
+            template/adr-template.md
+            template/README.md

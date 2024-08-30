@@ -40,7 +40,5 @@ informed:
 * <!-- * Good, because -->
 * <!-- * Neutral, because -->
 * <!-- * Bad, because -->
-   
+
 ## More Information
-
-

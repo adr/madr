@@ -134,5 +134,4 @@ German comparison between Hamcrest and AssertJ: <https://www.sigs-datacom.de/upl
 ## More Examples
 
 ["https://medium.com/olzzio/the-markdown-adr-madr-template-explained-and-distilled-b67603ec95bb"](https://medium.com/olzzio/the-markdown-adr-madr-template-explained-and-distilled-b67603ec95bb) provides another example (under "Example of Filled Out Template").
-
-And the [decisions folder](/docs/decisions/) in this repository provides examples as well.
+Finally, the [decisions concerding MADR itself](decisions/) [[source](https://github.com/adr/madr/tree/develop/docs/decisions)] also provide examples as well.
