@@ -21,6 +21,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Renamed "Deciders" to "Decision Maker(s)" (`decision-makers:`). [#101](https://github.com/adr/madr/issues/101)
 - Rename template name "Markdown Any Decision Record" back to "Markdown Architectural Decision Record"
 - Rename `0000-use-markdown-any-decision-records.md` to `0000-use-madr.md`.
+- All placehodlers are are now one liners.
 
 ## [3.0.0] – 2022-10-09
 
