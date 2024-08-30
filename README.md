@@ -20,7 +20,7 @@ Longer explanation: Head to <https://adr.github.io/madr/#applying-madr-to-your-p
 * MADR follows [Semantic Versioning 2.0.0](https://semver.org/) and documents changes in a `CHANGELOG.md` following [keep a changelog 1.0.0](http://keepachangelog.com/en/1.0.0/).
 * Issues can be reported at <https://github.com/adr/madr/issues>.
 * Suggestions can be contributed via pull requests. MADR offers pre-configured VS Code web environment at [Gitpod](https://gitpod.io/#https://github.com/adr/madr).
-* Use [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
+* MADR uses [markdownlint](https://github.com/DavidAnson/markdownlint) as Linter for Markdown files. Use [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) for checking for linting issues in VS Code.
 * `template/adr-template.md` is mirrored to `docs/decisions/adr-template`.
   However, following YAML front matter is added to make it handled properly by the [Just the Docs Jekyll Template](https://just-the-docs.github.io/just-the-docs/). <!-- markdownlint-disable-next-line MD031 -->
   ```markdown
