@@ -4,6 +4,17 @@
 
 For user documentation, please head to <https://adr.github.io/madr/>.
 
+## Quick start
+
+* [`adr-template.md`](template/adr-template.md) has all sections, with explanations about them.
+* [`adr-template-minmal.md`](template/adr-template-minimal.md) only contains mandatory sections, with explanations about them. <!-- ### Consequences also contained, though marked as "optional" -->
+* [`adr-template-bare.md`](template/adr-template-bare.md) has all sections, wich are empty (no explanations).
+* [`adr-template-bare-minimal.md`](template/adr-template-bare-minimal.md) has the mandatory sections, without explanations. <!-- ### Consequences also contained, though marked as "optional" -->
+
+Copy it into `docs/decisions`.
+For each ADR, copy the tempalte to `nnnn-title.md` and adapt.
+Longer explanation: Head to <https://adr.github.io/madr/#applying-madr-to-your-project>.
+
 ## Development hints
 
 * MADR follows [Semantic Versioning 2.0.0](https://semver.org/) and documents changes in a `CHANGELOG.md` following [keep a changelog 1.0.0](http://keepachangelog.com/en/1.0.0/).

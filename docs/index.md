@@ -99,7 +99,7 @@ There also is a [CHANGELOG](https://github.com/adr/madr/blob/main/CHANGELOG.md#c
 ### Initialization
 
 Create folder `docs/decisions` in your project.
-Copy all files in `template` from the MADR project to the folder `docs/decisions` in your project.
+Copy all files in [folder `template` from the MADR project](https://github.com/adr/madr/tree/develop/template) to the folder `docs/decisions` in your project.
 
 Using `npm`, this can be done using the following command:
 
