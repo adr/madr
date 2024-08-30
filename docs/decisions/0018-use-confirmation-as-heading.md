@@ -24,9 +24,9 @@ How to name the heading for the explanation?
 
 ## Decision Outcome
 
-"Confirmation" is the chosen option, because "validation" is out of scope of the template.
+Chosen option: "Confirmation", because "validation" is out of scope of the template.
 There is a process leading to a "valid" ADR.
-The other term "Verification" is often bound to a formal tool or formal procedure.
+The other term "verification" is often bound to a formal tool or formal procedure.
 We wanted to enable also less formal checks.
 
 ### Confirmation
