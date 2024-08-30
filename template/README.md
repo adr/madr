@@ -1,4 +1,4 @@
-# Decision Templates
+# Decisions
 
 For new Architectural Decision Records (ADRs), please use one of the following templates as a starting point:
 
@@ -7,10 +7,4 @@ For new Architectural Decision Records (ADRs), please use one of the following t
 * [adr-template-bare.md](adr-template-bare.md) has all sections, wich are empty (no explanations).
 * [adr-template-bare-minimal.md](adr-template-bare-minimal.md) has the mandatory sections, without explanations. <!-- ### Consequences also contained, though marked as "optional" -->
 
-The MADR documentation is available at <https://adr.github.io/madr/>.
-
-General information about ADRs is available at <https://adr.github.io/>.
-
-## README.md Template
-
-This directory contains decision records for {project name}.
+The MADR documentation is available at <https://adr.github.io/madr/> while general information about ADRs is available at <https://adr.github.io/>.
