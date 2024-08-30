@@ -33,12 +33,13 @@ Longer explanation: Head to <https://adr.github.io/madr/#applying-madr-to-your-p
 
 ### Branches
 
-| Branch | Meaning |
-| -- | -- |
-| `gh-pages` | Homepage showing the latest released version, rendered at <https://adr.github.io/madr> |
-| `develop` | Latest developments, including homepage updates which should be published on a release. `gh-pages` should always be merged into this branch. |
-| `release/v1` | Branch for latest release 1.x version of MADR. Introduced to fix [#92](https://github.com/adr/madr/issues/92) |
-| `release/vY` | Branch for version Y.x of MADR. |
+| Branch       | Meaning                                                                                                                                      |
+|--------------|----------------------------------------------------------------------------------------------------------------------------------------------|
+| `gh-pages`   | Homepage showing the latest released version, rendered at <https://adr.github.io/madr>                                                       |
+| `develop`    | Latest developments, including homepage updates which should be published on a release. `gh-pages` should always be merged into this branch. |
+| `release/vY` | Branch for latest release Y.x version of MADR. Introduced to fix [#92](https://github.com/adr/madr/issues/92)                                |
+
+See also [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 ## How to start Jekyll locally
 
