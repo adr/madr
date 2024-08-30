@@ -5,6 +5,7 @@ nav_order: 2
 
 MADR is a template allowing to craft short, medium-sized, and large decision records.
 There is no formal definition of short, medium-sized, and large decision records.
+
 The following sections present an example in the context of assertion frameworks for Java.
 We start with presenting a very short and dense version:
 It "just" lists the context and problem statement, the available options, and the outcome.
@@ -68,9 +69,9 @@ Chosen option: "Plain JUnit5", because comes out best (see "Pros and Cons of the
 
 ### Confirmation
 
-* Check project dependencies, JUnit5 should appear (and be the only test assertion library)
-* Collect experience with JUnit5 in sprint reviews and retrospectives: does experience match the pros and cons evaluation below?
-* Decide whether and when to review the decision (the 'R' in the [ecADR definition of done](https://medium.com/olzzio/a-definition-of-done-for-architectural-decisions-426cf5a952b9) for ADs) 
+* Check project dependencies, JUnit5 should appear (and be the only test assertion library).
+* Collect experience with JUnit5 in sprint reviews and retrospectives: does the gained experience match the pros and cons evaluation below?
+* Decide whether and when to review the decision (this is the 'R' in the [ecADR definition of done](https://medium.com/olzzio/a-definition-of-done-for-architectural-decisions-426cf5a952b9) for ADs).
 
 ## Pros and Cons of the Options
 
@@ -129,3 +130,9 @@ assertThat(markdownFormatter.format(source))
 
 German comparison between Hamcrest and AssertJ: <https://www.sigs-datacom.de/uploads/tx_dmjournals/philipp_JS_06_15_gRfN.pdf>.
 ````
+
+## More Examples
+
+["https://medium.com/olzzio/the-markdown-adr-madr-template-explained-and-distilled-b67603ec95bb"](https://medium.com/olzzio/the-markdown-adr-madr-template-explained-and-distilled-b67603ec95bb) provides another example (under "Example of Filled Out Template").
+
+And the [decisions folder](/docs/decisions/) in this repository provides examples as well.

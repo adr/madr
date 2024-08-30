@@ -1,12 +1,13 @@
 ---
-# These are optional elements. Feel free to remove any of them.
+# These are optional metadata elements. Feel free to remove any of them.
 status: "{proposed | rejected | accepted | deprecated | … | superseded by [ADR-0005](0005-example.md)}"
 date: {YYYY-MM-DD when the decision was last updated}
 decision-makers: {list everyone involved in the decision}
 consulted: {list everyone whose opinions are sought (typically subject-matter experts); and with whom there is a two-way communication}
 informed: {list everyone who is kept up-to-date on progress; and with whom there is a one-way communication}
 ---
-# {short title of solved problem and solution}
+
+# {short title, representative of solved problem and found solution}
 
 ## Context and Problem Statement
 

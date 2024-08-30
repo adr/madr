@@ -31,6 +31,6 @@ We wanted to enable also less formal checks.
 
 ### Confirmation
 
-* Before next release, check that there is at least one more example.
-* Before each release, check that templates are still consistent with this decision (or update AD).
-* Monitor [GitHub issues](https://github.com/adr/madr/issues) for feedback on examples and template/tool change requests periodically.
+* Before next release; check that there is at least one example that has a "Confirmation" section.
+* Before each release: check that templates and examples are still consistent with this decision (or update AD).
+* Continuously: Monitor [GitHub issues](https://github.com/adr/madr/issues) for feedback on examples and template/tool change requests periodically.
