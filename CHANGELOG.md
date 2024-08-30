@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## Added
+
+- Bare an minimal templates
+  - [`adr-template-minmal.md`](template/adr-template-minimal.md) only contains mandatory sections, with explanations about them. <!-- ### Consequences also contained, though marked as "optional" -->
+  - [`adr-template-bare.md`](template/adr-template-bare.md) has all sections, wich are empty (no explanations).
+  - [`adr-template-bare-minimal.md`](template/adr-template-bare-minimal.md) has the mandatory sections, without explanations. <!-- ### Consequences also contained, though marked as "optional" -->
+
 ### Changed
 
 - Put the content of `status:` in quotes to tell YAML it's a string. [#91](https://github.com/adr/madr/issues/91)
