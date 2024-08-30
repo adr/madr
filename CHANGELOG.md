@@ -26,7 +26,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Removed
 
-- Removed link to ADR in `status` field. Only identifier should be put.
+- Removed link to ADR in `status` field. Only identifier should be put. [#150](https://github.com/adr/madr/pull/150)
 
 ## [3.0.0] – 2022-10-09
 
