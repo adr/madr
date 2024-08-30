@@ -3,7 +3,7 @@ on:
   push:
     branches:
       - develop
-      - develop/*
+      - release/*
   pull_request:
   merge_group:
   workflow_dispatch:
