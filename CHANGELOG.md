@@ -2,12 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
-The format is based on [Keep a Changelog](http://keepachangelog.com/)
-and this project adheres to [Semantic Versioning](http://semver.org/).
+The format is based on [Keep a Changelog](https://keepachangelog.com/)
+and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
-## Added
+### Added
 
 - Bare an minimal templates: [#88](https://github.com/adr/madr/issues/88)
   - [`adr-template-minmal.md`](template/adr-template-minimal.md) only contains mandatory sections, with explanations about them. <!-- ### Consequences also contained, though marked as "optional" -->
@@ -154,7 +154,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Changed
 
-- `README.md`: Removed section "Background Information" as the information is contained at <http://adr.github.io>, too. Fixes [#4](https://github.com/adr/madr/issues/4)
+- `README.md`: Removed section "Background Information" as the information is contained at <https://adr.github.io>, too. Fixes [#4](https://github.com/adr/madr/issues/4)
 
 ## [1.3.1] – 2018-02-13
 
