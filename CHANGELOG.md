@@ -24,6 +24,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Rename `0000-use-markdown-any-decision-records.md` to `0000-use-madr.md`.
 - All placehodlers are are now one liners.
 
+### Removed
+
+- Removed link to ADR in `status` field. Only identifier should be put. [#150](https://github.com/adr/madr/pull/150)
+
 ## [3.0.0] – 2022-10-09
 
 ### Added
