@@ -23,3 +23,25 @@ jobs:
             template/adr-template-minimal.md
             template/adr-template.md
             template/README.md
+  changelog:
+    name: CHANGELOG.md
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+      - name: Lint CHANGELOG.md
+        run: |
+          # Install jbang
+          curl -Ls https://sh.jbang.dev | bash -s - app setup
+          export PATH=$PATH:$HOME/.jbang/bin
+
+          # run heylogs verification
+          jbang com.github.nbbrd.heylogs:heylogs-cli:0.9.2:bin check CHANGELOG.md > heylogs.txt || true
+
+          # improve output
+          # sed -i 's/all-h2-contain-a-version/all-h2-contain-a-version (ignored)/' heylogs.txt
+
+          cat heylogs.txt
+
+          # exit 1 in case of error
+          grep -q "No problem" heylogs.txt || exit 1
