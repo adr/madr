@@ -44,5 +44,4 @@ jobs:
           cat heylogs.txt
 
           # exit 1 in case of error
-          # We have 1 "valid" issue in CHANGELOG.md
-          # grep -q "1 problem" heylogs.txt || exit 1
+          grep -q "No problem" heylogs.txt || exit 1
