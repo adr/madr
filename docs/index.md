@@ -37,7 +37,7 @@ MADR is a streamlined template for recording architectural significant decisions
 * 2022-11-22. MADR Version 1.0 was released five years ago. A new blog post ["The Markdown ADR (MADR) Template Explained and Distilled"](https://medium.com/olzzio/the-markdown-adr-madr-template-explained-and-distilled-b67603ec95bb) is available on Medium.
 * 2022-10-09: Release of MADR 3.0.0.\
   The most important change is the merged of sections "Positive Consequences" and "Negative Consequences" into "Consequences" to enable similar grammar as in "Pros and Cons of the Options".
-  [[Full Changelog](https://github.com/adr/madr/blob/main/CHANGELOG.md#300--2022-10-09)]
+  [[Full Changelog](https://github.com/adr/madr/blob/develop/CHANGELOG.md#300--2022-10-09)]
 * 2022-05-17: Release of MADR 3.0.0-beta.\
   Besides improvement of the template, there was a renaming from "Markdown Architectural Decision Records" to "Markdown Any Decision Records" to follow the movement ["ADR = Any Decision Record? Architecture, Design and Beyond"](https://ozimmer.ch/practices/2021/04/23/AnyDecisionRecords.html).
   The acronym is still MADR.
@@ -88,11 +88,11 @@ Chosen option: "Plain JUnit5", because it is a standard framework and the featur
 
 For more examples see [examples](examples.md).
 For the MADR project itself, all ADRs are rendered at [decisions/](decisions/).
-Their source can be found at <https://github.com/adr/madr/tree/main/docs/decisions>.
+Their source can be found at <https://github.com/adr/madr/tree/develop/docs/decisions>.
 The latest release of the full template (with placeholders and some guidance how to use) can be found at the [releases page](https://github.com/adr/madr/releases/latest).
 By clicking on the number at the tag symbol, you browse the repository at the state of the release.
-For the brave, the version under development is available at <https://github.com/adr/madr/blob/main/template/adr-template.md>.
-There also is a [CHANGELOG](https://github.com/adr/madr/blob/main/CHANGELOG.md#changelog) listing the changes between the last released version and the currently developed version.
+For the brave, the version under development is available at <https://github.com/adr/madr/blob/develop/template/adr-template.md>.
+There also is a [CHANGELOG](https://github.com/adr/madr/blob/develop/CHANGELOG.md#changelog) listing the changes between the last released version and the currently developed version.
 
 ## Applying MADR to your project
 
@@ -111,7 +111,7 @@ npm install madr && mkdir -p docs/decisions && cp node_modules/madr/template/* d
 
 #### Manual approach
 
-1. Copy [`docs/decisions/adr-template.md`](https://github.com/adr/madr/blob/main/template/adr-template.md) to `docs/decisions/NNNN-title-with-dashes.md`, where `NNNN` indicates the next number in sequence.
+1. Copy [`docs/decisions/adr-template.md`](https://github.com/adr/madr/blob/develop/template/adr-template.md) to `docs/decisions/NNNN-title-with-dashes.md`, where `NNNN` indicates the next number in sequence.
 2. Edit `NNNN-title-with-dashes.md`.
 
 Note you can also use [other patterns for the directory format](https://github.com/joelparkerhenderson/architecture_decision_record#adr-file-name-conventions).
@@ -175,11 +175,11 @@ The current development version renders as follows:
 
 ## Older versions
 
-| Version | Branch | Homepage |
-| -- | -- | -- |
-| 1.x | [release/v1](https://github.com/adr/madr/tree/release/v1) | [README.md](https://github.com/adr/madr/blob/release/v1/README.md) |
-| 2.x | [release/v2](https://github.com/adr/madr/tree/release/v2) | [README.md](https://github.com/adr/madr/blob/release/v2/README.md) |
-| 3.x | [release/v3](https://github.com/adr/madr/tree/release/v3) | [index.md](https://github.com/adr/madr/blob/release/v3/docs/index.md) |
+| Version | Branch                                                    | Homepage                                                              |
+|---------|-----------------------------------------------------------|-----------------------------------------------------------------------|
+| 1.x     | [release/v1](https://github.com/adr/madr/tree/release/v1) | [README.md](https://github.com/adr/madr/blob/release/v1/README.md)    |
+| 2.x     | [release/v2](https://github.com/adr/madr/tree/release/v2) | [README.md](https://github.com/adr/madr/blob/release/v2/README.md)    |
+| 3.x     | [release/v3](https://github.com/adr/madr/tree/release/v3) | [index.md](https://github.com/adr/madr/blob/release/v3/docs/index.md) |
 
 The branch name conventions follow the [git flow model](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow).
 
