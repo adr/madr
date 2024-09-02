@@ -7,7 +7,7 @@ This page lists tooling for MADR.
 
 | Name | MADR Version | Comment |
 | -- | -- | -- |
-| [adr-log](https://github.com/adr/adr-log) | 2.1.2 | CLI to keep an `index.md` file updated with all ADRs |
+| [adr-log](https://github.com/adr/adr-log?tab=readme-ov-file#adr-log-) | 2.1.2 | CLI to keep an `index.md` file updated with all ADRs |
 | [ADR Manager](https://adr.github.io/adr-manager/) | 2.1.2 | Web-based UI connecting to GitHub to directly edit ADRs in a form-based way |
 | [eADR](https://github.com/adr/e-adr) | 1.0.0 | Embed decisions in Java code as annotations (`@MADR(...)`) |
 | [Hugo Markdown ADR Tools](https://github.com/butonic/adr-tools) | 2.1.2. | CLI to create and update ADRs |

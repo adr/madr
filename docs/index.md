@@ -3,12 +3,15 @@ nav_order: 1
 title: About MADR
 ---
 <!-- markdownlint-disable MD025 -->
-# Markdown Any Decision Records [![part of ADR](https://img.shields.io/badge/part_of-ADR-blue.svg)](https://adr.github.io)
+# Markdown Architectural Decision Records [![part of ADR](https://img.shields.io/badge/part_of-ADR-blue.svg)](https://adr.github.io)
 
-> "Markdown Any Decision Records" (MADR) `[ˈmæɾɚ]` – decisions that [matter `[ˈmæɾɚ]`](https://en.wiktionary.org/wiki/matter#Pronunciation).
+> "Markdown Architectural Decision Records" (MADR) `[ˈmæɾɚ]` – decisions that [matter `[ˈmæɾɚ]`](https://en.wiktionary.org/wiki/matter#Pronunciation).
 
-MADR is a lean template to capture any decisions in a structured way.
-The template originated from capturing architectural decisions and developed to a template allowing to capture any decisions taken.
+<!-- text inspiration: https://adr.github.io/ -->
+An Architectural Decision (AD) is a justified software design choice that addresses a functional or non-functional requirement of architectural significance.
+This decision is documented in an Architectural Decision Record (ADR), which details a single AD and its underlying rationale.
+To capture these records in a lean way, the Markdown Architectural Decision Records (MADRs) have been invented:
+MADR is a streamlined template for recording architectural significant decisions in a structured manner.
 
 ## Contents
 
@@ -21,15 +24,20 @@ The template originated from capturing architectural decisions and developed to 
   * [Lint ADRs](#lint-adrs)
 * [Using MADR in large projects and product developments](#using-madr-in-large-projects-and-product-developments)
   * [Usage of categories](#usage-of-categories)
+* [Full template](#full-template)
+* [Older versions](#older-versions)
 * [License](#license)
 
 ## News
 
+* 2024-06-xx: Release of MADR 4.0.0-beta
+  * To strengthen the importance for decisions in software architecture work, MADR spells out "Markdown Architectural Decision Records".
+    They can still be used to sustain any decision, our focus is on architectural decisions.
 * 2023-04-05: Two new Medium stories ["How to create Architectural Decision Records (ADRs) — and how not to"](https://medium.com/olzzio/how-to-create-architectural-decision-records-adrs-and-how-not-to-93b5b4b33080) and ["How to review Architectural Decision Records (ADRs) — and how not to"](https://medium.com/olzzio/how-to-review-architectural-decision-records-adrs-and-how-not-to-2707652db196). Metaphors, patterns, anti-patterns, checklists applicable (but not limited) to MADRs.
 * 2022-11-22. MADR Version 1.0 was released five years ago. A new blog post ["The Markdown ADR (MADR) Template Explained and Distilled"](https://medium.com/olzzio/the-markdown-adr-madr-template-explained-and-distilled-b67603ec95bb) is available on Medium.
 * 2022-10-09: Release of MADR 3.0.0.\
   The most important change is the merged of sections "Positive Consequences" and "Negative Consequences" into "Consequences" to enable similar grammar as in "Pros and Cons of the Options".
-  [[Full Changelog](https://github.com/adr/madr/blob/main/CHANGELOG.md#300--2022-10-09)]
+  [[Full Changelog](https://github.com/adr/madr/blob/develop/CHANGELOG.md#300--2022-10-09)]
 * 2022-05-17: Release of MADR 3.0.0-beta.\
   Besides improvement of the template, there was a renaming from "Markdown Architectural Decision Records" to "Markdown Any Decision Records" to follow the movement ["ADR = Any Decision Record? Architecture, Design and Beyond"](https://ozimmer.ch/practices/2021/04/23/AnyDecisionRecords.html).
   The acronym is still MADR.
@@ -55,10 +63,7 @@ There are debates about what is an architecturally-significant decision and whic
 Since we believe that any (important) decision should be captured in a structured way, we offer the MADR template to capture any decision.
 
 This repository offers a solution to record any decisions.
-It provides files to document any decisions using **M**arkdown and **A**ny **D**ecision **R**ecords.
-
-Before MADR 3.0.0, "MADR" stood for **M**arkdown and **A**rchitectural **D**ecision **R**ecords.
-Since MADR 3.0.0, "Architectural" was replaced by "Any".
+It provides files to document any decisions using **M**arkdown and **A**rchitectural **D**ecision **R**ecords.
 
 ## Example
 
@@ -83,18 +88,18 @@ Chosen option: "Plain JUnit5", because it is a standard framework and the featur
 
 For more examples see [examples](examples.md).
 For the MADR project itself, all ADRs are rendered at [decisions/](decisions/).
-Their source can be found at <https://github.com/adr/madr/tree/main/docs/decisions>.
+Their source can be found at <https://github.com/adr/madr/tree/develop/docs/decisions>.
 The latest release of the full template (with placeholders and some guidance how to use) can be found at the [releases page](https://github.com/adr/madr/releases/latest).
 By clicking on the number at the tag symbol, you browse the repository at the state of the release.
-For the brave, the version under development is available at <https://github.com/adr/madr/blob/main/template/adr-template.md>.
-There also is a [CHANGELOG](https://github.com/adr/madr/blob/main/CHANGELOG.md#changelog) listing the changes between the last released version and the currently developed version.
+For the brave, the version under development is available at <https://github.com/adr/madr/blob/develop/template/adr-template.md>.
+There also is a [CHANGELOG](https://github.com/adr/madr/blob/develop/CHANGELOG.md#changelog) listing the changes between the last released version and the currently developed version.
 
 ## Applying MADR to your project
 
 ### Initialization
 
 Create folder `docs/decisions` in your project.
-Copy all files in `template` from the MADR project to the folder `docs/decisions` in your project.
+Copy all files in [folder `template` from the MADR project](https://github.com/adr/madr/tree/develop/template) to the folder `docs/decisions` in your project.
 
 Using `npm`, this can be done using the following command:
 
@@ -106,13 +111,13 @@ npm install madr && mkdir -p docs/decisions && cp node_modules/madr/template/* d
 
 #### Manual approach
 
-1. Copy [`docs/decisions/adr-template.md`](https://github.com/adr/madr/blob/main/template/adr-template.md) to `docs/decisions/NNNN-title-with-dashes.md`, where `NNNN` indicates the next number in sequence.
+1. Copy [`docs/decisions/adr-template.md`](https://github.com/adr/madr/blob/develop/template/adr-template.md) to `docs/decisions/NNNN-title-with-dashes.md`, where `NNNN` indicates the next number in sequence.
 2. Edit `NNNN-title-with-dashes.md`.
 
 Note you can also use [other patterns for the directory format](https://github.com/joelparkerhenderson/architecture_decision_record#adr-file-name-conventions).
 As a consequence, some existing tooling might not be applicable.
 
-The filenames are following the pattern `NNNN-title-with-dashes.md` ([ADR-0005](docs/decisions/0005-use-dashes-in-filenames.md)), where
+The filenames are following the pattern `NNNN-title-with-dashes.md` ([ADR-0005](decisions/0005-use-dashes-in-filenames.md)), where
 
 * `NNNN` is a consecutive number and we assume that there won't be more than 9,999 ADRs in one repository.
 * The title is stored using dashes and lowercase, because [adr-tools] also does that.
@@ -131,7 +136,7 @@ Since Markdown allows many styles, formatting can be inconsistent.
 To notify about inconsistencies, [markdownlint](https://github.com/DavidAnson/markdownlint#markdownlint) has been invented.
 There is an initial configuration for it at `template/.markdownlint`.
 You can use that configuration in a GitHub workflow.
-See [`.github/workflows/lint.yaml`](.github/workflows/lint.yaml) for an example.
+See [`.github/workflows/lint.yaml`](https://github.com/adr/madr/blob/develop/.github/workflows/lint.yaml) for an example.
 
 ## Using MADR in large projects and product developments
 
@@ -141,9 +146,9 @@ Some proposals from the community are presented in the following.
 
 ### Usage of categories
 
-MADR logs may be categorized ADRs by defining sub directories and put the ADRs into these folders.
+MADR logs may be categorized ADRs by defining subdirectories and put the ADRs into these folders.
 
-An examplary folder structure might follow the architectural structure of the system under construction:
+An exemplary folder structure might follow the architectural structure of the system under construction:
 
 ```tree
 .
@@ -154,7 +159,7 @@ An examplary folder structure might follow the architectural structure of the sy
         `-- 0001-use-vuejs.md
 ```
 
-This approach makes all categories explicit because the sub directory/folder names define the categories.
+This approach makes all categories explicit because the subdirectory/folder names define the categories.
 As a consequence, numbers of ADRs are no longer unique throughout the repository, but locally within a category only.
 Ideally, the ADR categorization the same organizing principles as other artifacts such as the code; using architectural structure breakdown is just one option and functional decomposition would be an additional one. This comes down to a meta-decision to be made rather early on.
 
@@ -167,6 +172,16 @@ The current development version renders as follows:
 ```markdown
 {% include_relative decisions/adr-template.md %}
 ```
+
+## Older versions
+
+| Version | Branch                                                    | Homepage                                                              |
+|---------|-----------------------------------------------------------|-----------------------------------------------------------------------|
+| 1.x     | [release/v1](https://github.com/adr/madr/tree/release/v1) | [README.md](https://github.com/adr/madr/blob/release/v1/README.md)    |
+| 2.x     | [release/v2](https://github.com/adr/madr/tree/release/v2) | [README.md](https://github.com/adr/madr/blob/release/v2/README.md)    |
+| 3.x     | [release/v3](https://github.com/adr/madr/tree/release/v3) | [index.md](https://github.com/adr/madr/blob/release/v3/docs/index.md) |
+
+The branch name conventions follow the [git flow model](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow).
 
 ## License
 

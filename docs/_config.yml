@@ -1,8 +1,8 @@
 title: "MADR"
-desription: Markdown Any Decisions Records
+desription: Markdown Architectural Decisions Records
 repository: adr/madr
 theme: just-the-docs
-color_scheme: light
+color_scheme: adr
 
 defaults:
   -
@@ -38,7 +38,7 @@ gh_edit_view_mode: "edit"
 # ga_tracking: UA-5555555-55
 # ga_tracking_anonymize_ip: true
 
-baseurl: "/madr"
+baseurl: ""
 url: "https://adr.github.io"
 
 plugins:

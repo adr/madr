@@ -1,12 +1,47 @@
 name: Lint
-on: [push, pull_request, workflow_dispatch]
+on:
+  push:
+    branches:
+      - develop
+      - release/*
+  pull_request:
+  merge_group:
+  workflow_dispatch:
 jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
       - name: Set up Git repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Lint
-        uses: DavidAnson/markdownlint-cli2-action@v5
+        uses: DavidAnson/markdownlint-cli2-action@v16
         with:
-          globs: '**/*.md'
+          globs: |
+            *.md,
+            docs/**/*.md
+            template/0000-use-markdown-architectural-decision-records.md
+            template/adr-template-minimal.md
+            template/adr-template.md
+            template/README.md
+  changelog:
+    name: CHANGELOG.md
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+      - name: Lint CHANGELOG.md
+        run: |
+          # Install jbang
+          curl -Ls https://sh.jbang.dev | bash -s - app setup
+          export PATH=$PATH:$HOME/.jbang/bin
+
+          # run heylogs verification
+          jbang com.github.nbbrd.heylogs:heylogs-cli:0.9.2:bin check CHANGELOG.md > heylogs.txt || true
+
+          # improve output
+          # sed -i 's/all-h2-contain-a-version/all-h2-contain-a-version (ignored)/' heylogs.txt
+
+          cat heylogs.txt
+
+          # exit 1 in case of error
+          grep -q "No problem" heylogs.txt || exit 1

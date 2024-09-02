@@ -1,6 +1,6 @@
 {
   "name": "madr",
-  "description": "Markdown Any Decision Records",
+  "description": "Markdown Architectural Decision Records",
   "keywords": [
     "adr",
     "decision record",
@@ -13,7 +13,7 @@
     "documentation",
     "markdown"
   ],
-  "version": "3.0.0",
+  "version": "4.0.0-beta",
   "homepage": "https://adr.github.io/madr/",
   "author": "Oliver Kopp (http://github.com/koppor/)",
   "contributors": [

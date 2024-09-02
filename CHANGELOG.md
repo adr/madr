@@ -2,8 +2,31 @@
 
 All notable changes to this project will be documented in this file.
 
-The format is based on [Keep a Changelog](http://keepachangelog.com/)
-and this project adheres to [Semantic Versioning](http://semver.org/).
+The format is based on [Keep a Changelog](https://keepachangelog.com/)
+and this project adheres to [Semantic Versioning](https://semver.org/).
+
+## [4.0.0-beta] – 2024-09-02
+
+### Added
+
+- Bare an minimal templates: [#88](https://github.com/adr/madr/issues/88)
+  - [`adr-template-minmal.md`](template/adr-template-minimal.md) only contains mandatory sections, with explanations about them. <!-- ### Consequences also contained, though marked as "optional" -->
+  - [`adr-template-bare.md`](template/adr-template-bare.md) has all sections, wich are empty (no explanations).
+  - [`adr-template-bare-minimal.md`](template/adr-template-bare-minimal.md) has the mandatory sections, without explanations. <!-- ### Consequences also contained, though marked as "optional" -->
+- Added example for "Confirmation". [#135](https://github.com/adr/madr/issues/135)
+
+### Changed
+
+- Put the content of `status:` in quotes to tell YAML it's a string. [#91](https://github.com/adr/madr/issues/91)
+- Renamed "Validation" to "Confirmation" and put it as sub element of "Decision Outcome". [#87](https://github.com/adr/madr/pull/87)
+- Renamed "Deciders" to "Decision Maker(s)" (`decision-makers:`). [#101](https://github.com/adr/madr/issues/101)
+- Rename template name "Markdown Any Decision Record" back to "Markdown Architectural Decision Record"
+- Rename `0000-use-markdown-any-decision-records.md` to `0000-use-madr.md`.
+- All placehodlers are are now one liners.
+
+### Removed
+
+- Removed link to ADR in `status` field. Only identifier should be put. [#150](https://github.com/adr/madr/pull/150)
 
 ## [3.0.0] – 2022-10-09
 
@@ -40,7 +63,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Refined howto texts
 - Disable [markdown-lint](https://github.com/DavidAnson/markdownlint)'s [MD013 - line length](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md013---line-length) for the ADR files.
 - Added initial [markdownlint](https://github.com/DavidAnson/markdownlint) configuration file `.markdownlint`.
-  This can, for instance, be used by a [GitHub linting workflow](https://github.com/adr/madr/blob/main/.github/workflows/lint.yaml)
+  This can, for instance, be used by a [GitHub linting workflow](https://github.com/adr/madr/blob/develop/.github/workflows/lint.yaml)
 
 ### Changed
 
@@ -128,14 +151,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Added
 
-- Version of MADR into [ADR-0000](template/0000-use-markdown-architectural-decision-records.md) of the template. Fixes [#5](https://github.com/adr/madr/issues/5)
+- Version of MADR into `ADR-0000` of the template. Fixes [#5](https://github.com/adr/madr/issues/5)
 - `README.md`: Added wints on the filenames.
 - More ADRs on MADR
 - Added `LICENSE` file
 
 ### Changed
 
-- `README.md`: Removed section "Background Information" as the information is contained at <http://adr.github.io>, too. Fixes [#4](https://github.com/adr/madr/issues/4)
+- `README.md`: Removed section "Background Information" as the information is contained at <https://adr.github.io>, too. Fixes [#4](https://github.com/adr/madr/issues/4)
 
 ## [1.3.1] – 2018-02-13
 
@@ -179,10 +202,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Changed
 
 - No change in the template itself.
-- Use [adr-log](https://adr.github.io/adr-log/) to generate links to the ADRs in `docs/adr/index.md`.
+- Use [adr-log](https://github.com/adr/adr-log?tab=readme-ov-file#adr-log-) to generate links to the ADRs in `docs/adr/index.md`.
 - `template.md` is not part of the log, but a separate text block in `docs/adr/index.md`.
 - Link to new homepage of MADR: <https://adr.github.io/madr/>.
-- Refined justification of [ADR-0000](docs/adr/0000-use-markdown-architectural-decision-records.md).
+- Refined justification of `ADR-0000`.
 - Refined `README.md`.
 
 ### Fixed
@@ -194,7 +217,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 First release of Markdown Architectural Decision Records.
 
-[Unreleased]: https://github.com/adr/madr/compare/3.0.0...main
+[4.0.0-beta]: https://github.com/adr/madr/compare/3.0.0...4.0.0-beta
 [3.0.0]: https://github.com/adr/madr/compare/3.0.0-beta.2...3.0.0
 [3.0.0-beta.2]: https://github.com/adr/madr/compare/3.0.0-beta...3.0.0-beta.2
 [3.0.0-beta]: https://github.com/adr/madr/compare/2.1.2...3.0.0-beta
