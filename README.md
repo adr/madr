@@ -81,7 +81,7 @@ In case you get errors regarding `Gemfile.lock`, just delete `Gemfile.lock` and 
 3. Commit ("Update examples and decisions") and push. Possibly as pull request.
 4. Adapt the version reference in `template/0000-use-madr.md`.
 5. Update "template" files in in `docs/decisions/`
-   * Copy `template/0000-use-madr.md` to `docs/decisions/0000-use-madr.md`.
+   * Copy `template/0000-use-markdown-architectural-decision-records.md` to `docs/decisions/0000-use-markdown-architectural-decision-records.md`.
    * Adapt content of `docs/decisions/adr-template.md` based on `template/adr-template.md`.
      Thereby, ensure that the YAML front matter in `docs/decisions/adr-template.md` is kept.
 6. Add link to `docs/index.md` at "Older versions" (for the homepage).
