@@ -31,7 +31,8 @@ How to write readable test assertions for advanced tests?
 
 ## Decision Outcome
 
-Chosen option: "Plain JUnit5", because it is a standard framework and the features of the other frameworks do not outweigh the drawbrack of adding a new dependency.
+Chosen option: "Plain JUnit5", because it is a standard framework
+  and the features of the other frameworks do not outweigh the drawbrack of adding a new dependency.
 ```
 
 ## Long Version
@@ -71,7 +72,8 @@ Chosen option: "Plain JUnit5", because comes out best (see "Pros and Cons of the
 
 * Check project dependencies, JUnit5 should appear (and be the only test assertion library).
 * Collect experience with JUnit5 in sprint reviews and retrospectives: does the gained experience match the pros and cons evaluation below?
-* Decide whether and when to review the decision (this is the 'R' in the [ecADR definition of done](https://medium.com/olzzio/a-definition-of-done-for-architectural-decisions-426cf5a952b9) for ADs).
+* Decide whether and when to review the decision (this is the 'R' in the [ecADR definition of done]
+  (https://medium.com/olzzio/a-definition-of-done-for-architectural-decisions-426cf5a952b9) for ADs).
 
 ## Pros and Cons of the Options
 
@@ -134,4 +136,4 @@ German comparison between Hamcrest and AssertJ: <https://www.sigs-datacom.de/upl
 ## More Examples
 
 ["https://medium.com/olzzio/the-markdown-adr-madr-template-explained-and-distilled-b67603ec95bb"](https://medium.com/olzzio/the-markdown-adr-madr-template-explained-and-distilled-b67603ec95bb) provides another example (under "Example of Filled Out Template").
-Finally, the [decisions concerding MADR itself](decisions/) [[source](https://github.com/adr/madr/tree/develop/docs/decisions)] also provide examples as well.
+Finally, the [decisions concerning MADR itself](decisions/) [[source](https://github.com/adr/madr/tree/develop/docs/decisions)] also provide examples as well.
