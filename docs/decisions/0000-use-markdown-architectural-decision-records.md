@@ -1,7 +1,3 @@
----
-parent: Decisions
-nav_order: 0
----
 # Use Markdown Architectural Decision Records
 
 ## Context and Problem Statement
@@ -23,7 +19,7 @@ Chosen option: "MADR 4.0.0", because
 
 * Implicit assumptions should be made explicit.
   Design documentation is important to enable people understanding the decisions later on.
-  See also [A rational design process: How and why to fake it](https://doi.org/10.1109/TSE.1986.6312940).
+  See also ["A rational design process: How and why to fake it"](https://doi.org/10.1109/TSE.1986.6312940).
 * MADR allows for structured capturing of any decision.
 * The MADR format is lean and fits our development style.
 * The MADR structure is comprehensible and facilitates usage & maintenance.
