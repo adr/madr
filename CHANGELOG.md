@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+### Fixed
+
+- `adr-template.md`: Re-add quotes around chosen option name.
+- `adr-template-minimal.md`: Place holder in one line.
+- `adr-template-bare.md`: Keep fixed template text as normal markdown (and not as comment).
+- `adr-template-bare.md` and `adr-template-bare-minimal.md`: Always use `<!-- … ->` als place holder instead of `{…}`.
+
 ## [4.0.0-beta] – 2024-09-02
 
 ### Added
