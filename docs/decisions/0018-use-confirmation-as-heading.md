@@ -2,8 +2,6 @@
 parent: Decisions
 nav_order: 18
 ---
-<!-- we need to disable MD025, because we use the different heading "ADR Template" in the homepage (see above) than it is foreseen in the template -->
-<!-- markdownlint-disable-next-line MD025 -->
 # Use "Confirmation" as Heading
 
 ## Context and Problem Statement
