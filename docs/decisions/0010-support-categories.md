@@ -35,7 +35,7 @@ Chosen option: "Use subfolders with local IDs", because comes out best (see belo
 
 ### Use labels
 
-Example:  
+Example:
 
 Use Angular ![category-frontend](https://img.shields.io/badge/category-frontend-blue.svg?style=flat-square)
 
