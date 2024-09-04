@@ -52,7 +52,7 @@ Idea taken from <https://github.com/schubmat/DecisionCapture/blob/master/templat
 
 ### Use HTML comments
 
-Example: `<!-- option 1 -->
+Example: `<!-- option 1 -->`.
 
 * Good, because feels "natural" in direct Markdown editing
 * Bad, because it does not render in HTML
