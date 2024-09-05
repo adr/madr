@@ -6,7 +6,7 @@ consulted:
 informed: 
 ---
 
-# {short title, representative of solved problem and found solution}
+# <!-- short title, representative of solved problem and found solution -->
 
 ## Context and Problem Statement
 
@@ -22,12 +22,12 @@ informed:
 
 ## Decision Outcome
 
-
+Chosen option: "", because
 
 ### Consequences
 
-* <!-- * Good, because -->
-* <!-- * Bad, because -->
+* Good, because
+* Bad, because
 
 ### Confirmation
 
@@ -35,10 +35,10 @@ informed:
 
 ## Pros and Cons of the Options
 
-### {title of option}
+### <!-- title of option -->
 
-* <!-- * Good, because -->
-* <!-- * Neutral, because -->
-* <!-- * Bad, because -->
+* Good, because
+* Neutral, because
+* Bad, because
 
 ## More Information
