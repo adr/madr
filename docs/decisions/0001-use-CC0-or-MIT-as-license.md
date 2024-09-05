@@ -23,25 +23,25 @@ We want to have MADR used without any hassle and that users can just go ahead an
 
 ## Decision Outcome
 
-Chosen option: "Dual license", because this lets users choose whether CC0 or MIT fits better on their work.
+Chosen option: "Dual license with MIT and CC0", because this lets users choose whether CC0 or MIT fits better on their work.
 
 ## Pros and Cons of the Options
 
-## CC0
+### CC0
 
 * Good, because this license donates the content to "public domain" and does so as legally as possible.
 * Bad, because it does not contain attribution - and [attribution is important](https://opensource.stackexchange.com/a/9126/5671).
 
-## BSD3
+### BSD3
 
 * Bad, because it [is unclear whether it can be used for documentation](https://opensource.stackexchange.com/a/9545/5671)
 
-## MIT
+### MIT
 
 * Good, because it [explicitly may be used for documentation](https://opensource.stackexchange.com/a/9545/5671)
 * Good, because it is lean.
 
-## Dual license with MIT and CC0
+### Dual license with MIT and CC0
 
 With the SPDX identifier `MIT OR CC0-1.0`, the receiver of the documents can decide which license thay want to use.
 
