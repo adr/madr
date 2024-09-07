@@ -5,6 +5,8 @@ title: About MADR
 <!-- markdownlint-disable MD025 -->
 # Markdown Architectural Decision Records [![part of ADR](https://img.shields.io/badge/part_of-ADR-blue.svg)](https://adr.github.io)
 
+REMOVE ME
+
 > "Markdown Architectural Decision Records" (MADR) `[ˈmæɾɚ]` – decisions that [matter `[ˈmæɾɚ]`](https://en.wiktionary.org/wiki/matter#Pronunciation).
 
 <!-- text inspiration: https://adr.github.io/ -->
