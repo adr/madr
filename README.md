@@ -79,17 +79,18 @@ In case you get errors regarding `Gemfile.lock`, just delete `Gemfile.lock` and 
 1. Update the examples at `docs/index.md` and `docs/examples.md`.
 2. Update the concrete decisions in `docs/decisions/*` with the new template.
 3. Commit ("Update examples and decisions") and push. Possibly as pull request.
-4. Adapt the version reference in `template/0000-use-madr.md`.
-5. Update "template" files in in `docs/decisions/`
+4. Adapt the version reference in `template/0000-use-markdown-architectural-decision-records.md`.
+5. Update "template" files in in `docs/decisions`:
    * Copy `template/0000-use-markdown-architectural-decision-records.md` to `docs/decisions/0000-use-markdown-architectural-decision-records.md`.
    * Adapt content of `docs/decisions/adr-template.md` based on `template/adr-template.md`.
      Thereby, ensure that the YAML front matter in `docs/decisions/adr-template.md` is kept.
 6. Add link to `docs/index.md` at "Older versions" (for the homepage).
-7. Update `CHANGELOG.md`.
-8. Copy `.markdownlint.yml` to `template/.markdownlint.yml`
-9. Update `package.json` and publish to [npmjs](https://www.npmjs.com/package/madr) using [release-it](https://www.npmjs.com/package/release-it) (do not create a release on GitHub). This also does a commit.
-10. Create GitHub release using [github-release-from-changelog](https://www.npmjs.com/package/github-release-from-changelog).
-11. Merge `develop` into `gh-pages`
+7. Copy `.markdownlint.yml` to `template/.markdownlint.yml` (and possibly to `docs/.markdownlint.yml`).
+8. Update `CHANGELOG.md`.
+9. Commit.
+10. Update `package.json` and publish to [npmjs](https://www.npmjs.com/package/madr) using [release-it](https://www.npmjs.com/package/release-it) (do not create a release on GitHub). This also does a commit.
+11. Create GitHub release using [github-release-from-changelog](https://www.npmjs.com/package/github-release-from-changelog).
+12. Merge `develop` into `gh-pages`
 
 ## License
 

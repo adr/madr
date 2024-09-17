@@ -26,7 +26,7 @@ Chosen option: "Use YAML front matter", because comes out best (see below).
 
 ## Pros and Cons of the Options
 
-## Use YAML front matter
+### Use YAML front matter
 
 Example:
 
@@ -37,7 +37,7 @@ decision-makers:
 date:
 ---
 
-## Context and problem statement
+### Context and problem statement
 
 We want to record architectural decisions made in this project.
 Which format and structure should these records follow?
@@ -54,7 +54,7 @@ Rendered output:
 * Bad, because rendering not standardized
 * Bad, because not all Markdown parsers can parse it
 
-## Use plain Markdown everywhere
+### Use plain Markdown everywhere
 
 * Good, because all parsers can handle it
 * Bad, because special markdown parsing tooling is needed
