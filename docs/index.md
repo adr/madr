@@ -30,6 +30,7 @@ MADR is a streamlined template for recording architectural significant decisions
 
 ## News
 
+* 2024-09-17: Release of [MADR 4.0.0](https://github.com/adr/madr/releases/tag/4.0.0). Check out the "bare" and "minimal" templates at <https://github.com/adr/madr/tree/4.0.0/template>.
 * 2024-09-02: Release of [MADR 4.0.0-beta](https://github.com/adr/madr/releases/tag/4.0.0-beta)
   * To strengthen the importance for decisions in software architecture work, MADR spells out "Markdown Architectural Decision Records".
     They can still be used to sustain any decision, our focus is on architectural decisions.
