@@ -7,4 +7,13 @@ default: true
 # Details: https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md#md013---line-length
 MD013: false
 
-MD033: false
+# Allow duplicate headings
+#
+# Reasons:
+#
+# - The chosen option is considerably often used as title of the ADR (e.g., ADR-0015). Thus, that title repeats.
+# - We use "Examples" multiple times (e.g., ADR-0010).
+# - Markdown lint should support the user and not annoy them.
+#
+# Details: https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md#md024---multiple-headings-with-the-same-content
+MD024: false
