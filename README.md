@@ -8,7 +8,7 @@ For user documentation, please head to <https://adr.github.io/madr/>.
 
 * [`adr-template.md`](template/adr-template.md) has all sections, with explanations about them.
 * [`adr-template-minmal.md`](template/adr-template-minimal.md) only contains mandatory sections, with explanations about them. <!-- ### Consequences also contained, though marked as "optional" -->
-* [`adr-template-bare.md`](template/adr-template-bare.md) has all sections, wich are empty (no explanations).
+* [`adr-template-bare.md`](template/adr-template-bare.md) has all sections, which are empty (no explanations).
 * [`adr-template-bare-minimal.md`](template/adr-template-bare-minimal.md) has the mandatory sections, without explanations. <!-- ### Consequences also contained, though marked as "optional" -->
 
 Copy it into `docs/decisions`.
@@ -80,7 +80,7 @@ In case you get errors regarding `Gemfile.lock`, just delete `Gemfile.lock` and 
 2. Update the concrete decisions in `docs/decisions/*` with the new template.
 3. Commit ("Update examples and decisions") and push. Possibly as pull request.
 4. Adapt the version reference in `template/0000-use-markdown-architectural-decision-records.md`.
-5. Update "template" files in in `docs/decisions`:
+5. Update "template" files in `docs/decisions`:
    * Copy `template/0000-use-markdown-architectural-decision-records.md` to `docs/decisions/0000-use-markdown-architectural-decision-records.md`.
    * Adapt content of `docs/decisions/adr-template.md` based on `template/adr-template.md`.
      Thereby, ensure that the YAML front matter in `docs/decisions/adr-template.md` is kept.
