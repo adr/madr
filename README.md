@@ -12,7 +12,7 @@ For user documentation, please head to <https://adr.github.io/madr/>.
 * [`adr-template-bare-minimal.md`](template/adr-template-bare-minimal.md) has the mandatory sections, without explanations. <!-- ### Consequences also contained, though marked as "optional" -->
 
 Copy it into `docs/decisions`.
-For each ADR, copy the tempalte to `nnnn-title.md` and adapt.
+For each ADR, copy the template to `nnnn-title.md` and adapt.
 Longer explanation: Head to <https://adr.github.io/madr/#applying-madr-to-your-project>.
 
 ## Development hints
