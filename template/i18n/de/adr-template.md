@@ -21,16 +21,16 @@ informierte: {Zählt alle Personen auf, die über den Fortschritt informiert wer
 * {Entscheidungsfaktor 2, z.B. ein Einfluss, ein Bedenken, …}
 * <!-- Anzahl der Faktoren kann variieren -->
 
-## Betrachtete Varianten
+## Betrachtete Optionen
 
-* {Titel der Variante 1}
-* {Titel der Variante 2}
-* {Titel der Variante 3}
-* … <!-- Anzahl der Varianten kann variieren -->
+* {Titel der Optionen 1}
+* {Titel der Optionen 2}
+* {Titel der Optionen 3}
+* … <!-- Anzahl der Optionen kann variieren -->
 
 ## Entscheidung
 
-Gewählte Variante: "{Titel der Variante 1}", denn {Begründung, z.B. die einzige Variante, die kein Ausschlusskriterium beinhaltet |  … | am besten abschneidet (siehe unten)}.
+Gewählte Option: "{Titel der Optionen 1}", denn {Begründung, z.B. die einzige Option, die kein Ausschlusskriterium beinhaltet |  … | am besten abschneidet (siehe unten)}.
 
 <!-- Dieses Element ist optional. Wenn nicht benötigt, bitte entfernen. -->
 ### Konsequenzen
@@ -40,15 +40,15 @@ Gewählte Variante: "{Titel der Variante 1}", denn {Begründung, z.B. die einzig
 * … <!-- Anzahl der Konsequenzen kann variieren -->
 
 <!-- Dieses Element ist optional. Wenn nicht benötigt, bitte entfernen. -->
-### Verifikation
+### Prüfung
 
-{Beschreibt, wie die Implementierung/Einhaltung geprüft werden kann/wird. 
+{Beschreibt, wie die Implementierung/Einhaltung geprüft werden kann/wird.
 Entspricht das gewählte Design und seine Implementierung der Entscheidung? Z.B. kann eine Design-/Code-Review oder ein Test mit einer Bibliothek wie ArchUnit dabei helfen, dies zu prüfen. Beachtet, dass wir dieses Element zwar als optional einstufen, es aber in vielen ADRs enthalten ist.}
 
 <!-- Dieses Element ist optional. Wenn nicht benötigt, bitte entfernen. -->
-## Vor- und Nachteile der Varianten
+## Vor- und Nachteile der Optionen
 
-### {Titel der Variante 1}
+### {Titel der Option 1}
 
 <!-- Dieses Element ist optional. Wenn nicht benötigt, bitte entfernen. -->
 {Beispiel | Beschreibung | Verweis auf weitere Informationen | …}
@@ -60,7 +60,8 @@ Entspricht das gewählte Design und seine Implementierung der Entscheidung? Z.B.
 * Schlecht, weil {Argument d}
 * … <!-- Anzahl der Argumente kann variieren.-->
 
-### {Titel einer anderen Variante}
+### {Titel einer anderen Option}
+
 {Beispiel | Beschreibung | Verweis auf weitere Informationen | …}
 
 * Gut, weil {Argument a}
