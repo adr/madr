@@ -14,7 +14,7 @@ jobs:
       - name: Set up Git repository
         uses: actions/checkout@v4
       - name: Lint
-        uses: DavidAnson/markdownlint-cli2-action@v17
+        uses: DavidAnson/markdownlint-cli2-action@v18
         with:
           globs: |
             *.md,
