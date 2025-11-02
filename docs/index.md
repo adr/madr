@@ -115,7 +115,7 @@ npm install madr && mkdir -p docs/decisions && cp node_modules/madr/template/* d
 1. Copy [`docs/decisions/adr-template.md`](https://github.com/adr/madr/blob/develop/template/adr-template.md) to `docs/decisions/NNNN-title-with-dashes.md`, where `NNNN` indicates the next number in sequence.
 2. Edit `NNNN-title-with-dashes.md`.
 
-Note you can also use [other patterns for the directory format](https://github.com/joelparkerhenderson/architecture_decision_record#adr-file-name-conventions).
+Note you can also use [other patterns for the directory format](https://github.com/joelparkerhenderson/architecture-decision-record#file-name-conventions-for-adrs).
 As a consequence, some existing tooling might not be applicable.
 
 The filenames are following the pattern `NNNN-title-with-dashes.md` ([ADR-0005](decisions/0005-use-dashes-in-filenames.md)), where
