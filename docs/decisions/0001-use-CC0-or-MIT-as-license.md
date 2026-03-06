@@ -47,3 +47,7 @@ With the SPDX identifier `MIT OR CC0-1.0`, the receiver of the documents can dec
 
 * Good, because offers freedom at the receiver
 * Bad, because dual licensing is not widely known
+
+## More Information
+
+See <https://softwareengineering.stackexchange.com/a/371435/52607> for a solution how to properly declare dual-licensing on a repository.
