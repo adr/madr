@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 ### Changed
 
 - Changed wording in "Confirmation" section. [#162](https://github.com/adr/madr/pull/162)
+- Refined wording at "Context and Problem Statement". [#210](https://github.com/adr/madr/pull/210)
 
 ## [4.0.0] – 2024-09-17
 
