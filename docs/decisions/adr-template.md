@@ -37,7 +37,7 @@ title: ADR Template
 
 Chosen option: "{title of option 1}", because {justification. e.g., only option, which meets k.o. criterion decision driver | which resolves force {force} | … | comes out best (see below)}.
 
-<!-- This is an optional element. Feel free to remove. -->
+<!-- This is an optional element. Feel free to remove. At least one of "Consequences" or "Pros and Cons of the Options" should be present. -->
 ### Consequences
 
 * Good, because {positive consequence, e.g., improvement of one or more desired qualities, …}
@@ -49,7 +49,7 @@ Chosen option: "{title of option 1}", because {justification. e.g., only option,
 
 {Describe how the implementation of/compliance with the ADR can/will be confirmed. Is the chosen design and its implementation in line with the decision? E.g., a design/code review or a test with a library such as ArchUnit can help validate this. Note that although we classify this element as optional, it is included in many ADRs.}
 
-<!-- This is an optional element. Feel free to remove. -->
+<!-- This is an optional element. Feel free to remove. At least one of "Consequences" or "Pros and Cons of the Options" should be present. -->
 ## Pros and Cons of the Options
 
 ### {title of option 1}

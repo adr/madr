@@ -15,7 +15,6 @@
 
 Chosen option: "{title of option 1}", because {justification. e.g., only option, which meets k.o. criterion decision driver | which resolves force {force} | … | comes out best (see below)}.
 
-<!-- This is an optional element. Feel free to remove. -->
 ### Consequences
 
 * Good, because {positive consequence, e.g., improvement of one or more desired qualities, …}

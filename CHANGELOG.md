@@ -11,6 +11,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 - Changed wording in "Confirmation" section. [#162](https://github.com/adr/madr/pull/162)
 - Refined wording at "Context and Problem Statement". [#210](https://github.com/adr/madr/pull/210)
+- `adr-template-minimal.md`: Made "Consequences" a required section by removing the "optional" comment. [#218](https://github.com/adr/madr/issues/218)
+- `adr-template.md`: Noted that at least one of "Consequences" or "Pros and Cons of the Options" should be present. [#218](https://github.com/adr/madr/issues/218)
 
 ## [4.0.0] – 2024-09-17
 
