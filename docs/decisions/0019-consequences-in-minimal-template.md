@@ -7,7 +7,7 @@ status: "accepted"
 
 ## Context and Problem Statement
 
-The minimal template ([`adr-template-minimal.md`](adr-template-minimal.md)) contains the section "Consequences", but marks it as optional via an HTML comment (`<!-- This is an optional element. Feel free to remove. -->`).
+The minimal template ([`adr-template-minimal.md`](https://github.com/adr/madr/blob/4.0.0/template/adr-template-minimal.md), as of MADR 4.0.0) contains the section "Consequences", but marks it as optional via an HTML comment (`<!-- This is an optional element. Feel free to remove. -->`).
 This was reported as confusing in [#218](https://github.com/adr/madr/issues/218):
 
 * If a section in the *minimal* template is optional, the template no longer represents a minimal ADR, since an even smaller document is possible.
