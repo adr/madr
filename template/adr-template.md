@@ -31,8 +31,9 @@ informed: {list everyone who is kept up-to-date on progress; and with whom there
 
 Chosen option: "{title of option 1}", because {justification. e.g., only option, which meets k.o. criterion decision driver | which resolves force {force} | … | comes out best (see below)}.
 
-<!-- This is an optional element. Feel free to remove. -->
 ### Consequences
+
+{Section is mandatory. Emphasis is on positive and negative impact of chosen option for decision stakeholders (in multiple roles).}
 
 * Good, because {positive consequence, e.g., improvement of one or more desired qualities, …}
 * Bad, because {negative consequence, e.g., compromising one or more desired qualities, …}
