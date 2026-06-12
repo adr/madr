@@ -7,9 +7,9 @@ For user documentation, please head to <https://adr.github.io/madr/>.
 ## Quick start
 
 * [`adr-template.md`](template/adr-template.md) has all sections, with explanations about them.
-* [`adr-template-minimal.md`](template/adr-template-minimal.md) only contains mandatory sections, with explanations about them. <!-- ### Consequences also contained, though marked as "optional" -->
+* [`adr-template-minimal.md`](template/adr-template-minimal.md) only contains mandatory sections, with explanations about them.
 * [`adr-template-bare.md`](template/adr-template-bare.md) has all sections, which are empty (no explanations).
-* [`adr-template-bare-minimal.md`](template/adr-template-bare-minimal.md) has the mandatory sections, without explanations. <!-- ### Consequences also contained, though marked as "optional" -->
+* [`adr-template-bare-minimal.md`](template/adr-template-bare-minimal.md) has the mandatory sections, without explanations.
 
 Copy it into `docs/decisions`.
 For each ADR, copy the template to `nnnn-title.md` and adapt.
