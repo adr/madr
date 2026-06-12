@@ -1,0 +1,43 @@
+---
+# Configuration for the Jekyll template "Just the Docs"
+parent: Decisions
+nav_order: 102
+title: ADR Template (Bare)
+---
+<!-- markdownlint-disable-next-line MD025 -->
+# <!-- short title, representative of solved problem and found solution -->
+
+## Context and Problem Statement
+
+
+
+## Decision Drivers
+
+* <!-- decision driver -->
+
+## Considered Options
+
+* <!-- option -->
+
+## Decision Outcome
+
+Chosen option: "", because
+
+### Consequences
+
+* Good, because
+* Bad, because
+
+### Confirmation
+
+
+
+## Pros and Cons of the Options
+
+### <!-- title of option -->
+
+* Good, because
+* Neutral, because
+* Bad, because
+
+## More Information

@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [unreleased]
 
+### Added
+
+- Mirrored the `minimal`, `bare`, and `bare-minimal` templates to `docs/decisions/` so all four templates render on the documentation site.
+
 ### Changed
 
 - Changed wording in "Confirmation" section. [#162](https://github.com/adr/madr/pull/162)
