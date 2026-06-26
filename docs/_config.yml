@@ -31,7 +31,7 @@ last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https:/
 gh_edit_link: true
 gh_edit_link_text: "Edit this page on GitHub."
 gh_edit_repository: "https://github.com/adr/madr/"
-gh_edit_branch: "main"
+gh_edit_branch: "gh-pages"
 gh_edit_source: "docs"
 gh_edit_view_mode: "edit"
 

@@ -13,6 +13,8 @@ This decision is documented in an Architectural Decision Record (ADR), which det
 To capture these records in a lean way, the Markdown Architectural Decision Records (MADRs) have been invented:
 MADR is a streamlined template for recording architectural significant decisions in a structured manner.
 
+Scientific publication: [Markdown Architectural Decision Records: Format and Tool Support](https://dblp.org/rec/conf/zeus/KoppAZ18.html).
+
 ## Contents
 
 * [News](#news)
@@ -30,6 +32,7 @@ MADR is a streamlined template for recording architectural significant decisions
 
 ## News
 
+* 2024-09-17: Release of [MADR 4.0.0](https://github.com/adr/madr/releases/tag/4.0.0). Check out the "bare" and "minimal" templates at <https://github.com/adr/madr/tree/4.0.0/template>.
 * 2024-09-02: Release of [MADR 4.0.0-beta](https://github.com/adr/madr/releases/tag/4.0.0-beta)
   * To strengthen the importance for decisions in software architecture work, MADR spells out "Markdown Architectural Decision Records".
     They can still be used to sustain any decision, our focus is on architectural decisions.
@@ -46,7 +49,7 @@ MADR is a streamlined template for recording architectural significant decisions
 * 2020-09-29: MADR presented in the keynote "Markdown Architectural Decision Records: Capturing Decisions Where the Developer is Working" at the workshop "[Second Software Documentation Generation Challenge (DocGen2)](https://dysdoc.github.io/docgen2/index.html)". Slides available at [Speaker Deck](https://speakerdeck.com/koppor/markdown-architecturaldecisionrecords-capturing-decisions-where-the-developer-is-working).
 * 2019-07-08: MADR referenced in [Architectural Decisions — The Making Of](https://ozimmer.ch/practices/2020/04/27/ArchitectureDecisionMaking.html), a post in the new blog "The Concerned Architect" by Olaf Zimmermann (shorter version available on [Medium](https://medium.com/@docsoc/y-statements-10eb07b5a177)).
 * 2018-04-13: Mentioned in [@vanto](https://github.com/vanto)'s presentation about ADRs: <https://speakerdeck.com/vanto/a-brief-introduction-to-architectural-decision-records>.
-* 2018-04-03: Scientific publication: [Markdown Architectural Decision Records: Format and Tool Support](http://ceur-ws.org/Vol-2072/paper9.pdf).
+* 2018-04-03: Scientific publication: [Markdown Architectural Decision Records: Format and Tool Support](https://dblp.org/rec/conf/zeus/KoppAZ18.html).
 
 ## Overview
 
@@ -114,7 +117,7 @@ npm install madr && mkdir -p docs/decisions && cp node_modules/madr/template/* d
 1. Copy [`docs/decisions/adr-template.md`](https://github.com/adr/madr/blob/develop/template/adr-template.md) to `docs/decisions/NNNN-title-with-dashes.md`, where `NNNN` indicates the next number in sequence.
 2. Edit `NNNN-title-with-dashes.md`.
 
-Note you can also use [other patterns for the directory format](https://github.com/joelparkerhenderson/architecture_decision_record#adr-file-name-conventions).
+Note you can also use [other patterns for the directory format](https://github.com/joelparkerhenderson/architecture-decision-record#file-name-conventions-for-adrs).
 As a consequence, some existing tooling might not be applicable.
 
 The filenames are following the pattern `NNNN-title-with-dashes.md` ([ADR-0005](decisions/0005-use-dashes-in-filenames.md)), where

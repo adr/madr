@@ -12,7 +12,7 @@ For user documentation, please head to <https://adr.github.io/madr/>.
 * [`adr-template-bare-minimal.md`](template/adr-template-bare-minimal.md) has the mandatory sections, without explanations. <!-- ### Consequences also contained, though marked as "optional" -->
 
 Copy it into `docs/decisions`.
-For each ADR, copy the tempalte to `nnnn-title.md` and adapt.
+For each ADR, copy the template to `nnnn-title.md` and adapt.
 Longer explanation: Head to <https://adr.github.io/madr/#applying-madr-to-your-project>.
 
 ## Development hints
@@ -42,6 +42,19 @@ Longer explanation: Head to <https://adr.github.io/madr/#applying-madr-to-your-p
 The branch name conventions follow the [git flow model](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow).
 
 See also [`CONTRIBUTING.md`](CONTRIBUTING.md).
+
+## Cite MADR
+
+To cite MADR in your scientific work, use following citation:
+
+```bibtex
+@InProceedings{Kopp2018,
+  author    = {Kopp, Oliver and Armbruster, Anita and Zimmermann, Olaf},
+  booktitle = {ZEUS},
+  title     = {Markdown Architectural Decision Records: Format and Tool Support},
+  year      = {2018},
+}
+```
 
 ## How to start Jekyll locally
 
@@ -80,7 +93,7 @@ In case you get errors regarding `Gemfile.lock`, just delete `Gemfile.lock` and 
 2. Update the concrete decisions in `docs/decisions/*` with the new template.
 3. Commit ("Update examples and decisions") and push. Possibly as pull request.
 4. Adapt the version reference in `template/0000-use-markdown-architectural-decision-records.md`.
-5. Update "template" files in in `docs/decisions`:
+5. Update "template" files in `docs/decisions`:
    * Copy `template/0000-use-markdown-architectural-decision-records.md` to `docs/decisions/0000-use-markdown-architectural-decision-records.md`.
    * Adapt content of `docs/decisions/adr-template.md` based on `template/adr-template.md`.
      Thereby, ensure that the YAML front matter in `docs/decisions/adr-template.md` is kept.
