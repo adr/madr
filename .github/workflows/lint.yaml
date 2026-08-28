@@ -19,6 +19,8 @@ jobs:
           globs: |
             *.md,
             docs/**/*.md
+            !docs/decisions/adr-template-bare.md
+            !docs/decisions/adr-template-bare-minimal.md
             template/0000-use-markdown-architectural-decision-records.md
             template/adr-template-minimal.md
             template/adr-template.md

@@ -21,8 +21,10 @@ Longer explanation: Head to <https://adr.github.io/madr/#applying-madr-to-your-p
 * Issues can be reported at <https://github.com/adr/madr/issues>.
 * Suggestions can be contributed via pull requests. MADR offers pre-configured VS Code web environment at [Gitpod](https://gitpod.io/#https://github.com/adr/madr).
 * MADR uses [markdownlint](https://github.com/DavidAnson/markdownlint) as Linter for Markdown files. Use [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) for checking for linting issues in VS Code.
-* `template/adr-template.md` is mirrored to `docs/decisions/adr-template`.
-  However, following YAML front matter is added to make it handled properly by the [Just the Docs Jekyll Template](https://just-the-docs.github.io/just-the-docs/). <!-- markdownlint-disable-next-line MD031 -->
+* The four templates in `template/` are mirrored to `docs/decisions/`:
+  `adr-template.md`, `adr-template-minimal.md`, `adr-template-bare.md`, and `adr-template-bare-minimal.md`.
+  The content must be kept identical to the originals in `template/`.
+  However, YAML front matter is added to each mirror to make it handled properly by the [Just the Docs Jekyll Template](https://just-the-docs.github.io/just-the-docs/), and the first heading gets a `<!-- markdownlint-disable-next-line MD025 -->` comment because the front-matter `title` differs from it. <!-- markdownlint-disable-next-line MD031 -->
   ```markdown
   ---
   parent: Decisions
@@ -30,6 +32,7 @@ Longer explanation: Head to <https://adr.github.io/madr/#applying-madr-to-your-p
   title: ADR Template
   ---
   ```
+  The `nav_order` values are 100 (`adr-template.md`), 101 (minimal), 102 (bare), and 103 (bare minimal).
 
 ### Branches
 
@@ -95,8 +98,9 @@ In case you get errors regarding `Gemfile.lock`, just delete `Gemfile.lock` and 
 4. Adapt the version reference in `template/0000-use-markdown-architectural-decision-records.md`.
 5. Update "template" files in `docs/decisions`:
    * Copy `template/0000-use-markdown-architectural-decision-records.md` to `docs/decisions/0000-use-markdown-architectural-decision-records.md`.
-   * Adapt content of `docs/decisions/adr-template.md` based on `template/adr-template.md`.
-     Thereby, ensure that the YAML front matter in `docs/decisions/adr-template.md` is kept.
+   * Adapt content of the mirrored templates in `docs/decisions/` based on their originals in `template/`:
+     `adr-template.md`, `adr-template-minimal.md`, `adr-template-bare.md`, and `adr-template-bare-minimal.md`.
+     Thereby, ensure that the YAML front matter (and the `MD025` disable comment) in each mirror is kept.
 6. Add link to `docs/index.md` at "Older versions" (for the homepage).
 7. Copy `.markdownlint.yml` to `template/.markdownlint.yml` (and possibly to `docs/.markdownlint.yml`).
 8. Update `CHANGELOG.md`.
