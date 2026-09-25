@@ -6,6 +6,11 @@ For user documentation, please head to <https://adr.github.io/madr/>.
 
 ## Quick start
 
+### Related Tooling
+
+- [MySpec](https://myspec.dev) — Interactive spec-driven development platform compiling architectural decisions and specification bundles into standard Markdown served via MCP.
+
+
 * [`adr-template.md`](template/adr-template.md) has all sections, with explanations about them.
 * [`adr-template-minimal.md`](template/adr-template-minimal.md) only contains mandatory sections, with explanations about them. <!-- ### Consequences also contained, though marked as "optional" -->
 * [`adr-template-bare.md`](template/adr-template-bare.md) has all sections, which are empty (no explanations).
